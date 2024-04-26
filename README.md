@@ -264,12 +264,3 @@ The server configuration can be found in the `user\mods\mpt-server\assets\config
     }
 }
 ```
-
-## Credits
-
-**Project** | **License and credits**
------------ | -----------------------------------------------------------------------
-Aki.Modules | [NCSA](https://dev.sp-tarkov.com/SPT-AKI/Modules/src/branch/master/LICENSE.md) (For original patches that are overwritten for Fika compatibility)
-SIT         | Unlicensed (Fika is based on commit [9de30d8](https://github.com/stayintarkov/StayInTarkov.Client/blob/9de30d8bab1a4cd5e8bb7bcf5d32539098e97aa6/README.md))
-Open.NAT    | [MIT](https://github.com/lontivero/Open.NAT/blob/master/LICENSE) (For UPnP implementation)
-LiteNetLib  | [MIT](https://github.com/RevenantX/LiteNetLib/blob/master/LICENSE.txt) (For server/client implementation)
