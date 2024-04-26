@@ -30,6 +30,7 @@
 ## What is Fika
 
 **Fika** is a mod for **SPT-Aki** that allows you to play COOP with your friends. It utilizes a P2P-UDP connection for a modern and performant experience. The main goals of Fika are: performance, accuracy and mod-support. Fika is currently maintained by the Fika team.
+You can join our Discord [here](https://discord.gg/project-fika)!
 
 ## License
 
