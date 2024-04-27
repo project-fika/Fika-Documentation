@@ -1,6 +1,6 @@
 # Fika - A multiplayer mod for Aki
 
-<details>
+<details open>
 	<summary>Table of Contents</summary>
 	<ol>
 		<li><a href="#what-is-mpt">What is Fika</a></li>
