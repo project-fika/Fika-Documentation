@@ -50,7 +50,7 @@ Fika requires general knowledge of computers, networking and Aki. If you are not
 ### Hosting
 
 - Router and ISP that supports either **Port Forwarding** or **UPnP**
-- Port 6969 open for the AKI Server
+- TCP port 6969 open for the AKI Server
 - UDP Port open for P2P traffic, default 25565 (if using UPnP this is not required)
 - SPT installed and working, matching the version of Fika you are going to use
 - Access to your Windows Firewall
