@@ -1,30 +1,29 @@
 # Fika - A multiplayer mod for Aki
 
 <details open>
-	<summary>Table of Contents</summary>
-	<ol>
-		<li><a href="#what-is-mpt">What is Fika</a></li>
-		<li><a href="#license">License</a></li>
-		<li>
-           	<a href="#prerequisites">Prerequisites</a>
+    <summary>Table of Contents</summary>
+    <ol>
+        <li><a href="#what-is-fika">What is Fika</a></li>
+        <li><a href="#license">License</a></li>
+        <li>
+            <a href="#prerequisites">Prerequisites</a>
             <ul>
                 <li><a href="#hosting">Hosting</a></li>
                 <li><a href="#client">Client</a></li>
             </ul>
         </li>
         <li><a href="#hardware-requirements">Hardware Requirements</a></li>
-		<li>
-	            <a href="#installation">Installation</a>
-	            <ul>
-	                <li><a href="#host-using-port-forwarding">Host using port forwarding</a></li>
-	                <li><a href="#host-using-a-vpn">Host using a VPN</a></li>
-	                <li><a href="#client-using-port-forwarding">Client using port forwarding</a></li>
-	                <li><a href="#client-using-a-vpn">Client using a VPN</a></li>
-	            </ul>
+        <li>
+            <a href="#installation">Installation</a>
+            <ul>
+                <li><a href="#host-using-port-forwarding">Host using port forwarding</a></li>
+                <li><a href="#host-using-a-vpn">Host using a VPN</a></li>
+                <li><a href="#client-using-port-forwarding">Client using port forwarding</a></li>
+                <li><a href="#client-using-a-vpn">Client using a VPN</a></li>
+            </ul>
         </li>
         <li><a href="#features-and-configuration">Features and Configuration</a></li>
-		<li><a href="#credits">Credits</a></li>
-	</ol>
+    </ol>
 </details>
 
 ## What is Fika
@@ -98,12 +97,12 @@ Before starting these steps, make sure you have port forwarded all required port
 3. Start up the `Aki.Server.exe` once to let it generate the configuration files for Fika, then close it again
 4. Go back to the main folder and navigate to `Aki_Data\Server\configs` and open `http.json`
 5. Change `ip` to `0.0.0.0`, then save the file and close it
-6. Navigate to `user\mods\mpt-server\assets\configs` and open `mpt.jsonc`
+6. Navigate to `user\mods\fika-server\assets\configs` and open `fika.jsonc`
 7. Change any of the settings according to your likings.
     - **useBtr**: if the BTR should spawn or not when playing Streets
-	- **friendlyFire**: if friendly fire should be enabled or not
-	- **dynamicVExfils**: automatically scale vehicle exfils max players with the amount of players in the raid
-	- **allowFreeCam**: allow players to freely toggle free cam during raids
+    - **friendlyFire**: if friendly fire should be enabled or not
+    - **dynamicVExfils**: automatically scale vehicle exfils max players with the amount of players in the raid
+    - **allowFreeCam**: allow players to freely toggle free cam during raids
     - **giftedItemsLoseFIR**: if sent items should lose their FiR status
 8. Start the `Aki.Server.exe` and wait for it to finish loading
     - This is what it should look like if it succeeded to start:
@@ -126,19 +125,19 @@ Before starting these steps, make sure you have port forwarded all required port
 Example with a fake address (**20.20.56.73**):
 ```json
 {
-	"ip": "20.20.56.73",
-	"port": 6969,
-	"webSocketPingDelayMs": 90000,
-	"logRequests": true,
-	"serverImagePathOverride": {	}
-} 
+    "ip": "20.20.56.73",
+    "port": 6969,
+    "webSocketPingDelayMs": 90000,
+    "logRequests": true,
+    "serverImagePathOverride": {}
+}
 ```
-6. Navigate to `user\mods\mpt-server\assets\configs` and open `mpt.jsonc`
+6. Navigate to `user\mods\fika-server\assets\configs` and open `fika.jsonc`
 7. Change any of the settings according to your likings.
     - **useBtr**: if the BTR should spawn or not when playing Streets
-	- **friendlyFire**: if friendly fire should be enabled or not
-	- **dynamicVExfils**: automatically scale vehicle exfils max players with the amount of players in the raid
-	- **allowFreeCam**: allow players to freely toggle free cam during raids
+    - **friendlyFire**: if friendly fire should be enabled or not
+    - **dynamicVExfils**: automatically scale vehicle exfils max players with the amount of players in the raid
+    - **allowFreeCam**: allow players to freely toggle free cam during raids
     - **giftedItemsLoseFIR**: if sent items should lose their FiR status
 8. Start the `Aki.Server.exe` and wait for it to finish loading
     - This is what it should look like if it succeeded to start using the example IP in step 5:
@@ -248,7 +247,7 @@ To open up your client configuration, press the `F12` key while in-game. Head to
 
 ### Server Configuration
 
-The server configuration can be found in the `user\mods\mpt-server\assets\configs` folder. Open up `mpt.jsonc` with a text editor.
+The server configuration can be found in the `user\mods\fika-server\assets\configs` folder. Open up `fika.jsonc` with a text editor.
 
 ```json
 {
