@@ -17,9 +17,9 @@
             <a href="#asennus">Asennus</a>
             <ul>
                 <li><a href="#hostaa-portinsiirtoa-käyttäen">Hostaa portinsiirtoa käyttäen</a></li>
-                <li><a href="#hostaa-vpn:ää-käyttäen">Hostaa VPN:ää käyttäen</a></li>
+                <li><a href="#hostaa-vpn-ää-käyttäen">Hostaa VPN:ää käyttäen</a></li>
                 <li><a href="#asiakas-käyttäen-portinsiirtoa">Asiakas käyttäen portinsiirtoa</a></li>
-                <li><a href="#asiakas-käyttäen-vpn:ää">Asiakas käyttäen VPN:ää</a></li>
+                <li><a href="#asiakas-käyttäen-vpn-ää">Asiakas käyttäen VPN:ää</a></li>
             </ul>
         </li>
         <li><a href="#ominaisuudet-ja-konfigurointi">Ominaisuudet ja konfigurointi</a></li>
@@ -116,7 +116,7 @@ Ennen kuin alat seuraamaan ohjeita, varmista että kaikki tarvittavat portit ova
 9. Käynnistä `Aki.Launcher.exe`
 10. Ystäväsi voivat yhdistää palvelimeesi käyttäen laajaverkko IP-osoitetta, jonka voi löytää sivustolta [IPv4.ICanHazIP](https://ipv4.icanhazip.com/)
 
-### Hostaa VPN:ää käyttäen
+### <a name="hostaa-vpn-ää-käyttäen"></a>Hostaa VPN:ää käyttäen
 
 Tarvitset VPN:än, kuten: `Hamachi`, `ZeroTier` tai `Radmin`.
 
@@ -161,7 +161,7 @@ Esimerkki tekaistulla IP-osoitteella (**20.20.56.73**):
 4. Vaihda `URL`-kenttään hostaajan laajaverkko IP-osoite (muista poistaa kaikki loppupään kauttaviivat `/`)
 5. Jos hostaat pelissä, salli kaikki yhteydet (julkiset ja yksityiset) Windows palomuurin kysyessä
 
-### Asiakas käyttäen VPN:ää
+### <a name="asiakas-käyttäen-vpn-ää"></a>Asiakas käyttäen VPN:ää
 
 1. Lataa viimeisin Fikan koontiversio
 2. Aukaise SPT-asennuksesi kansio ja pura arkiston sisältö kansioon
