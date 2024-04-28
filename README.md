@@ -55,6 +55,8 @@ Fika requires general knowledge of computers, networking and Aki. If you are not
 - Access to your Windows Firewall
 - Internet speed of at least 20 Mbit/s up and down is recommended. Each client averages around 400 kbit/s.
 
+If you can not port forward, you can use a VPN like `Hamachi`, `ZeroTier` or `Radmin`.
+
 ### Client
 
 - Router and ISP that supports either **Port Forwarding** or **UPnP** | **NOTE**: This is only required if you will be hosting in-game
@@ -115,6 +117,8 @@ Before starting these steps, make sure you have port forwarded all required port
 10. Your friends can connect to your server using your WAN IP, which can be found using the [IPv4.ICanHazIP](https://ipv4.icanhazip.com/) site
 
 ### Host using a VPN
+
+You need a VPN like `Hamachi`, `ZeroTier` or `Radmin`. 
 
 1. Download the latest Fika build
 2. Navigate to your SPT installation and extract the contents of the archive into the folder
@@ -235,7 +239,7 @@ To open up your client configuration, press the `F12` key while in-game. Head to
 
 - **Native Sockets**:  NativeSockets for gameplay traffic. This uses direct socket calls for send/receive to drastically increase speed and reduce GC pressure. Only for Windows/Linux and might not always work.
 - **Force IP**: Forces the server when hosting to use this IP when broadcasting to the backend instead of automatically trying to fetch it. Leave empty to disable. This is required when using a VPN, use your personal VPN IP.
-- **Force Bind IP**: Forces the server when hosting to use this local IP when starting the server. Useful if you are hosting on a VPN. Leave empty to disable. This is required when using a VPN, use your personal VPN IP.
+- **Force Bind IP**: Forces the server when hosting to use this local IP when starting the server. Leave empty to disable. This is required when using a VPN, use your personal VPN IP.
 - **Auto Server Refresh Rate**: Every X seconds the client will ask the server for the list of matches while at the lobby screen.
 - **UDP Port**: Port to use for UDP gameplay packets.
 - **Use UPnP**: Attempt to open ports using UPnP. Useful if you cannot open ports yourself but the router supports UPnP.
