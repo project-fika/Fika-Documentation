@@ -22,7 +22,14 @@
                 <li><a href="#client-using-a-vpn">Client using a VPN</a></li>
             </ul>
         </li>
-        <li><a href="#features-and-configuration">Features and Configuration</a></li>
+        <li>
+            <a href="#features-and-configuration">Features and Configuration</a>
+            <ul>
+                <li><a href="features--how-to">Features & How-To</a></li>
+                <li><a href="#client-configuration">Client Configuration</a></li>
+                <li><a href="#server-configuration">Server Configuration</a></li>
+            </ul>
+        </li>
     </ol>
 </details>
 
