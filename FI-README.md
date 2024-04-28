@@ -17,9 +17,9 @@
             <a href="#asennus">Asennus</a>
             <ul>
                 <li><a href="#hostaa-portinsiirtoa-käyttäen">Hostaa portinsiirtoa käyttäen</a></li>
-                <li><a href="#hostaa-vpnää-käyttäen">Hostaa VPNää käyttäen</a></li>
+                <li><a href="#hostaa-vpn:ää-käyttäen">Hostaa VPN:ää käyttäen</a></li>
                 <li><a href="#asiakas-käyttäen-portinsiirtoa">Asiakas käyttäen portinsiirtoa</a></li>
-                <li><a href="#asiakas-käyttäen-vpnää">Asiakas käyttäen VPNää</a></li>
+                <li><a href="#asiakas-käyttäen-vpn:ää">Asiakas käyttäen VPN:ää</a></li>
             </ul>
         </li>
         <li><a href="#ominaisuudet-ja-konfigurointi">Ominaisuudet ja konfigurointi</a></li>
@@ -55,6 +55,8 @@ Fika edellyttää yleistietoa tietokoneista, verkostotoiminnasta ja Aki:sta. Jos
 - Pääsy Windowsin palomuuriin
 - Vähintään 20 Mbit/s internetnopeus ylös ja alas on suositeltavaa. Jokainen asiakas käyttää keskimäärin 400 kbit/s.
 
+Jos et voi portti siirtää, voit käyttää seuraavia tai vastaavanlaisia VPN:iä: `Hamachi`, `ZeroTier` tai `Radmin`.
+
 ### Asiakas
 
 - Reititin ja internet-palveluntarjoaja joka tukee **Portinsiirtoa** tai **UPnP:tä** | **HUOMIO**: Tämä on vain tarpeellista jos toimit hostaajana pelissä
@@ -82,7 +84,7 @@ Parhaiten tehoa Fikassa (ja SPT:sä ylipäätään) nostaa tehokkaampi ja nopeam
 
 ### Hostaa portinsiirtoa käyttäen
 
-Ennen kuin alat seuraamaan ohjeita, varmista että kaikki tarvittavat portit ovat porttisiirretty edellytysten mukaan. Emme avusta sinua porttien aukaisemisessa. Jos sinulla ei ole pääsyä reitittimeesi tai et voi porttisiirtää, käytä VPNää.
+Ennen kuin alat seuraamaan ohjeita, varmista että kaikki tarvittavat portit ovat portti siirretty edellytysten mukaan. Emme avusta sinua porttien aukaisemisessa. Jos sinulla ei ole pääsyä reitittimeesi tai et voi portti siirtää, käytä VPN:ää.
 
 **Palomuurin konfigurointi**
 
@@ -114,7 +116,9 @@ Ennen kuin alat seuraamaan ohjeita, varmista että kaikki tarvittavat portit ova
 9. Käynnistä `Aki.Launcher.exe`
 10. Ystäväsi voivat yhdistää palvelimeesi käyttäen laajaverkko IP-osoitetta, jonka voi löytää sivustolta [IPv4.ICanHazIP](https://ipv4.icanhazip.com/)
 
-### Hostaa VPNää käyttäen
+### Hostaa VPN:ää käyttäen
+
+Tarvitset VPN:än, kuten: `Hamachi`, `ZeroTier` tai `Radmin`.
 
 1. Lataa viimeisin Fikan koontiversio
 2. Aukaise SPT-asennuksesi kansio ja pura arkiston sisältö kansioon
@@ -157,7 +161,7 @@ Esimerkki tekaistulla IP-osoitteella (**20.20.56.73**):
 4. Vaihda `URL`-kenttään hostaajan laajaverkko IP-osoite (muista poistaa kaikki loppupään kauttaviivat `/`)
 5. Jos hostaat pelissä, salli kaikki yhteydet (julkiset ja yksityiset) Windows palomuurin kysyessä
 
-### Asiakas käyttäen VPNää
+### Asiakas käyttäen VPN:ää
 
 1. Lataa viimeisin Fikan koontiversio
 2. Aukaise SPT-asennuksesi kansio ja pura arkiston sisältö kansioon
@@ -234,8 +238,8 @@ Avataksesi asiakkaan konfiguroinnin, paina `F12`-näppäintä pelissä. Aukaise 
 **Tietoverkko**
 
 - **Native Sockets**: NativeSockets peliliikenteelle. Tämä käyttää suoria pistoke-kutsuja lähetykseen/vastaanottoon nopeuden huomattavaan lisäämiseen ja roskienkeruupaineen vähentämiseen. Vain Windowsille/Linuxille, ei saata aina toimia.
-- **Force IP**: Pakottaa palvelimen käyttämään tätä IP-osoitetta hostatessa viestien lähettämiseen palvelimelle, sen sijaan kuin yrittäen automaattisesti noutaa sitä. Jätä tyhjäksi kytkeäksesi pois päältä. Tämä on tarpeellista VPNää käyttäessä; Käytä sinun henkilökohtaista VPN IP-osoitetta.
-- **Force Bind IP**: Pakottaa palvelimen käyttämään tätä paikallista IP-osoitetta palvelinta käynnistäessä. Jätä tyhjäksi kytkeäksesi pois päältä. Tämä on tarpeellista VPNää käyttäessä; Käytä sinun henkilökohtaista VPN IP-osoitetta.
+- **Force IP**: Pakottaa palvelimen käyttämään tätä IP-osoitetta hostatessa viestien lähettämiseen palvelimelle, sen sijaan kuin yrittäen automaattisesti noutaa sitä. Jätä tyhjäksi kytkeäksesi pois päältä. Tämä on tarpeellista VPN:ää käyttäessä; Käytä sinun henkilökohtaista VPN IP-osoitetta.
+- **Force Bind IP**: Pakottaa palvelimen käyttämään tätä paikallista IP-osoitetta palvelinta käynnistäessä. Jätä tyhjäksi kytkeäksesi pois päältä. Tämä on tarpeellista VPN:ää käyttäessä; Käytä sinun henkilökohtaista VPN IP-osoitetta.
 - **Auto Server Refresh Rate**: Joka X sekunttia, asiakas kysyy palvelimelta listaa yhtäläisyyksistä lobbyssä ollessa.
 - **UDP Port**: UDP portti pelin verkkopaketeille.
 - **Use UPnP**: Yritä avata portteja käyttäen UPnP:tä. Kätevä jos et voi avata portteja itse, mutta reititin tukee UPnP:tä.
