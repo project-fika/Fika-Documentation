@@ -12,7 +12,7 @@
                 <li><a href="#asiakas">Asiakas</a></li>
             </ul>
         </li>
-        <li><a href="#järjestelmävaatimukset">Järjestelmävaatimukset</a></li>
+        <li><a href="#laitteistovaatimukset">Laitteistovaatimukset</a></li>
         <li>
             <a href="#asennus">Asennus</a>
             <ul>
@@ -22,7 +22,7 @@
                 <li><a href="#asiakas-käyttäen-vpnää">Asiakas käyttäen VPNää</a></li>
             </ul>
         </li>
-        <li><a href="#ominaisuudet-ja-konfirugaatio">Ominaisuudet ja konfirugaatio</a></li>
+        <li><a href="#ominaisuudet-ja-konfigurointi">Ominaisuudet ja konfigurointi</a></li>
     </ol>
 </details>
 
@@ -37,14 +37,14 @@ Voit liittyä Discordiimme [täältä](https://discord.gg/project-fika)!
 
 Tämä projekti on lisensöity [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.fi) lisenssillä.
 
-- Voit jakaa Fikaa vain, jos sopivat tunnustukset ovat annettu; se ei ole kaupallisiin tarkoituksiin ja et muokkaa sitä.
+- Voit jakaa Fikaa vain, jos sopivat tunnustukset ovat annettu; se ei ole kaupallisiin tarkoituksiin ja sinä et muokkaa sitä.
 - Et saa rahallistaa palvelintasi maksujen tai lahjoitusten muodossa.
 - Et saa hostata massiivisia julkisia palvelimia, Fika on tarkoittettu CO-OP käyttöön kavereidesi kanssa.
-- Et saa kopioida ja/tai muokata Fikan koodia, et myöskään saa käyttää sen resursseja, jotka ovat käsintehtyjä kehittäjiemme ja artistiemme toimesta
+- Et saa kopioida ja/tai replikoida Fikan koodia, et myöskään saa käyttää sen resursseja, jotka ovat käsintehtyjä kehittäjiemme ja artistiemme toimesta
 
 ## Edellytykset
 
-Fika edellyttää yleistietoa tietokoneista, verkostotoiminnasta ja Aki:sta. Jos nämä käsitteet eivät ole tuttuja, tämä projekti ei ole sinulle. Yritä ymmärtää ja kunnioittaa tätä.
+Fika edellyttää yleistietoa tietokoneista, verkostotoiminnasta ja Aki:sta. Jos nämä käsitteet eivät ole tuttuja, tämä projekti ei ole sinulle. Yritä ymmärtää ja kunnioittaa tätä päätöstä.
 
 ### Hostaus
 
@@ -52,7 +52,7 @@ Fika edellyttää yleistietoa tietokoneista, verkostotoiminnasta ja Aki:sta. Jos
 - TCP Portti 6969 auki AKI Palvelimelle
 - UDP Portti auki vertaisverkkoliikennettä varten, oletus 25565 (jos käytät UPnP:tä tämä ei ole tarpeellista)
 - SPT asennettuna ja toimintakunnossa, samalla versiolla kuin Fika jota tulet käyttämään
-- Pääsy Windows palomuuriin
+- Pääsy Windowsin palomuuriin
 - Vähintään 20 Mbit/s internetnopeus ylös ja alas on suositeltavaa. Jokainen asiakas käyttää keskimäärin 400 kbit/s.
 
 ### Asiakas
@@ -60,31 +60,31 @@ Fika edellyttää yleistietoa tietokoneista, verkostotoiminnasta ja Aki:sta. Jos
 - Reititin ja internet-palveluntarjoaja joka tukee **Portinsiirtoa** tai **UPnP:tä** | **HUOMIO**: Tämä on vain tarpeellista jos toimit hostaajana pelissä
 - UDP Portti auki vertaisverkkoliikennettä varten, oletus 25565 (jos käytät UPnP:tä tämä ei ole tarpeellista) | **HUOMIO**: Sama kuin ylhäällä
 - SPT asennettuna ja toimintakunnossa, samalla versiolla kuin Fika jota tulet käyttämään
-- Pääsy Windows palomuuriin
+- Pääsy Windowsin palomuuriin
 - Vähintään 20 Mbit/s internetnopeus ylös ja alas on suositeltavaa.
 
 ### Kummatkin
 
 - Viimeisimmät Fika tiedostot
 
-## Järjestelmävaatimukset
+## Laitteistovaatimukset
 
 Suositukset sujakalle pelikokemukselle
 
 - **Prosessori**: i7 8700k / Ryzen 7 2700x
 - **Näytönohjain**: GTX 1060 / RX 580
-- **Muisti** 16 Gt vähintään, 32 Gt vahvasti suositeltu
+- **Muisti** Vähintään 16 Gt. Suosittelemme vahvasti 32 Gt
 - **Tallennustila**: SSD on pakollinen, älä oleta Fikan pyörivän kiintolevyllä
 
-Parhaiten tehoa Fikassa (ja SPT:sä ylipäätään) nostaa tehokkaampi prosessori ja RAM-muisti
+Parhaiten tehoa Fikassa (ja SPT:sä ylipäätään) nostaa tehokkaampi ja nopeampi prosessori sekä muisti
 
 ## Asennus
 
 ### Hostaa portinsiirtoa käyttäen
 
-Ennen kuin aloitat ohjeiden seuraamista, varmista että kaikki tarvittavat portit ovat porttisiirretty edellytysten mukaan. Emme avusta sinua porttien aukaisemisessa. Jos sinulla ei ole pääsyä reitittimeesi tai et voi porttisiirtää, käytä VPNää.
+Ennen kuin alat seuraamaan ohjeita, varmista että kaikki tarvittavat portit ovat porttisiirretty edellytysten mukaan. Emme avusta sinua porttien aukaisemisessa. Jos sinulla ei ole pääsyä reitittimeesi tai et voi porttisiirtää, käytä VPNää.
 
-**Palomuurin konfiguraatio**
+**Palomuurin konfigurointi**
 
 1. Siirrä portti 6969 **TCP** reitittimessäsi (sekä sisään että ulos päin)
 2. Siirrä portti **UDP** jota käytät reitittimessäsi, oletus 25565 (sekä sisään että ulos päin)
@@ -112,7 +112,7 @@ Ennen kuin aloitat ohjeiden seuraamista, varmista että kaikki tarvittavat porti
     Server is running, do not close while playing SPT, Happy playing!!
     ```
 9. Käynnistä `Aki.Launcher.exe`
-10. Ystäväsi voivat yhdistää palvelimeesi käyttäen laajaverkko IP-osoitetta, jonka voi löytää käyttämällä [IPv4.ICanHazIP](https://ipv4.icanhazip.com/) sivustoa
+10. Ystäväsi voivat yhdistää palvelimeesi käyttäen laajaverkko IP-osoitetta, jonka voi löytää sivustolta [IPv4.ICanHazIP](https://ipv4.icanhazip.com/)
 
 ### Hostaa VPNää käyttäen
 
@@ -140,7 +140,7 @@ Esimerkki tekaistulla IP-osoitteella (**20.20.56.73**):
     - **allowFreeCam**: salli pelaajien vapaakamerakäyttö raideissa
     - **giftedItemsLoseFIR**: jos lähetetyista tavaroista pitäisi poistaa FiR-status
 8. Käynnistä `Aki.Server.exe` ja odota latauksen loppumista
-   - Tältä onnistuneen käynnistyksen pitäisi kohdan viisi IP-osoitetta käyttämällä:
+   - Tältä onnistuneen käynnistyksen pitäisi näyttää kohta viiden IP-osoitteella:
     ```
     Started webserver at http://20.20.56.73:6969
     Started websocket at ws://20.20.56.73:6969
@@ -165,17 +165,17 @@ Esimerkki tekaistulla IP-osoitteella (**20.20.56.73**):
 4. Vaihda `URL`-kenttään hostaajan VPN IP-osoite. Käyttäen viidennen kohdan esimerkkiä, se olisi: `http://20.20.56.73:6969` (muista poistaa kaikki loppupään kauttaviivat `/`)
 5. Jos hostaat pelissä, salli kaikki yhteydet (julkiset ja yksityiset) Windows palomuurin kysyessä
 
-## Ominaisuudet ja konfirugaatio
+## Ominaisuudet ja konfigurointi
 
 ### Ominaisuudet & How-To
-**Fika** antaa sinun hostata laajaverkkoisia sessioita kavereidesi kanssa CO-OP pelaamista varten. Hostaaja hallitsee suurinta osaa logiikkaa pelatessa, kuten esimerkiksi AI:n, miinakenttien, tarkka-ampuja alueiden ja BTR:n ohjausta. Jokainen asiakas on vastuussa heidän omista vahingoista, itselleen että AI:lle. Tämä mahdollistaa sen, että AI:n ampuminen tuntuu responsiiviselta ja nopealta.
+**Fika** antaa sinun hostata laajaverkkoisia sessioita kavereidesi kanssa CO-OP pelaamista varten. Hostaaja hallitsee suurinta osaa logiikkaa pelatessa, kuten esimerkiksi AI:n, miinakenttien, tarkka-ampuja alueiden ja BTR:n ohjausta. Jokainen asiakas on vastuussa vahingoista, itselleen sekä AI:lle. Tämä mahdollistaa sen, että AI:n ampuminen tuntuu responsiiviselta ja nopealta.
 
 Pelin hostaamiseksi, valitse kartta ja aika. Viimeisessä näytössä paina `Host Raid`. Valitse pelaajamäärä (itsesi mukaanlukien) ja odota latauksen loppumista. Lataamisen jälkeen, muut pelaajat voivat liittyä sessioosi. Kun kaikilla on ladannut, peli alkaa automaattisesti.
 
 **Fikan muita ominaisuuksia**
 - Tavaroiden lähettäminen
     - Paina hiiren kakkospainiketta tavaran päällä stashisasi lähettääksesi sen toiselle käyttäjälle
-    - Voit muokata tätä [palvelin](#palvelin-konfiguraatio) konfiguraatiossa
+    - Voit muokata tätä [palvelin](#palvelimen-konfigurointi) konfiguraatiossa
 - Vapaakamera (oletusnäppäin: `F9`)
     - Vapaakamerassa voit teleporttaa kameran luo painamalla `T`
     - Voit hypätä toisen pelaajan lyö `Vasemmalla/Oikealla` hiirennäppäimellä
@@ -190,18 +190,18 @@ Pelin hostaamiseksi, valitse kartta ja aika. Viimeisessä näytössä paina `Hos
 - Pingaussysteemi pingataksesi alueen pelissä tiimiläisillesi
 - Pelaajan healthipalkit tiimiläisillesi
 
-Suurin osa näistä ovat muokattavissta [asiakas konfiguraatiossa](#asiakas-konfiguraatio).
+Suurin osa näistä ovat muokattavissta [asiakkaan konfiguroinnissa](#asiakkaan-konfigurointi).
 
-### Asiakas konfiguraatio
+### Asiakkaan konfigurointi
 
-Avataksesi asiakas konfiguraatio, paina `F12`-näppäintä pelissä. Aukaise `Fika Core` kohta muuttaaksesi asetuksia.
+Avataksesi asiakkaan konfiguroinnin, paina `F12`-näppäintä pelissä. Aukaise `Fika Core` kohta muuttaaksesi asetuksia.
 
 **Co-op**
 
 - **Show Notifications**: Salli mukautetut ilmoitukset kun pelaaja kuolee, extractaa, tappaa bossin, jne.
-- **Auto Extract**: Automaattisesti extractaa pelatessa asiakkaana vapaakameran käynnistämisen sijaan.
+- **Auto Extract**: Automaattisesti extractaa pelatessa, vapaakameran käynnistämisen sijaan.
 - **Show Extract Message**: Näytä extract-viesti kuollessa/extractaessa
-    
+
 **Coop | Mukautettavat**
 
 - **Show Player Name Plates**: Näytä pelaajien healthipalkit ja nimet.
@@ -233,21 +233,21 @@ Avataksesi asiakas konfiguraatio, paina `F12`-näppäintä pelissä. Aukaise `Fi
   
 **Tietoverkko**
 
-- **Native Sockets**: "NativeSockets" peliliikenteelle. Tämä käyttää suoria pistoke-kutsuja lähetykseen/vastaanottoon nopeuden huomattavaan lisäämiseen ja roskienkeruupaineen vähentämiseen. Vain Windowsille/Linuxille, ei saata aina toimia.
+- **Native Sockets**: NativeSockets peliliikenteelle. Tämä käyttää suoria pistoke-kutsuja lähetykseen/vastaanottoon nopeuden huomattavaan lisäämiseen ja roskienkeruupaineen vähentämiseen. Vain Windowsille/Linuxille, ei saata aina toimia.
 - **Force IP**: Pakottaa palvelimen käyttämään tätä IP-osoitetta hostatessa viestien lähettämiseen palvelimelle, sen sijaan kuin yrittäen automaattisesti noutaa sitä. Jätä tyhjäksi kytkeäksesi pois päältä. Tämä on tarpeellista VPNää käyttäessä; Käytä sinun henkilökohtaista VPN IP-osoitetta.
-- **Force Bind IP**: Pakottaa palvelimen käyttämään tätä paikallista IP-osoitetta palvelinta käynnistäessä. Kätevä jos hostaat VPNää käyttäen. Jätä tyhjäksi kytkeäksesi pois päältä. Tämä on tarpeellista VPNää käyttäessä; Käytä sinun henkilökohtaista VPN IP-osoitetta.
+- **Force Bind IP**: Pakottaa palvelimen käyttämään tätä paikallista IP-osoitetta palvelinta käynnistäessä. Jätä tyhjäksi kytkeäksesi pois päältä. Tämä on tarpeellista VPNää käyttäessä; Käytä sinun henkilökohtaista VPN IP-osoitetta.
 - **Auto Server Refresh Rate**: Joka X sekunttia, asiakas kysyy palvelimelta listaa yhtäläisyyksistä lobbyssä ollessa.
 - **UDP Port**: UDP portti pelin verkkopaketeille.
 - **Use UPnP**: Yritä avata portteja käyttäen UPnP:tä. Kätevä jos et voi avata portteja itse, mutta reititin tukee UPnP:tä.
 
-**Gameplay**
+**Pelattavuus**
 
 - **Head Damage Multiplier**: X kerroin vahingolle jonka pää ottaa vastaan. 0.2 = 20%
 - **Armpit Damage Multiplier**: X kerroin vahingolle jonka kainalot ottaa vastaan. 0.2 = 20%
 
-### Palvelin konfiguraatio
+### Palvelimen konfigurointi
 
-Palvelimen konfiguraatio löytyy kansiosta `user\mods\fika-server\assets\configs`. Aukause tiedosto `fika.jsonc` tekstinkäsittelyohjelmassa.
+Palvelimen konfigurointiasetukset löytyvät kansiosta `user\mods\fika-server\assets\configs`. Aukause tiedosto `fika.jsonc` tekstinkäsittelyohjelmassa.
 
 ```json
 {
