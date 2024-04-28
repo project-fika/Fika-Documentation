@@ -239,7 +239,7 @@ To open up your client configuration, press the `F12` key while in-game. Head to
 
 - **Native Sockets**:  NativeSockets for gameplay traffic. This uses direct socket calls for send/receive to drastically increase speed and reduce GC pressure. Only for Windows/Linux and might not always work.
 - **Force IP**: Forces the server when hosting to use this IP when broadcasting to the backend instead of automatically trying to fetch it. Leave empty to disable. This is required when using a VPN, use your personal VPN IP.
-- **Force Bind IP**: Forces the server when hosting to use this local IP when starting the server. Useful if you are hosting on a VPN. Leave empty to disable. This is required when using a VPN, use your personal VPN IP.
+- **Force Bind IP**: Forces the server when hosting to use this local IP when starting the server. Leave empty to disable. This is required when using a VPN, use your personal VPN IP.
 - **Auto Server Refresh Rate**: Every X seconds the client will ask the server for the list of matches while at the lobby screen.
 - **UDP Port**: Port to use for UDP gameplay packets.
 - **Use UPnP**: Attempt to open ports using UPnP. Useful if you cannot open ports yourself but the router supports UPnP.
