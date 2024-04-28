@@ -22,7 +22,14 @@
                 <li><a href="#asiakas-käyttäen-vpn-ää">Asiakas käyttäen VPN:ää</a></li>
             </ul>
         </li>
-        <li><a href="#ominaisuudet-ja-konfigurointi">Ominaisuudet ja konfigurointi</a></li>
+        <li>
+            <a href="#ominaisuudet-ja-konfigurointi">Ominaisuudet ja konfigurointi</a>
+            <ul>
+                <li><a href="#ominaisuudet--how-to">Ominaisuudet & How-To</a></li>
+                <li><a href="#asiakkaan-konfigurointi">Asiakkaan konfigurointi</a></li>
+                <li><a href="#palvelimen-konfigurointi">Palvelimen konfigurointi</a></li>
+            </ul>
+        </li>
     </ol>
 </details>
 
