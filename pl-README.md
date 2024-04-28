@@ -3,7 +3,7 @@
 <details open>
     <summary>Spis treści</summary>
     <ol>
-        <li><a href="#czym-jest-project-fika">Czym jest Fika?</a></li>
+        <li><a href="#czym-jest-fika">Czym jest Fika?</a></li>
         <li><a href="#licencja">Licencja</a></li>
         <li>
             <a href="#warunki-wstępne">Warunki wstępne</a>
