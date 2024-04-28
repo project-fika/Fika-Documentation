@@ -35,16 +35,16 @@ Voit liittyä Discordiimme [täältä](https://discord.gg/project-fika)!
 
 <img src="https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-nc-sa.png" alt="cc by-nc-sa" width="196" height="62" style="float:right">
 
-Tämä projekti on lisensöity [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.en) lisenssillä.
+Tämä projekti on lisensöity [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.fi) lisenssillä.
 
-- Voit jakaa Fikaa vain, jos sopivat tunnustukset ovat annettu, se ei ole kaupallisiin tarkoituksiin ja et muokkaa sitä.
+- Voit jakaa Fikaa vain, jos sopivat tunnustukset ovat annettu; se ei ole kaupallisiin tarkoituksiin ja et muokkaa sitä.
 - Et saa rahallistaa palvelintasi maksujen tai lahjoitusten muodossa.
 - Et saa hostata massiivisia julkisia palvelimia, Fika on tarkoittettu CO-OP käyttöön kavereidesi kanssa.
-- Et saa kopioida ja/tai muokata Fikan koodia, et myöskään saa käyttää sen resursseja jotka ovat käsintehtyjä kehittäjiemme ja artistiemme toimesta
+- Et saa kopioida ja/tai muokata Fikan koodia, et myöskään saa käyttää sen resursseja, jotka ovat käsintehtyjä kehittäjiemme ja artistiemme toimesta
 
 ## Edellytykset
 
-Fika edellyttää yleistietoa tietokoneista, verkostotoiminnasta ja Aki:sta. Jos nämä käsitteet eivät tunnu tutuilta, tämä projekti ei ole sinulle. Yritä ymmärtää ja kunnioittaa tätä.
+Fika edellyttää yleistietoa tietokoneista, verkostotoiminnasta ja Aki:sta. Jos nämä käsitteet eivät ole tuttuja, tämä projekti ei ole sinulle. Yritä ymmärtää ja kunnioittaa tätä.
 
 ### Hostaus
 
@@ -69,12 +69,12 @@ Fika edellyttää yleistietoa tietokoneista, verkostotoiminnasta ja Aki:sta. Jos
 
 ## Järjestelmävaatimukset
 
-Nämä ovat suosituksia parhaimmaille kokemukselle:
+Suositukset sujakalle pelikokemukselle
 
 - **Prosessori**: i7 8700k / Ryzen 7 2700x
 - **Näytönohjain**: GTX 1060 / RX 580
-- **RAM** 16 Gt vähintään, 32 Gt vahvasti suositeltu
-- **Tallennustila**: SSD on pakollinen, älä oleta tukea Fikalta kiintolevyllä
+- **Muisti** 16 Gt vähintään, 32 Gt vahvasti suositeltu
+- **Tallennustila**: SSD on pakollinen, älä oleta Fikan pyörivän kiintolevyllä
 
 Parhaiten tehoa Fikassa (ja SPT:sä ylipäätään) nostaa tehokkaampi prosessori ja RAM-muisti
 
@@ -201,7 +201,7 @@ Avataksesi asiakas konfiguraatio, paina `F12`-näppäintä pelissä. Aukaise `Fi
 - **Show Notifications**: Salli mukautetut ilmoitukset kun pelaaja kuolee, extractaa, tappaa bossin, jne.
 - **Auto Extract**: Automaattisesti extractaa pelatessa asiakkaana vapaakameran käynnistämisen sijaan.
 - **Show Extract Message**: Näytä extract-viesti kuollessa/extractaessa
-
+    
 **Coop | Mukautettavat**
 
 - **Show Player Name Plates**: Näytä pelaajien healthipalkit ja nimet.
@@ -224,7 +224,7 @@ Avataksesi asiakas konfiguraatio, paina `F12`-näppäintä pelissä. Aukaise `Fi
 - **Dynamic AI Range**: Etäisyys, minkä ulkopuolella AI kytkeytyy pois dynaamisesti.
 - **Dynamic AI Rate**: Kuinka usein dynaamisen AI:n pitäisi skannata etäisyys kaikista pelaajista.
 - **Culling System**: Mikäli haluat käyttää noukkimissysteemiä. Kun pelaajat ovat noukkimisetäisyyden ulkopuolella, heidän animaatiot yksinkertaistuvat. Tämä voi parantaa suorituskykyä huomattavasti tietyissä olosuhteissa.
-- **Culling Range**: Etäisyys, jossa pelaajia pitäisi noukkia.
+- **Culling Range**: Etäisyys, jonka ulkopuolella pelaajia pitäisi noukkia.
 
 **Suorituskyky | Maksimi botit**
 
@@ -247,7 +247,7 @@ Avataksesi asiakas konfiguraatio, paina `F12`-näppäintä pelissä. Aukaise `Fi
 
 ### Palvelin konfiguraatio
 
-Palvelin konfiguraatiot löytyy kansiosta `user\mods\fika-server\assets\configs`. Aukause tiedosto `fika.jsonc` tekstinkäsittelyohjelmassa.
+Palvelimen konfiguraatio löytyy kansiosta `user\mods\fika-server\assets\configs`. Aukause tiedosto `fika.jsonc` tekstinkäsittelyohjelmassa.
 
 ```json
 {
