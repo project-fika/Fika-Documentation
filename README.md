@@ -55,6 +55,8 @@ Fika requires general knowledge of computers, networking and Aki. If you are not
 - Access to your Windows Firewall
 - Internet speed of at least 20 Mbit/s up and down is recommended. Each client averages around 400 kbit/s.
 
+If you can not port forward, you can use a VPN like `Hamachi`, `ZeroTier` or `Radmin`.
+
 ### Client
 
 - Router and ISP that supports either **Port Forwarding** or **UPnP** | **NOTE**: This is only required if you will be hosting in-game
@@ -115,6 +117,8 @@ Before starting these steps, make sure you have port forwarded all required port
 10. Your friends can connect to your server using your WAN IP, which can be found using the [IPv4.ICanHazIP](https://ipv4.icanhazip.com/) site
 
 ### Host using a VPN
+
+You need a VPN like `Hamachi`, `ZeroTier` or `Radmin`. 
 
 1. Download the latest Fika build
 2. Navigate to your SPT installation and extract the contents of the archive into the folder
