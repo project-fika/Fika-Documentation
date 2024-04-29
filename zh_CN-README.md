@@ -1,4 +1,4 @@
-# Fika - Aki 的多人联机模组
+# Fika - Aki 的联机模组
 
 <details open>
     <summary>内容列表</summary>
