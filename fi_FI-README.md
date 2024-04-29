@@ -25,7 +25,7 @@
         <li>
             <a href="#ominaisuudet-ja-konfigurointi">Ominaisuudet ja konfigurointi</a>
             <ul>
-                <li><a href="#ominaisuudet--how-to">Ominaisuudet & How-To</a></li>
+                <li><a href="#ominaisuudet--miten-muokata">Ominaisuudet & Miten muokata</a></li>
                 <li><a href="#asiakkaan-konfigurointi">Asiakkaan konfigurointi</a></li>
                 <li><a href="#palvelimen-konfigurointi">Palvelimen konfigurointi</a></li>
             </ul>
@@ -47,7 +47,7 @@ Tämä projekti on lisensöity [CC BY-NC-SA 4.0](https://creativecommons.org/lic
 - Voit jakaa Fikaa vain, jos sopivat tunnustukset ovat annettu; se ei ole kaupallisiin tarkoituksiin ja sinä et muokkaa sitä.
 - Et saa rahallistaa palvelintasi maksujen tai lahjoitusten muodossa.
 - Et saa hostata massiivisia julkisia palvelimia, Fika on tarkoittettu CO-OP käyttöön kavereidesi kanssa.
-- Et saa kopioida ja/tai replikoida Fikan koodia, et myöskään saa käyttää sen resursseja, jotka ovat käsintehtyjä kehittäjiemme ja artistiemme toimesta
+- Et saa kopioida ja/tai replikoida Fikan koodia, et myöskään saa käyttää sen resursseja jotka ovat käsintehtyjä kehittäjiemme ja artistiemme toimesta
 
 ## Edellytykset
 
@@ -98,10 +98,11 @@ Ennen kuin alat seuraamaan ohjeita, varmista että kaikki tarvittavat portit ova
 1. Siirrä portti 6969 **TCP** reitittimessäsi (sekä sisään että ulos päin)
 2. Siirrä portti **UDP** jota käytät reitittimessäsi, oletus 25565 (sekä sisään että ulos päin)
 3. Kun Windows pyytää, salli ***kaikki*** yhteydet palomuurissasi
-
+4. Jos vielä koet ongelmia, suosittelemme sallivanne EscapeFromTarkov.exe:n (kaikki) ja AKI.Server.exe:n (palvelimen hostaaja) sisään- ja ulospäin menevän liikenteen Windowsin laajennetussa palomuurissa
+   
 **Yleisasennus**
 
-1. Lataa viimeisin Fikan koontiversio
+1. [Lataa Fikan viimeisin koontiversio](https://discord.com/channels/1202292159366037545/1224454502531469373)
 2. Aukaise SPT-asennuksesi kansio ja pura arkiston sisältö kansioon
 3. Käynnistä `Aki.Server.exe` kerran antaaksesi sen luoda konfiguraatiotiedostot Fikalle, sitten sammuta se
 4. Mene takaisin pääkansioosi ja siirry kansioon `Aki_Data\Server\configs` ja aukaise `http.json`
@@ -120,14 +121,14 @@ Ennen kuin alat seuraamaan ohjeita, varmista että kaikki tarvittavat portit ova
     Started websocket at ws://0.0.0.0:6969
     Server is running, do not close while playing SPT, Happy playing!!
     ```
-9. Käynnistä `Aki.Launcher.exe`
+9.  Käynnistä `Aki.Launcher.exe`
 10. Ystäväsi voivat yhdistää palvelimeesi käyttäen laajaverkko IP-osoitetta, jonka voi löytää sivustolta [IPv4.ICanHazIP](https://ipv4.icanhazip.com/)
 
 ### <a name="hostaa-vpn-ää-käyttäen"></a>Hostaa VPN:ää käyttäen
 
 Tarvitset VPN:än, kuten: `Hamachi`, `ZeroTier` tai `Radmin`.
 
-1. Lataa viimeisin Fikan koontiversio
+1. [Lataa Fikan viimeisin koontiversio](https://discord.com/channels/1202292159366037545/1224454502531469373)
 2. Aukaise SPT-asennuksesi kansio ja pura arkiston sisältö kansioon
 3. Käynnistä `Aki.Server.exe` kerran antaaksesi sen luoda konfiguraatiotiedostot Fikalle, sitten sammuta se
 4. Mene takaisin pääkansioosi ja siirry kansioon `Aki_Data\Server\configs` ja aukaise `http.json`
@@ -162,15 +163,15 @@ Esimerkki tekaistulla IP-osoitteella (**20.20.56.73**):
 
 ### Asiakas käyttäen portinsiirtoa
 
-1. Lataa viimeisin Fikan koontiversio
+1. [Lataa Fikan viimeisin koontiversio](https://discord.com/channels/1202292159366037545/1224454502531469373)
 2. Aukaise SPT-asennuksesi kansio ja pura arkiston sisältö kansioon
 3. Käynnistä `Aki.Launcher.exe` ja paina 'Settings'
-4. Vaihda `URL`-kenttään hostaajan laajaverkko IP-osoite (muista poistaa kaikki loppupään kauttaviivat `/`)
+4. Vaihda `URL`-kenttään hostaajan laajaverkko IP-osoite. (muista poistaa kaikki loppupään kauttaviivat `/`)
 5. Jos hostaat pelissä, salli kaikki yhteydet (julkiset ja yksityiset) Windows palomuurin kysyessä
 
 ### <a name="asiakas-käyttäen-vpn-ää"></a>Asiakas käyttäen VPN:ää
 
-1. Lataa viimeisin Fikan koontiversio
+1. [Lataa Fikan viimeisin koontiversio](https://discord.com/channels/1202292159366037545/1224454502531469373)
 2. Aukaise SPT-asennuksesi kansio ja pura arkiston sisältö kansioon
 3. Käynnistä `Aki.Launcher.exe` ja paina 'Settings'
 4. Vaihda `URL`-kenttään hostaajan VPN IP-osoite. Käyttäen viidennen kohdan esimerkkiä, se olisi: `http://20.20.56.73:6969` (muista poistaa kaikki loppupään kauttaviivat `/`)
@@ -178,7 +179,7 @@ Esimerkki tekaistulla IP-osoitteella (**20.20.56.73**):
 
 ## Ominaisuudet ja konfigurointi
 
-### Ominaisuudet & How-To
+### Ominaisuudet & Miten muokata
 **Fika** antaa sinun hostata laajaverkkoisia sessioita kavereidesi kanssa CO-OP pelaamista varten. Hostaaja hallitsee suurinta osaa logiikkaa pelatessa, kuten esimerkiksi AI:n, miinakenttien, tarkka-ampuja alueiden ja BTR:n ohjausta. Jokainen asiakas on vastuussa vahingoista, itselleen sekä AI:lle. Tämä mahdollistaa sen, että AI:n ampuminen tuntuu responsiiviselta ja nopealta.
 
 Pelin hostaamiseksi, valitse kartta ja aika. Viimeisessä näytössä paina `Host Raid`. Valitse pelaajamäärä (itsesi mukaanlukien) ja odota latauksen loppumista. Lataamisen jälkeen, muut pelaajat voivat liittyä sessioosi. Kun kaikilla on ladannut, peli alkaa automaattisesti.
@@ -263,9 +264,9 @@ Palvelimen konfigurointiasetukset löytyvät kansiosta `user\mods\fika-server\as
 ```json
 {
     "client": {
-        "useBtr": true, // jos BTR:n pitäisi spawnata Streetsissä, oletus: true
+        "useBtr": true, // voiko BTR spawnata Streetsissä, oletus: true
         "friendlyFire": true, // onko oma tuli päällä, oletus: true
-        "dynamicVExfils": false, // jos vehicle exfilien maksimi pelaajamäärää on nykyisen raidin pelaajamäärä oletusmäärän neljä sijaan, oletus: false
+        "dynamicVExfils": false, // onko vehicle exfilien maksimi pelaajamäärää nykyisen raidin pelaajamäärä, oletusmäärän neljä sijaan, oletus: false
         "allowFreeCam": false, // voiko vapaakameraa käyttää vapaasti, oletus: false
         "allowItemSending": true // voiko tavaroita lähettää vapaasti, oletus: true
     },
