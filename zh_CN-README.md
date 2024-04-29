@@ -101,7 +101,7 @@
 
 **基础配置**
 
-1. [[下载最新版本的 Fika 文件](https://discord.com/channels/1202292159366037545/1224454502531469373)](https://discord.com/channels/1202292159366037545/1224454502531469373)
+1. [下载最新版本的 Fika 文件](https://discord.com/channels/1202292159366037545/1224454502531469373)
 2. 把 Fika 的文件解压到你的 SPT 安装路径里
 3. 运行一次 `Aki.Server.exe` 以生成 Fika 的配置文件，然后将其关闭。
 4. 回到 SPT 的主文件夹，在 `Aki_Data\Server\configs` 路径中打开名称为 `http.json` 的文件
