@@ -232,7 +232,7 @@
 **游戏性能相关**
 
 - **Dynamic AI**：动态 AI 系统，不在玩家范围外刷新 AI。
-- **Dynamic AI Range**：在动态范围外禁用 AI。
+- **Dynamic AI Range**：在此范围外使用动态系统禁用 AI。
 - **Dynamic AI Rate**：动态 AI 系统的刷新频率。
 - **Culling System**：是否启用剔除系统。若处于渲染范围外，玩家的动作会被简化。在特定情况下能大幅提升游戏性能。
 - **Culling Range**：剔除系统的范围。
