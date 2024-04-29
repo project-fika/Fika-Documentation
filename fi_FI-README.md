@@ -199,7 +199,7 @@ Pelin hostaamiseksi valitse kartta ja aika. Viimeisessä näytössä paina `Host
 - Muokattavat rajamäärät AI:lle kartoissa
 - Noukkimissysteemi suorituskyvyn nostamiseksi
 - Muokattavat ilmoitukset (tiimiläinen kuoli, bossi tapettu pelaajan toimesta, jne.)
-- Pingaussysteemi jolla voit pingata paikan pelissä tiimiläisillesi
+- Merkkaussysteemi jolla voit merkata paikan pelissä tiimiläisillesi
 - Pelaajan healthipalkit tiimiläisillesi
 
 Suurin osa näistä ovat muokattavissa [asiakkaan konfiguroinnissa](#asiakkaan-konfigurointi).
@@ -220,11 +220,11 @@ Avataksesi asiakkaan konfiguroinnin, paina `F12`-näppäintä pelissä. Aukaise 
 - **Show HP% instead of bar**: Näyttää healthin prosenteissa palkin sijaan.
 - **Show Player Faction Icon**: Näyttää pelaajan factionin merkin healthipalkin vieressä.
 - **Name Plate Scale**: Nimikylttien koko.
-- **Ping System**: Pingaussysteemi päälle/pois. Jos päällä, voit nähdä ja lähettää pingejä painamalla ping-näppäintä.
-- **Ping Button**: Nappi pingien lähettämiseen.
-- **Ping Color**: Pingin väri jonka muut pelaajat näkevät.
-- **Ping Size**: Ping-merkin koko.
-- **Play Ping Animation**: Näyttää osoittamis-animaation pingatessa. Voi häiritä pelikokemusta.
+- **Ping System**: Merkkaussysteemi päälle/pois. Jos päällä, voit nähdä ja lähettää merkkauksia painamalla merkkaus-näppäintä.
+- **Ping Button**: Nappi merkkausten lähettämiseen.
+- **Ping Color**: Merkkausten väri jonka muut pelaajat näkevät.
+- **Ping Size**: Merkkauksen koko.
+- **Play Ping Animation**: Näyttää osoittamis-animaation merkatessa. Voi häiritä pelikokemusta.
 
 **Coop | Debug**
 
