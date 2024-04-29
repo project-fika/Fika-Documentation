@@ -98,10 +98,11 @@ Before starting these steps, make sure you have port forwarded all required port
 1. Port forward the port 6969 **TCP** in your router (both in and out)
 2. Port forward the **UDP** port that you will use in your router, default 25565 (both in and out)
 3. When prompted by Windows, allow ***all*** connections in your Firewall
+4. If you are still having problems, we suggest you allow EscapeFromTarkov.exe (everyone) and AKI.Server.exe (server host) for inbound and outbound connections in your Windows Advanced Firewall.
 
 **General Setup**
 
-1. Download the latest Fika build
+1. [Download the latest Fika build](https://discord.com/channels/1202292159366037545/1224454502531469373)
 2. Navigate to your SPT installation and extract the contents of the archive into the folder
 3. Start up the `Aki.Server.exe` once to let it generate the configuration files for Fika, then close it again
 4. Go back to the main folder and navigate to `Aki_Data\Server\configs` and open `http.json`
@@ -127,7 +128,7 @@ Before starting these steps, make sure you have port forwarded all required port
 
 You need a VPN like `Hamachi`, `ZeroTier` or `Radmin`. 
 
-1. Download the latest Fika build
+1. [Download the latest Fika build](https://discord.com/channels/1202292159366037545/1224454502531469373)
 2. Navigate to your SPT installation and extract the contents of the archive into the folder
 3. Start up the `Aki.Server.exe` once to let it generate the configuration files for Fika, then close it again
 4. Go back to the main folder and navigate to `Aki_Data\Server\configs` and open `http.json`
@@ -162,15 +163,15 @@ Example with a fake address (**20.20.56.73**):
 
 ### Client using port forwarding
 
-1. Download the latest Fika build
+1. [Download the latest Fika build](https://discord.com/channels/1202292159366037545/1224454502531469373)
 2. Navigate to your SPT installation and extract the contents of the archive into the folder
 3. Start `Aki.Launcher.exe` and click 'Settings'
-4. In the `URL` field, change it to reflect the hosts WAN IP (remember to remove any trailing forward slashes `/`)
+4. In the `URL` field, change it to reflect the hosts WAN IP. For exampleit would be: `http://20.20.56.73:6969` (remember to remove any trailing forward slashes `/`)
 5. If hosting in-game, allow all connections (public and private) when prompted by the Windows Firewall
 
 ### Client using a VPN
 
-1. Download the latest Fika build
+1. [Download the latest Fika build](https://discord.com/channels/1202292159366037545/1224454502531469373)
 2. Navigate to your SPT installation and extract the contents of the archive into the folder
 3. Start `Aki.Launcher.exe` and click 'Settings'
 4. In the `URL` field, change it to reflect the hosts VPN IP. Using the example in step 5 it would be: `http://20.20.56.73:6969` (remember to remove any trailing forward slashes `/`)
