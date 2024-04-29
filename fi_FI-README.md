@@ -102,7 +102,7 @@ Ennen kuin alat seuraamaan ohjeita, varmista että kaikki tarvittavat portit ova
    
 **Yleisasennus**
 
-1. [Lataa Fikan viimeisin koontiversio](https://discord.com/channels/1202292159366037545/1224454502531469373)
+1. [Lataa viimeisin Fikan koontiversio](https://discord.com/channels/1202292159366037545/1224454502531469373)
 2. Aukaise SPT-asennuksesi kansio ja pura arkiston sisältö kansioon
 3. Käynnistä `Aki.Server.exe` kerran antaaksesi sen luoda konfiguraatiotiedostot Fikalle, sitten sammuta se
 4. Mene takaisin pääkansioosi ja siirry kansioon `Aki_Data\Server\configs` ja aukaise `http.json`
@@ -128,7 +128,7 @@ Ennen kuin alat seuraamaan ohjeita, varmista että kaikki tarvittavat portit ova
 
 Tarvitset VPN:än, kuten: `Hamachi`, `ZeroTier` tai `Radmin`.
 
-1. [Lataa Fikan viimeisin koontiversio](https://discord.com/channels/1202292159366037545/1224454502531469373)
+1. [Lataa viimeisin Fikan koontiversio](https://discord.com/channels/1202292159366037545/1224454502531469373)
 2. Aukaise SPT-asennuksesi kansio ja pura arkiston sisältö kansioon
 3. Käynnistä `Aki.Server.exe` kerran antaaksesi sen luoda konfiguraatiotiedostot Fikalle, sitten sammuta se
 4. Mene takaisin pääkansioosi ja siirry kansioon `Aki_Data\Server\configs` ja aukaise `http.json`
@@ -163,7 +163,7 @@ Esimerkki tekaistulla IP-osoitteella (**20.20.56.73**):
 
 ### Asiakas käyttäen portinsiirtoa
 
-1. [Lataa Fikan viimeisin koontiversio](https://discord.com/channels/1202292159366037545/1224454502531469373)
+1. [Lataa viimeisin Fikan koontiversio](https://discord.com/channels/1202292159366037545/1224454502531469373)
 2. Aukaise SPT-asennuksesi kansio ja pura arkiston sisältö kansioon
 3. Käynnistä `Aki.Launcher.exe` ja paina 'Settings'
 4. Vaihda `URL`-kenttään hostaajan laajaverkko IP-osoite. (muista poistaa kaikki loppupään kauttaviivat `/`)
@@ -171,7 +171,7 @@ Esimerkki tekaistulla IP-osoitteella (**20.20.56.73**):
 
 ### <a name="asiakas-käyttäen-vpn-ää"></a>Asiakas käyttäen VPN:ää
 
-1. [Lataa Fikan viimeisin koontiversio](https://discord.com/channels/1202292159366037545/1224454502531469373)
+1. [Lataa viimeisin Fikan koontiversio](https://discord.com/channels/1202292159366037545/1224454502531469373)
 2. Aukaise SPT-asennuksesi kansio ja pura arkiston sisältö kansioon
 3. Käynnistä `Aki.Launcher.exe` ja paina 'Settings'
 4. Vaihda `URL`-kenttään hostaajan VPN IP-osoite. Käyttäen viidennen kohdan esimerkkiä, se olisi: `http://20.20.56.73:6969` (muista poistaa kaikki loppupään kauttaviivat `/`)
