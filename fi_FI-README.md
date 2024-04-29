@@ -74,7 +74,7 @@ Jos et voi portti siirtää, voit käyttää seuraavia tai vastaavanlaisia VPN:i
 
 ### Kummatkin
 
-- Viimeisimmät Fika tiedostot
+- Viimeisimmät Fikan tiedostot
 
 ## Laitteistovaatimukset
 
@@ -95,8 +95,8 @@ Ennen kuin alat seuraamaan ohjeita, varmista että kaikki tarvittavat portit ova
 
 **Palomuurin konfigurointi**
 
-1. Siirrä portti 6969 **TCP** reitittimessäsi (sekä sisään että ulos päin)
-2. Siirrä portti **UDP** jota käytät reitittimessäsi, oletus 25565 (sekä sisään että ulos päin)
+1. Siirrä portti 6969 **TCP** reitittimessäsi (sekä sisään- että ulospäin)
+2. Siirrä portti **UDP** jota käytät reitittimessäsi, oletus 25565 (sekä sisään- että ulospäin)
 3. Kun Windows pyytää, salli ***kaikki*** yhteydet palomuurissasi
 4. Jos vielä koet ongelmia, suosittelemme sallivanne EscapeFromTarkov.exe:n (kaikki) ja AKI.Server.exe:n (palvelimen hostaaja) sisään- ja ulospäin menevän liikenteen Windowsin laajennetussa palomuurissa
    
@@ -185,7 +185,7 @@ Esimerkki tekaistulla IP-osoitteella (**20.20.56.73**):
 Pelin hostaamiseksi, valitse kartta ja aika. Viimeisessä näytössä paina `Host Raid`. Valitse pelaajamäärä (itsesi mukaanlukien) ja odota latauksen loppumista. Lataamisen jälkeen, muut pelaajat voivat liittyä sessioosi. Kun kaikilla on ladannut, peli alkaa automaattisesti.
 
 **Fikan muita ominaisuuksia**
-- Tavaroiden lähettäminen
+- Tavaroiden lähettäminen pelaajien välillä
     - Paina hiiren kakkospainiketta tavaran päällä stashisasi lähettääksesi sen toiselle käyttäjälle
     - Voit muokata tätä [palvelin](#palvelimen-konfigurointi) konfiguraatiossa
 - Vapaakamera (oletusnäppäin: `F9`)
@@ -254,8 +254,8 @@ Avataksesi asiakkaan konfiguroinnin, paina `F12`-näppäintä pelissä. Aukaise 
 
 **Pelattavuus**
 
-- **Head Damage Multiplier**: X kerroin vahingolle jonka pää ottaa vastaan. 0.2 = 20%
-- **Armpit Damage Multiplier**: X kerroin vahingolle jonka kainalot ottaa vastaan. 0.2 = 20%
+- **Head Damage Multiplier**: Kerroin vahingolle jonka pää ottaa vastaan. 0.2 = 20%
+- **Armpit Damage Multiplier**: Kerroin vahingolle jonka kainalot ottaa vastaan. 0.2 = 20%
 
 ### Palvelimen konfigurointi
 
