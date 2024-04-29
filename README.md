@@ -98,7 +98,7 @@ Before starting these steps, make sure you have port forwarded all required port
 1. Port forward the port 6969 **TCP** in your router (both in and out)
 2. Port forward the **UDP** port that you will use in your router, default 25565 (both in and out)
 3. When prompted by Windows, allow ***all*** connections in your Firewall
-4. If you are stil having problems, we suggest you forward EscapeFromTarkov.exe (everyone) and AKI.server.exe (server host) inbound and outbound in windows advanced firewall. 
+4. If you are still having problems, we suggest you allow EscapeFromTarkov.exe (everyone) and AKI.Server.exe (server host) for inbound and outbound connections in your Windows Advanced Firewall.
 
 **General Setup**
 
