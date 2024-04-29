@@ -167,7 +167,7 @@ Esimerkki tekaistulla IP-osoitteella (**20.20.56.73**):
 2. Aukaise SPT-asennuksesi kansio ja pura arkiston sisältö kansioon
 3. Käynnistä `Aki.Launcher.exe` ja paina 'Settings'
 4. Vaihda `URL`-kenttään hostaajan laajaverkko IP-osoite. (muista poistaa kaikki loppupään kauttaviivat `/`)
-5. Jos hostaat pelissä, salli kaikki yhteydet (julkiset ja yksityiset) Windows palomuurin kysyessä
+5. Jos hostaat pelissä, salli kaikki yhteydet (julkiset ja yksityiset) kun/jos Windows palomuuri sitä kysyy
 
 ### <a name="asiakas-käyttäen-vpn-ää"></a>Asiakas käyttäen VPN:ää
 
@@ -175,14 +175,14 @@ Esimerkki tekaistulla IP-osoitteella (**20.20.56.73**):
 2. Aukaise SPT-asennuksesi kansio ja pura arkiston sisältö kansioon
 3. Käynnistä `Aki.Launcher.exe` ja paina 'Settings'
 4. Vaihda `URL`-kenttään hostaajan VPN IP-osoite. Käyttäen viidennen kohdan esimerkkiä, se olisi: `http://20.20.56.73:6969` (muista poistaa kaikki loppupään kauttaviivat `/`)
-5. Jos hostaat pelissä, salli kaikki yhteydet (julkiset ja yksityiset) Windows palomuurin kysyessä
+5. Jos hostaat pelissä, salli kaikki yhteydet (julkiset ja yksityiset) kun/jos Windows palomuuri sitä kysyy
 
 ## Ominaisuudet ja konfigurointi
 
 ### Ominaisuudet & Miten muokata
 **Fika** antaa sinun hostata laajaverkkoisia sessioita kavereidesi kanssa CO-OP pelaamista varten. Hostaaja hallitsee suurinta osaa logiikkaa pelatessa, kuten esimerkiksi AI:n, miinakenttien, tarkka-ampuja alueiden ja BTR:n ohjausta. Jokainen asiakas on vastuussa vahingoista, itselleen sekä AI:lle. Tämä mahdollistaa sen, että AI:n ampuminen tuntuu responsiiviselta ja nopealta.
 
-Pelin hostaamiseksi, valitse kartta ja aika. Viimeisessä näytössä paina `Host Raid`. Valitse pelaajamäärä (itsesi mukaanlukien) ja odota latauksen loppumista. Lataamisen jälkeen, muut pelaajat voivat liittyä sessioosi. Kun kaikilla on ladannut, peli alkaa automaattisesti.
+Pelin hostaamiseksi valitse kartta ja aika. Viimeisessä näytössä paina `Host Raid`. Valitse pelaajamäärä (itsesi mukaanlukien) ja odota latauksen loppumista. Latauksen jälkeen muut pelaajat voivat liittyä sessioosi. Kun kaikkien pelaajien peli on ladannut, alkaa se automaattisesti.
 
 **Fikan muita ominaisuuksia**
 - Tavaroiden lähettäminen pelaajien välillä
@@ -199,10 +199,10 @@ Pelin hostaamiseksi, valitse kartta ja aika. Viimeisessä näytössä paina `Hos
 - Muokattavat rajamäärät AI:lle kartoissa
 - Noukkimissysteemi suorituskyvyn nostamiseksi
 - Muokattavat ilmoitukset (tiimiläinen kuoli, bossi tapettu pelaajan toimesta, jne.)
-- Pingaussysteemi pingataksesi alueen pelissä tiimiläisillesi
+- Pingaussysteemi jolla voit pingata paikan pelissä tiimiläisillesi
 - Pelaajan healthipalkit tiimiläisillesi
 
-Suurin osa näistä ovat muokattavissta [asiakkaan konfiguroinnissa](#asiakkaan-konfigurointi).
+Suurin osa näistä ovat muokattavissa [asiakkaan konfiguroinnissa](#asiakkaan-konfigurointi).
 
 ### Asiakkaan konfigurointi
 
@@ -211,7 +211,7 @@ Avataksesi asiakkaan konfiguroinnin, paina `F12`-näppäintä pelissä. Aukaise 
 **Co-op**
 
 - **Show Notifications**: Salli mukautetut ilmoitukset kun pelaaja kuolee, extractaa, tappaa bossin, jne.
-- **Auto Extract**: Automaattisesti extractaa pelatessa, vapaakameran käynnistämisen sijaan.
+- **Auto Extract**: Automaattisesti extractaa pelatessa vapaakameran käynnistämisen sijaan.
 - **Show Extract Message**: Näytä extract-viesti kuollessa/extractaessa
 
 **Coop | Mukautettavat**
@@ -224,7 +224,7 @@ Avataksesi asiakkaan konfiguroinnin, paina `F12`-näppäintä pelissä. Aukaise 
 - **Ping Button**: Nappi pingien lähettämiseen.
 - **Ping Color**: Pingin väri jonka muut pelaajat näkevät.
 - **Ping Size**: Ping-merkin koko.
-- **Play Ping Animation**: Näyttää osoittamis-animaation automaattisesti pingatessa. Voi häiritä pelikokemusta.
+- **Play Ping Animation**: Näyttää osoittamis-animaation pingatessa. Voi häiritä pelikokemusta.
 
 **Coop | Debug**
 
@@ -232,7 +232,7 @@ Avataksesi asiakkaan konfiguroinnin, paina `F12`-näppäintä pelissä. Aukaise 
 
 **Suorituskyky**
 
-- **Dynamic AI**: Käytä dynaamista AI-systeemiä, kytkien ne pois päältä astuessaan ulos pelaajien etäisyydestä.
+- **Dynamic AI**: Käytä dynaamista AI-systeemiä, kytkien AI:n pois päältä niiden liikuttuaan ulos pelaajien etäisyydestä.
 - **Dynamic AI Range**: Etäisyys, minkä ulkopuolella AI kytkeytyy pois dynaamisesti.
 - **Dynamic AI Rate**: Kuinka usein dynaamisen AI:n pitäisi skannata etäisyys kaikista pelaajista.
 - **Culling System**: Mikäli haluat käyttää noukkimissysteemiä. Kun pelaajat ovat noukkimisetäisyyden ulkopuolella, heidän animaatiot yksinkertaistuvat. Tämä voi parantaa suorituskykyä huomattavasti tietyissä olosuhteissa.
@@ -259,7 +259,7 @@ Avataksesi asiakkaan konfiguroinnin, paina `F12`-näppäintä pelissä. Aukaise 
 
 ### Palvelimen konfigurointi
 
-Palvelimen konfigurointiasetukset löytyvät kansiosta `user\mods\fika-server\assets\configs`. Aukause tiedosto `fika.jsonc` tekstinkäsittelyohjelmassa.
+Palvelimen konfigurointiasetukset löytyvät kansion `user\mods\fika-server\assets\configs` tiedostosta `fika.jsonc`.
 
 ```json
 {
