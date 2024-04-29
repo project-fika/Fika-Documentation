@@ -3,31 +3,31 @@
 <details open>
     <summary>内容列表</summary>
     <ol>
-        <li><a href="#what-is-fika">关于 Fika</a></li>
-        <li><a href="#license">授权许可</a></li>
+        <li><a href="关于-fika">关于 Fika</a></li>
+        <li><a href="#授权许可">授权许可</a></li>
         <li>
-            <a href="#prerequisites">准备工作</a>
+            <a href="#准备工作">准备工作</a>
             <ul>
-                <li><a href="#hosting">主机</a></li>
-                <li><a href="#client">客机</a></li>
+                <li><a href="#主机">主机</a></li>
+                <li><a href="#客机">客机</a></li>
             </ul>
         </li>
-        <li><a href="#hardware-requirements">硬件要求</a></li>
+        <li><a href="#硬件要求">硬件要求</a></li>
         <li>
-            <a href="#installation">安装步骤</a>
+            <a href="#安装步骤">安装步骤</a>
             <ul>
-                <li><a href="#host-using-port-forwarding">主机：端口映射篇</a></li>
-                <li><a href="#host-using-a-vpn">主机：VPN 篇</a></li>
-                <li><a href="#client-using-port-forwarding">客机：端口映射篇</a></li>
-                <li><a href="#client-using-a-vpn">客机：VPN 篇</a></li>
+                <li><a href="#主机端口映射篇">主机：端口映射篇</a></li>
+                <li><a href="#主机vpn-篇">主机：VPN 篇</a></li>
+                <li><a href="#客机端口映射篇">客机：端口映射篇</a></li>
+                <li><a href="#客机vpn-篇">客机：VPN 篇</a></li>
             </ul>
         </li>
         <li>
-            <a href="#features-and-configuration">特性与配置</a>
+            <a href="#特点与配置">特点与配置</a>
             <ul>
-                <li><a href="features--how-to">特性 & 使用方法</a></li>
-                <li><a href="#client-configuration">客机配置</a></li>
-                <li><a href="#server-configuration">主机配置</a></li>
+                <li><a href="#特点--使用方法">特点 & 使用方法</a></li>
+                <li><a href="#客户端配置">客户端配置</a></li>
+                <li><a href="#服务端配置">服务端配置</a></li>
             </ul>
         </li>
     </ol>
@@ -35,7 +35,7 @@
 
 ## 关于 Fika
 
-**Fika** 是一款能让你与朋友一起体验合作乐趣的 **SPT-Aki** 模组。该模组使用了一种更新式且高效的 P2P-UDP 连接方式。Fika 的主要目标是：高性能、高准度，以及模组支持。该项目目前由 Fika 团队开发和维护。
+**Fika** 是一款能让你与好友一起体验合作乐趣的 **SPT-Aki** 模组。该模组使用了一种更新式且高效的 P2P-UDP 连接方式。Fika 的主要目标是：高性能、高准度，以及模组支持。该项目目前由 Fika 团队开发和维护。
 你可以通过 [这里](https://discord.gg/project-fika) 加入我们的 Discord 频道！
 
 ## 授权许可
@@ -44,7 +44,7 @@
 
 该项目使用了 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.en) 旗下的许可证。
 
-- 你仅能够在标明来源，且不更改项目内容的情况下分享 Fika，但不能用于商业目的。
+- 你仅能够在标明来源，且不更改项目内容的情况下分享 Fika，但不可用于商业用途。
 - 你不能以任何形式利用你所开放的服务器收取费用。
 - 你不能部署大型公共服务器，Fika 的宗旨是与好友合作。
 - 你不能复制粘贴任何 Fika 的代码，也不能使用我们开发人员和美工制作的任何资产。
@@ -57,7 +57,7 @@ Fika 的安装与配置需要对于电脑、网络，以及 Aki（离线版）�
 
 - 支持 **端口映射** 或 **UPnP** 的路由器或 ISP
 - 已开放用于 AKI 服务端的 TCP 协议的 6969 端口
-- 已开放用于 P2P 传输的 UDP 端口，默认为 25565 (若使用 UPnP 的话请忽略此条)
+- 已开放用于 P2P 传输的 UDP 端口，默认为 25565（若使用 UPnP 的话请忽略此条）
 - 已安装并且能运行 Fika 对应版本的 SPT（离线版）
 - 拥有 Windows 防火墙的权限
 - 至少 20 Mb/s（2.5 MB/s）及以上的上传和下载速度。每台客机平均需要占用 400 kb/s 的网速。
@@ -67,12 +67,12 @@ Fika 的安装与配置需要对于电脑、网络，以及 Aki（离线版）�
 ### 客机
 
 - 支持 **端口映射** 或 **UPnP** 的路由器或 ISP | **注意事项**：此条仅适用于想在游戏里创建房间的客机
-- 已开放用于 P2P 传输的 UDP 端口，默认为 25565 (若使用 UPnP 的话请忽略此条）| **注意事项**: 同上
+- 已开放用于 P2P 传输的 UDP 端口，默认为 25565（若使用 UPnP 的话请忽略此条）| **注意事项**: 同上
 - 已安装并且能运行 Fika 对应版本的 SPT（离线版）
 - 拥有 Windows 防火墙的权限
 - 至少 20 Mb/s（2.5 MB/s）及以上的上传和下载速度
 
-### 双方都需要的东西
+### 双方都要用的东西
 
 - 最新版本的 Fika 文件
 
@@ -91,13 +91,13 @@ Fika 的安装与配置需要对于电脑、网络，以及 Aki（离线版）�
 
 ### 主机：端口映射篇
 
-开始后续步骤前，请确保你已开放所有准备工作中提到的端口。我们不会帮你开放端口。如果你无法开放端口的话，请用 VPN。
+开始后续步骤前，请确保你已开放所有准备工作中提到的端口。如果你无法开放端口的话，请使用 VPN。
 
 **防火墙配置**
 
 1. 在路由器设置中打开 **TCP** 的 6969 端口（出墙和入墙都需要）
 2. 打开你的路由器需要用到的 **UDP** 端口，默认为 25565（出墙和入墙都需要）
-3. 当 Windows 弹提示时, 在防火墙里允许 ***所有*** 连接。
+3. 当 Windows 弹提示时, 在防火墙设置里允许 ***所有*** 连接。
 
 **基础配置**
 
@@ -116,9 +116,9 @@ Fika 的安装与配置需要对于电脑、网络，以及 Aki（离线版）�
 8. 运行 `Aki.Server.exe` 并待其加载完
     - 若成功运行，程序则如下所示：
     ```
-    Started webserver at http://0.0.0.0:6969
-    Started websocket at ws://0.0.0.0:6969
-    Server is running, do not close while playing SPT, Happy playing!!
+    已在http://0.0.0.0:6969成功启动webserver
+    于ws://0.0.0.0:6969启动了websocket
+    服务器正在运行 玩得开心!!
     ```
 9. 运行 `Aki.Launcher.exe`
 10. 你的朋友们现在可以通过你的公网 IP 连接到你的服务器。要是不知道自己 IP 的话，可以通过 [IPv4.ICanHazIP](https://ipv4.icanhazip.com/) 查找
@@ -149,13 +149,13 @@ Fika 的安装与配置需要对于电脑、网络，以及 Aki（离线版）�
     - **friendlyFire**：是否启用队伤
     - **dynamicVExfils**：自动将载具撤离点的上限调整为战局内玩家的总数
     - **allowFreeCam**：战局内启用自由视角
-    - **giftedItemsLoseFIR**：玩家间使用“给予物品”功能所获取的物品是否带勾（显示为战局内找到）
+    - **giftedItemsLoseFIR**：玩家间使用 “给予物品” 功能所获取的物品是否带勾（显示为战局内找到）
 8. 运行 `Aki.Server.exe` 并待其加载完
     - 若成功运行，（使用的 IP 为上述第 5 步里所提到的），程序则如下所示：
     ```
-    Started webserver at http://20.20.56.73:6969
-    Started websocket at ws://20.20.56.73:6969
-    Server is running, do not close while playing SPT, Happy playing!!
+    已在http://20.20.56.73:6969成功启动webserver
+    于ws://20.20.56.73:6969启动了websocket
+    服务器正在运行 玩得开心!!
     ```
 9. 运行 `Aki.Launcher.exe`，然后点击右上角的 '设置'
 10. 找到 `URL` 一栏，改为你的 VPN 软件里显示的 IP 地址。用上面第 5 步的 IP 的话就改成这样：`http://20.20.56.73:6969`（只改 IP 部分的数字即可，不需要动 `https://` 和 `:6969`）
@@ -176,17 +176,17 @@ Fika 的安装与配置需要对于电脑、网络，以及 Aki（离线版）�
 4. 找到 `URL` 一栏，改为 VPN 软件中显示的主机 IP（同理，只改 IP 部分的数字即可）
 5. 要是在游戏里开房间的话，当 Windows 防火墙跳提示的时候，允许所有连接（公开和私人）
 
-## 特性与配置
+## 特点与配置
 
-### 特性 & 使用方法
+### 特点 & 使用方法
 **Fika** 允许你以主持 P2P 战局的方式和好友联机。主机能够控制游玩过程中的大部分逻辑，如 AI，雷区，狙击区，BTR 装甲车等。客机则全权把握其对自身或 AI 造成的伤害。换言之，战斗过程会显得流畅而不拖泥带水，也就是俗称的低延迟。
 
 只需选定地图和时间，然后在最后的界面点击 `Host Raid` 即可主持战局。选定一局的玩家数量（别忘了把自己算进去）然后等游戏加载。待加载完毕，其他人就可加入你的战局，游戏会在所有人都加入后自动开始。
 
-**Fika 的其它特性**
+**Fika 的其它特点**
 - 给予物品
     - 在仓库里右键要赠送的物品，可将其送到其他玩家的号上
-    - 可在 [服务器](#server-configuration) 配置中调试
+    - 可在 [服务端](#服务端) 配置中调试
 - 自由视角（默认使用 `F9` 启用）
     - 可通过 `T` 键传送到视角所在位置
     - 可通过 `鼠标左键/右键` 跳至其他玩家
@@ -201,9 +201,9 @@ Fika 的安装与配置需要对于电脑、网络，以及 Aki（离线版）�
 - 标记系统，能够让队友看见你所标记的位置
 - 显示队友血量
 
-上述大部分特性可在 [客机配置](#client-configuration) 中调整 。
+上述大部分特点可在 [客户端配置](#客户端配置) 中调整 。
 
-### 客机配置
+### 客户端配置
 
 在游戏中按 `F12` 键开启客机配置菜单。 可在 `Fika Core` 一栏中调整此部分的配置。
 
@@ -256,21 +256,21 @@ Fika 的安装与配置需要对于电脑、网络，以及 Aki（离线版）�
 - **Head Damage Multiplier**：头部所受到的伤害倍数，0.2 = 20%
 - **Armpit Damage Multiplier**：腋下所受到的伤害倍数，0.2 = 20%
 
-### 服务器配置
+### 服务端配置
 
-该服务器配置可在此路径的 `user\mods\fika-server\assets\configs` 文件夹中找到。使用文本编辑器打开 `fika.jsonc` 即可编辑。
+服务端配置可在此路径的 `user\mods\fika-server\assets\configs` 文件夹中找到。使用文本编辑器可对 `fika.jsonc` 进行编辑。
 
 ```json
 {
     "client": {
-        "useBtr": true, // if the BTR should spawn on streets, default: true
-        "friendlyFire": true, // if friendly fire is enabled, default: true
-        "dynamicVExfils": false, // if vehicle exfils should scale to the amount of players in raid rather than default to 4, default: false
-        "allowFreeCam": false, // if the free cam can be toggled freely, default: false
-        "allowItemSending": true // if item sending should be enabled, default: true
+        "useBtr": true, // 用于启用街区的 BTR 装甲车，默认值为 true
+        "friendlyFire": true, // 用于开启队伤，默认值为 true
+        "dynamicVExfils": false, // 用于将载具撤离点的玩家上限调整为战局内玩家的总数，默认值为 false
+        "allowFreeCam": false, // 用于启用战局内自由视角，默认值为 false
+        "allowItemSending": true // 用于启用 “给予物品” 功能，默认值为 true
     },
     "server": {
-        "giftedItemsLoseFIR": true // if sent items should lose their FiR status, default: true
+        "giftedItemsLoseFIR": true // 用于启用/禁用 “给予物品” 功能所获得的物品状态（是否带勾），默认值为 true
     }
 }
 ```
