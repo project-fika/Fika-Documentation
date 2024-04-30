@@ -102,7 +102,7 @@ Before starting these steps, make sure you have port forwarded all required port
 
 **General Setup**
 
-1. [Download the latest Fika build](https://discord.com/channels/1202292159366037545/1224454502531469373)
+1. [Download the latest Fika build](https://discord.com/channels/1202292159366037545/1224454502531469373) (you have to join our [Discord](https://discord.gg/project-fika) first)
 2. Navigate to your SPT installation and extract the contents of the archive into the folder
 3. Start up the `Aki.Server.exe` once to let it generate the configuration files for Fika, then close it again
 4. Go back to the main folder and navigate to `Aki_Data\Server\configs` and open `http.json`
@@ -128,7 +128,7 @@ Before starting these steps, make sure you have port forwarded all required port
 
 You need a VPN like `Hamachi`, `ZeroTier` or `Radmin`. 
 
-1. [Download the latest Fika build](https://discord.com/channels/1202292159366037545/1224454502531469373)
+1. [Download the latest Fika build](https://discord.com/channels/1202292159366037545/1224454502531469373) (you have to join our [Discord](https://discord.gg/project-fika) first)
 2. Navigate to your SPT installation and extract the contents of the archive into the folder
 3. Start up the `Aki.Server.exe` once to let it generate the configuration files for Fika, then close it again
 4. Go back to the main folder and navigate to `Aki_Data\Server\configs` and open `http.json`
