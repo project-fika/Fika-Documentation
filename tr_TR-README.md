@@ -1,31 +1,31 @@
 <details open>
     <summary>İçindekiler</summary>
     <ol>
-        <li><a href="#what-is-fika">Fika Nedir</a></li>
-        <li><a href="#license">Lisans</a></li>
+        <li><a href="#fika-nedir">Fika Nedir</a></li>
+        <li><a href="#lisans">Lisans</a></li>
         <li>
-            <a href="#prerequisites">Önkoşullar</a>
+            <a href="#gereksinimler">Önkoşullar</a>
             <ul>
                 <li><a href="#hosting">Hosting</a></li>
-                <li><a href="#client">İstemci</a></li>
+                <li><a href="#istemci">İstemci</a></li>
             </ul>
         </li>
-        <li><a href="#hardware-requirements">Donanım Gereksinimleri</a></li>
+        <li><a href="#donanım-gereksinimleri">Donanım Gereksinimleri</a></li>
         <li>
-            <a href="#installation">Kurulum</a>
+            <a href="#kurulum">Kurulum</a>
             <ul>
-                <li><a href="#host-using-port-forwarding">Port İletimi Kullanarak Host</a></li>
-                <li><a href="#host-using-a-vpn">VPN Kullanarak Host</a></li>
-                <li><a href="#client-using-port-forwarding">Port İletimi Kullanarak İstemci</a></li>
-                <li><a href="#client-using-a-vpn">VPN Kullanarak İstemci</a></li>
+                <li><a href="#port-yönlendirme-kullanarak-host">Port Yönlendirme Kullanarak Host</a></li>
+                <li><a href="#vpn-kullanarak-host">VPN Kullanarak Host</a></li>
+                <li><a href="#port-yönlendirme-kullanarak-istemci">Port Yönlendirme Kullanarak İstemci</a></li>
+                <li><a href="#vpn-kullanarak-istemci">VPN Kullanarak İstemci</a></li>
             </ul>
         </li>
         <li>
-            <a href="#features-and-configuration">Özellikler ve Yapılandırma</a>
+            <a href="#özellikler-ve-yapılandırma">Özellikler ve Yapılandırma</a>
             <ul>
-                <li><a href="#features--how-to">Özellikler & Nasıl Yapılır</a></li>
-                <li><a href="#client-configuration">İstemci Yapılandırma</a></li>
-                <li><a href="#server-configuration">Sunucu Yapılandırma</a></li>
+                <li><a href="#özellikler-ve-rehber">Özellikler & Rehber</a></li>
+                <li><a href="#istemci-yapılandırması">İstemci Yapılandırması</a></li>
+                <li><a href="#sunucu-yapılandırması">Sunucu Yapılandırması</a></li>
             </ul>
         </li>
     </ol>
@@ -48,7 +48,7 @@ Bu proje, [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/le
 - Büyük ölçekli halka açık sunucuları barındıramazsınız, Fika arkadaşlarınızla COOP için tasarlanmıştır.
 - Fika tarafından yapılan kodı kopyalayıp/veya çoğaltamazsınız, ayrıca geliştiricilerimiz ve sanatçılarımız tarafından el ile yapılan varlıkları kullanamazsınız.
  
-## Önkoşullar
+## Gereksinimler
 
 Fika, bilgisayarlar, ağlar ve Aki hakkında genel bilgi gerektirir. Bu konseptlerle rahat hissetmiyorsanız, bu proje sizin için değildir. Lütfen bunu anlamaya ve saygı göstermeye çalışın.
 
@@ -63,7 +63,7 @@ Fika, bilgisayarlar, ağlar ve Aki hakkında genel bilgi gerektirir. Bu konseptl
 
 Port yönlendirmesi yapamazsanız, `Hamachi`, `ZeroTier` veya `Radmin` gibi bir VPN kullanabilirsiniz.
 
-### Client
+### Istemci
 
 - Port Forwarding veya UPnP destekleyen bir yönlendirici ve ISP | NOT: Bu, oyun içinde barındırıyorsanız gereklidir
 - P2P trafiği için UDP Port açık, varsayılan 25565 (UPnP kullanıyorsanız bu gerekli değildir) | NOT: Yukarıdakiyle aynı
@@ -88,7 +88,7 @@ Fika için (ve genel olarak SPT'de) en büyük performans kazancı, daha güçl�
 
 ## Kurulum
 
-### Port Forwarding Kullanarak Host
+### Port Yönlendirme Kullanarak Host
 
 Bu adımlara başlamadan önce, Önkoşullar'da gereken tüm portları yönlendirmiş olduğunuzdan emin olun. Portlarınızı açmanıza yardımcı olmayacağız. Yönlendiricinize erişiminiz yoksa veya port yönlendirmesi yapamazsanız, VPN kullanın.
 
@@ -123,7 +123,7 @@ Bu adımlara başlamadan önce, Önkoşullar'da gereken tüm portları yönlendi
 9. `Aki.Launcher.exe`'yi başlatın
 10. Arkadaşlarınız, [IPv4.ICanHazIP](https://ipv4.icanhazip.com/) sitesini kullanarak WAN IP'nizi bulup, sunucunuza bağlanabilir.
 
-### VPN kullanarak barındırma
+### VPN kullanarak Host
 
 `Hamachi`, `ZeroTier` veya `Radmin` gibi bir VPN'e ihtiyacınız var.
 
@@ -159,7 +159,7 @@ Sahte bir adresle örnekleme (**20.20.56.73**):
 9. `Aki.Launcher.exe`'yi başlatın ve 'Ayarlar'ı tıklayın
 10. `URL` alanında, VPN IP'nizi yansıtacak şekilde değiştirin. 5. adımdaki örneği kullanarak: `http://20.20.56.73:6969` (sonunda herhangi bir ileri eğik çizgi `/` varsa kaldırmayı unutmayın)
 
-### Port Yönlendirme Kullanan İstemci
+### Port Yönlendirme Kullanarak Istemci
 
 1. [En son Fika sürümünü indirin](https://discord.com/channels/1202292159366037545/1224454502531469373)
 2. SPT kurulumunuza gidin ve arşivin içeriğini klasöre çıkartın
@@ -167,7 +167,7 @@ Sahte bir adresle örnekleme (**20.20.56.73**):
 4. `URL` alanını, ana bilgisayarın WAN IP'sini yansıtacak şekilde değiştirin. Örneğin: `http://20.20.56.73:6969` (sonunda herhangi bir ileri eğik çizgi `/` varsa kaldırmayı unutmayın)
 5. Oyun içinde barındırıyorsanız, Windows Güvenlik Duvarı tarafından istendiğinde tüm bağlantılara (genel ve özel) izin verin
 
-### VPN Kullanan İstemci
+### VPN Kullanarak Istemci
 
 1. [En son Fika sürümünü indirin](https://discord.com/channels/1202292159366037545/1224454502531469373)
 2. SPT kurulumunuza gidin ve arşivin içeriğini klasöre çıkartın
@@ -177,7 +177,7 @@ Sahte bir adresle örnekleme (**20.20.56.73**):
 
 ## Özellikler ve Yapılandırma
 
-### Özellikler ve Nasıl Yapılacağı
+### Özellikler ve Rehber
 **Fika**, arkadaşlarınızla COOP oynamak için P2P oturumları barındırmanıza olanak tanır. Sunucu, yapay zeka, mayın tarlaları, keskin nişancı bölgeleri, BTR vb. gibi oyun sırasında çoğu mantığı kontrol eden kişidir. Her istemci kendi zararından sorumludur, hem kendilerine hem de yapay zekaya karşı. Bu, bir yapay zekaya ateş etmenin duyarlı ve hızlı hissettirdiği anlamına gelir.
 
 Bir oyun barındırmak için, bir harita ve zaman seçin, ardından son ekranda `Baskın Barındır`ı tıklayın. Oynayacak olan oyuncuların (kendiniz dahil) miktarını seçin ve yüklenmesini bekleyin. Hazır olduğunda diğer insanlar oturumunuza katılabilir, herkes yüklenmeyi bitirdiğinde otomatik olarak başlayacaktır.
@@ -201,7 +201,7 @@ Bir oyun barındırmak için, bir harita ve zaman seçin, ardından son ekranda 
 
 Bu özelliklerin çoğu [istemci yapılandırmasında](#client-configuration) yapılandırılır.
 
-### İstemci Yapılandırması
+### Istemci Yapılandırması
 
 Oyundayken istemci yapılandırmanızı açmak için `F12` tuşuna basın. Ayarları yapılandırmak için `Fika Core` bölümüne gidin.
 
