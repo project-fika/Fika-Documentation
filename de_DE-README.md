@@ -16,9 +16,9 @@
         <li>
             <a href="#installation">Installation</a>
             <ul>
-                <li><a href="#hosten-mit-portfreigabe">Hosten mit Portweiterleitung</a></li>
+                <li><a href="#hosten-mit-portfreigabe">Hosten mit Portfreigabe</a></li>
                 <li><a href="#hosten-mit-einem-vpn">Hosten mit einem VPN</a></li>
-                <li><a href="#client-mit-portfreigabe">Client mit Portweiterleitung</a></li>
+                <li><a href="#client-mit-portfreigabe">Client mit Portfreigabe</a></li>
                 <li><a href="#client-mit-einem-vpn">Client mit einem VPN</a></li>
             </ul>
         </li>
