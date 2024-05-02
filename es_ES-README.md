@@ -3,7 +3,7 @@
 <details open>
     <summary>Tabla de contenidos</summary>
     <ol>
-        <li><a href="#¿qué-es-fika?">¿Que es Fika?</a></li>
+        <li><a href="#qué-es-fika">Qué es Fika</a></li>
         <li><a href="#licencia">Licencia</a></li>
         <li>
             <a href="#prerrequisitos">Prerrequisitos</a>
@@ -12,13 +12,13 @@
                 <li><a href="#cliente">Cliente</a></li>
             </ul>
         </li>
-        <li><a href="#requisitos de Hardware">Requisitos de hardware</a></li>
+        <li><a href="#requisitos-de-hardware">Requisitos de Hardware</a></li>
         <li>
             <a href="#instalación">Instalación</a>
             <ul>
                 <li><a href="#hostear-usando-redirección-de-puertos">Hostear usando redirección de puertos</a></li>
                 <li><a href="#hostear-usando-una-vpn">Hostear usando una VPN</a></li>
-                <li><a href="#cliente-usando-la-redirección-de-puertos">Cliente usando redirección de puertos</a></li>
+                <li><a href="#cliente-usando-redirección-de-puertos">Cliente usando redirección de puertos</a></li>
                 <li><a href="#cliente-usando-una-vpn">Cliente usando una VPN</a></li>
             </ul>
         </li>
@@ -33,7 +33,7 @@
     </ol>
 </details>
 
-## ¿Qué es Fika?
+## Qué es Fika
 
 **Fika** es un mod para **SPT-Aki** que te permite jugar en COOPERATIVO con tus amigos. Utiliza una conexión P2P-UDP para una experiencia moderna y del alto rendimiento. Los objetivos principales de Fika son: rendimiento, precisión y soporte de mods. Fika está actualmente mantenido por el equipo de Fika.
 ¡Puedes unirte a nuestro Discord [aqui](https://discord.gg/project-fika)!.
@@ -162,7 +162,7 @@ Ejemplo con una dirección IP falsa: (**20.20.56.73**):
 9. Ejecuta `Aki.Launcher.exe` y da clic en 'Settings'.
 10. En el campo de `URL`, modifícalo con la IP de tu VPN. Usando el ejemplo del paso 5 seria: `http://20.20.56.73:6969` (recuerda eliminar las barras diagonales finales `/`).
 
-### Cliente usando la redirección de puertos
+### Cliente usando redirección de puertos
 
 1. [Descarga la última versión de Fika](https://discord.com/channels/1202292159366037545/1224454502531469373).
 2. Dirígete a tu ruta de instalación de SPT y extrae el contenido del archivo dentro de la carpeta.
@@ -188,7 +188,7 @@ Para hostear una raid, selecciona un mapa y tiempo, y en la pantalla final presi
 **Otras características de Fika**
 - Envió de objetos.
     - Clic derecho a un objeto dentro de tu alijo para enviar a otra cuenta.
-    - Puede ser personalizado en la configuración del [servidor](#server-configuration).
+    - Puede ser personalizado en la configuración del [servidor](#configuración-del-servidor).
 - Cámara libre (Por defecto la tecla `F9`).
     - En la cámara libre puedes teletransportarte a la posición de la cámara presionando la tecla `T`.
     - Puedes saltar a otro jugador con clic `Izquierdo/Derecho`.
@@ -203,7 +203,7 @@ Para hostear una raid, selecciona un mapa y tiempo, y en la pantalla final presi
 - Sistema de Pings, para hacer ping a una zona en el juego para tus compañeros de equipo.
 - Barras de salud para tus compañeros de equipo.
 
-La mayoría de estas características son configuradas en [Configuración del cliente](#client-configuration).
+La mayoría de estas características son configuradas en [Configuración del cliente](#configuración-del-cliente).
 
 ### Configuración del cliente
 
