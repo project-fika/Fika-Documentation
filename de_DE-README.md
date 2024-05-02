@@ -16,9 +16,9 @@
         <li>
             <a href="#installation">Installation</a>
             <ul>
-                <li><a href="#hosten-mit-portweiterleitung">Hosten mit Portweiterleitung</a></li>
+                <li><a href="#hosten-mit-portfreigabe">Hosten mit Portfreigabe</a></li>
                 <li><a href="#hosten-mit-einem-vpn">Hosten mit einem VPN</a></li>
-                <li><a href="#client-mit-portweiterleitung">Client mit Portweiterleitung</a></li>
+                <li><a href="#client-mit-portfreigabe">Client mit Portfreigabe</a></li>
                 <li><a href="#client-mit-einem-vpn">Client mit einem VPN</a></li>
             </ul>
         </li>
@@ -35,7 +35,7 @@
 
 ## Was ist Fika?
 
-**Fika** ist ein Mod für **SPT-Aki** der es dir erlaubt COOP mit deinen Freunden zu spielen. Es benutzt eine P2P-UDP Verbindung um ein modernes und performantes Spielerlebnis zu ermöglichen. Die Hauptziele von Fika sind: Performance, Präzession und Modunterstützung. Fika wird aktuell vom Fika Team entwickelt und betreut.
+**Fika** ist eine Mod für **SPT-Aki** mit der es möglich ist COOP mit deinen Freunden zu spielen. Fika nutzt eine P2P-UDP Verbindung um ein modernes und performantes Spielerlebnis zu ermöglichen. Die Hauptziele von Fika sind: Performance, Präzision und Modunterstützung. Fika wird aktuell vom Fika Team entwickelt und betreut.
 Du kannst unserem Discord hier [beitreten](https://discord.gg/project-fika)!
 
 ## Lizenz
@@ -46,27 +46,27 @@ Dieses Projekt ist unter der folgenden Lizenz lizenziert [CC BY-NC-SA 4.0](https
 
 - Fika darf nur unter Einbezug der Lizenz weiterverbreitet, nicht für kommerzielle Zwecke genutzt und nicht modifiziert werden.
 - Server dürfen nicht monetarisiert werden weder über Spenden noch über andere Zahlungen.
-- Es dürfen keine öffentlichen Massenserver gehostet werden. Der Sinn von Fika ist es COOP mit Freunden spielen zu können.
+- Es dürfen keine öffentlichen Server gehostet werden. Der Sinn von Fika ist es COOP mit Freunden spielen zu können.
 - Es ist nicht erlaubt Fikas Code zu kopieren oder zu replizieren. Es ist zudem nicht gestattet die von den Entwicklern und Künstlern erstellten Assets zu verwenden.
 
 ## Voraussetzungen
 
-Fika benötigt generelles Verständnis von Computern, Netzwerken und Aki. Wenn du nicht mit diesen Konzepten vertraut bist ist dieses Projekt eher nichts für dich. Wir bitten dich um Verständnis und diese Entscheidung zu aktzeptieren.
+Um Fika nutzen zo können, benötigt man ein generelles Verständnis von Computern, Netzwerken und Aki. Wenn du nicht mit diesen Konzepten vertraut bist ist dieses Projekt eher nichts für dich. Wir bitten dich um Verständnis und diese Entscheidung zu aktzeptieren.
 
 ### Hosten
 
-- Router und Internetprovider mit Unterstützung für **Portweiterleitung** oder **UPnP**
+- Router und Internetanbieter mit Unterstützung für **Portfreigaben** oder **UPnP**
 - TCP Port 6969 muss für den AKI Server geöffnet werden
 - UDP Port muss für den P2P Verkehr geöffnet werden, Standardport 25565 (wenn UPnP verwendet werden kann ist dieser Schritt nicht notwendig)
 - SPT muss installiert sein und funktionieren, die installierte SPT Version muss zur Fika Version passen die verwendet werden soll
-- Es wird Zugang zur Windows Firewall benötigt sowie die lokalen Berechtigungen diese Anzupassen
+- Es wird Zugang zur Windows Firewall benötigt sowie die lokalen Berechtigungen um diese Anzupassen
 - Eine Internetverbindung von mindestens 20 Mbit/s Upstream und Downstream wird empfohlen. Jeder Client benötigt im Durchschnitt 400 kbit/s.
 
-Sollte Portweiterleitung nicht möglich sein kann auf VPNs wie `Hamachi`, `ZeroTier` oder `Radmin` zurückgegriffen werden.
+Sollten Portfreigaben nicht möglich sein kann auf VPNs wie `Hamachi`, `ZeroTier` oder `Radmin` zurückgegriffen werden.
 
 ### Client
 
-- Router und Internetprovider mit Unterstützung für **Portweiterleitung** oder **UPnP** | **Notiz**: Diese Vorraussetzung besteht nur für den Client der im Spiel die Sitzung erstellt
+- Router und Internetanbieter mit Unterstützung für **Portfreigabe** oder **UPnP** | **Notiz**: Diese Vorraussetzung besteht nur für den Client der im Spiel die Sitzung erstellt
 - UDP Port muss für den P2P Verkehr geöffnet werden, Standardport 25565 (wenn UPnP verwendet werden kann ist dieser Schritt nicht notwendig) | **Notiz**: Diese Vorraussetzung besteht nur für den Client der im Spiel die Sitzung erstellt
 - SPT muss installiert sein und funktionieren, die installierte SPT Version muss zur Fika Version passen die verwendet werden soll
 - Es wird Zugang zur Windows Firewall benötigt sowie die lokalen Berechtigungen diese Anzupassen
@@ -82,39 +82,39 @@ Folgende Hardware wird für ein gutes Spielerlebnis vorrausgesetzt:
 
 - **CPU**: i7 8700k / Ryzen 7 2700x
 - **GPU**: GTX 1060 / RX 580
-- **Memory** 16 GB mindestens, 32 GB sehr empfohlen
+- **Memory** 16 GB mindestens, 32 GB empfohlen
 - **Storage**: Eine SSD wird vorrausgesetzt, es wird keinen Support für den Einsatz von Fika auf einer HDD geben
 
 Die beste Performance für Fika bzw. SPT im allgemeinen erzielt man mit einer starken CPU und mehr RAM.
 
 ## Installation
 
-### Hosten mit Portweiterleitung
+### Hosten mit Portfreigabe
 
-Bevor diese Schritte abgearbeitet werden sollte sichergestellt werden, dass die Ports aus den Vorraussetzungen weitergeleitet werden. Wir bieten keine Hilfe bezüglich Portweiterleitung an. Wenn keine Portweiterleitung möglich ist oder kein Zugang zum Router besteht sollte ein VPN verwendet werden. 
+Bevor diese Schritte abgearbeitet werden sollte sichergestellt werden, dass die Ports aus den Vorraussetzungen geöffnet sind. Wir bieten keine Hilfe bezüglich Portfreigabe an. Wenn keine Portfreigabe möglich ist oder kein Zugang zum Router besteht sollte ein VPN verwendet werden. 
 
 **Firewall Konfiguration**
 
-1. Portweiterleitung für Port 6969 **TCP** der im Router weitergeleitet wurde (Eingehend und Ausgehend)
-2. Portweiterleitung für den **UDP** Port der im Router weitergeleitet wurde, Standardport ist 25565 (Eingehend und Ausgehend)
+1. Portfreigabe für Port 6969 **TCP** der im Router weitergeleitet wurde (Eingehend und Ausgehend)
+2. Portfreigabe für den **UDP** Port der im Router weitergeleitet wurde, Standardport ist 25565 (Eingehend und Ausgehend)
 3. Wenn die Aufforderung von der Windows Firewall erscheint müssen alle Verbindungen (Öffentlich und Privat) für den Prozess freigegeben werden
 4. Wenn weiterhin Probleme bestehen sollten: EscapeFromTarkov.exe (jeder Client) und AKI.Server.exe (Server host) für eingehende und ausgehende Verbindungen in der Windows Advanced Firewall hinzugefügen
 
 **Allgemeines Setup**
 
 1. [Aktuellsten Fika Release herunterladen](https://discord.com/channels/1202292159366037545/1224454502531469373)
-2. Navigiere zum SPT Ordner und entpacke den Inhalt der eben heruntergeladenen Datei in diesen
-3. Starte die `Aki.Server.exe` einmalig damit alle Konfigurationsdatein für Fika erstellt werden, dann kann der Server wieder gestoppt werden (ca 20 Sekunden je nach System)
-4. Navigiere zurück in den SPT Ordner und navigiere dort in den `Aki_Data\Server\configs` Ordner. Öffne die `http.json`
+2. Navigiere zum SPT Ordner und entpacke die heruntergeladenen Datei in diesen
+3. Starte `Aki.Server.exe` einmalig damit alle Konfigurationsdatein für Fika erstellt werden, dann kann der Server wieder gestoppt werden (nach ca 20 Sekunden je nach System)
+4. Navigiere zurück in den SPT Ordner und navigiere dort in den `Aki_Data\Server\configs` Ordner. Öffne `http.json`
 5. Ändere `ip` zu `0.0.0.0`, dann speichere und schließe die Datei
 6. Navigiere zurück in den SPT Ordner und dann in `user\mods\fika-server\assets\configs` und öffne `fika.jsonc`
 7. Ändere die folgenden Einstellung so wie du sie haben möchtest. Speichere und schließe die Datei danach.
-    - **useBtr**: Streets Soll der BTR auf Streets of Tarkov spawnen?
+    - **useBtr**: Soll der BTR auf Streets of Tarkov spawnen?
     - **friendlyFire**: Soll Friendly fire erlaubt sein?
     - **dynamicVExfils**: Die Fahrzeug Extracts werden dynamisch angepasst je nachdem wie viele Spieler sich im Raid befinden
     - **allowFreeCam**: Erlaubt den Spielern im Raid die freie Kamera zu aktivieren und zu verwenden
     - **giftedItemsLoseFIR**: Items die zu einem anderen Spieler versendet werden verlieren ihren "Gefunden im Raid" Status
-8. Starte die `Aki.Server.exe` und warte das der Server vollständig geladen hat.
+8. Starte `Aki.Server.exe` und warte das der Server vollständig geladen hat.
     - So sieht ein erfolgreicher Start aus:
     ```
     Started webserver at http://0.0.0.0:6969
@@ -122,16 +122,16 @@ Bevor diese Schritte abgearbeitet werden sollte sichergestellt werden, dass die 
     Server is running, do not close while playing SPT, Happy playing!!
     ```
 9. Starte `Aki.Launcher.exe`
-10. Andere Spieler können sich nun auf den Server verbinden indem Sie die WAN IP des Hosts angeben, diese kann man über folgende Seite herausfinden [IPv4.ICanHazIP](https://ipv4.icanhazip.com/)
+10. Andere Spieler können nun deinem Server beitreten indem Sie die WAN IP des Hosts angeben, diese kann man über folgende Seite herausfinden [IPv4.ICanHazIP](https://ipv4.icanhazip.com/)
 
 ### Hosten mit einem VPN
 
 Es wird ein VPN wie z.b. `Hamachi`, `ZeroTier` oder `Radmin` benötigt. 
 
 1. [Aktuellsten Fika Release herunterladen](https://discord.com/channels/1202292159366037545/1224454502531469373)
-2. Navigiere zum SPT Ordner und entpacke den Inhalt der eben heruntergeladenen Datei in diesen
-3. Starte die `Aki.Server.exe` einmalig damit alle Konfigurationsdatein für Fika erstellt werden, dann kann der Server wieder gestoppt werden (ca 20 Sekunden je nach System)
-4. Navigiere zurück in den SPT Ordner und navigiere dort in den `Aki_Data\Server\configs` Ordner. Öffne die `http.json`
+2. Navigiere zum SPT Ordner und entpacke die heruntergeladenen Datei in diesen
+3. Starte `Aki.Server.exe` einmalig damit alle Konfigurationsdatein für Fika erstellt werden, dann kann der Server wieder gestoppt werden (nach ca 20 Sekunden je nach System)
+4. Navigiere zurück in den SPT Ordner und navigiere dort in den `Aki_Data\Server\configs` Ordner. Öffne `http.json`
 5. Ändere die `ip` zu deiner VPN IP, dann speichere und schließe die Datei
 
 Beispiel mit einer Fake Addresse (**20.20.56.73**):
@@ -159,14 +159,14 @@ Beispiel mit einer Fake Addresse (**20.20.56.73**):
     Server is running, do not close while playing SPT, Happy playing!!
     ```
 9. Starte `Aki.Launcher.exe` und klicke auf 'Settings'
-10. Gib im `URL` Feld die VPN IP ein. Mit dem Beispiel aus Schritt 5 würde das so aussehen: `http://20.20.56.73:6969` (daran denken, dass keine führenden `/` hinter dem Port stehen)
+10. Gib im `URL` Feld die VPN IP ein. Mit dem Beispiel aus Schritt 5 würde das so aussehen: `http://20.20.56.73:6969` (achte darauf, dass keine führenden `/` hinter dem Port stehen)
 
-### Client mit Portweiterleitung
+### Client mit Portfreigabe
 
 1. [Aktuellsten Fika Release herunterladen](https://discord.com/channels/1202292159366037545/1224454502531469373)
 2. Navigiere zum SPT Ordner und entpacke den Inhalt der eben heruntergeladenen Datei in diesen
 3. Starte `Aki.Launcher.exe` und klicke auf 'Settings'
-4. Gib im `URL` Feld die WAN IP ein. Als Beispiel könnte das so aussehen: `http://20.20.56.73:6969` (daran denken, dass keine führenden `/` hinter dem Port stehen)
+4. Gib im `URL` Feld die WAN IP ein. Als Beispiel könnte das so aussehen: `http://20.20.56.73:6969` (achte darauf, dass keine führenden `/` hinter dem Port stehen)
 5. Wenn der Client Ingame die Session erstellen soll müssen alle Verbindungen (Öffentlich und Privat) freigegeben werden wenn die Aufforderung von der Windows Firewall erscheint
 
 ### Client mit einem VPN
@@ -174,7 +174,7 @@ Beispiel mit einer Fake Addresse (**20.20.56.73**):
 1. [Aktuellsten Fika Release herunterladen](https://discord.com/channels/1202292159366037545/1224454502531469373)
 2. Navigiere zum SPT Ordner und entpacke den Inhalt der eben heruntergeladenen Datei in diesen
 3. Starte `Aki.Launcher.exe` und klicke auf 'Settings'
-4. Gib im `URL` Feld die VPN IP ein. Mit dem Beispiel aus Schritt 5 würde das so aussehen: `http://20.20.56.73:6969` (daran denken, dass keine führenden `/` hinter dem Port stehen)
+4. Gib im `URL` Feld die VPN IP ein. Mit dem Beispiel aus Schritt 5 würde das so aussehen: `http://20.20.56.73:6969` (achte darauf, dass keine führenden `/` hinter dem Port stehen)
 5. Wenn der Client Ingame die Session erstellen soll müssen alle Verbindungen (Öffentlich und Privat) freigegeben werden wenn die Aufforderung von der Windows Firewall erscheint
 
 ## Features und Konfigurationen
