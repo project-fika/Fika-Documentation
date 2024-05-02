@@ -3,8 +3,8 @@
 <details open>
     <summary>Tabla de contenidos</summary>
     <ol>
-        <li><a href="#what-is-fika">¿Que es Fika?</a></li>
-        <li><a href="#license">Licencia</a></li>
+        <li><a href="#¿que-es-fika?">¿Que es Fika?</a></li>
+        <li><a href="#licencia">Licencia</a></li>
         <li>
             <a href="#prerequisites">Prerrequisitos</a>
             <ul>
