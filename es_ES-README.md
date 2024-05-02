@@ -3,31 +3,31 @@
 <details open>
     <summary>Tabla de contenidos</summary>
     <ol>
-        <li><a href="#¿que-es-fika?">¿Que es Fika?</a></li>
+        <li><a href="#¿qué-es-fika?">¿Que es Fika?</a></li>
         <li><a href="#licencia">Licencia</a></li>
         <li>
-            <a href="#prerequisites">Prerrequisitos</a>
+            <a href="#prerrequisitos">Prerrequisitos</a>
             <ul>
-                <li><a href="#hosting">Hosteo</a></li>
-                <li><a href="#client">Cliente</a></li>
+                <li><a href="#hosteo">Hosteo</a></li>
+                <li><a href="#cliente">Cliente</a></li>
             </ul>
         </li>
-        <li><a href="#hardware-requirements">Requisitos de hardware</a></li>
+        <li><a href="#requisitos de Hardware">Requisitos de hardware</a></li>
         <li>
-            <a href="#installation">Instalación</a>
+            <a href="#instalación">Instalación</a>
             <ul>
-                <li><a href="#host-using-port-forwarding">Hosteo usando redirección de puertos</a></li>
-                <li><a href="#host-using-a-vpn">Hosteo usando una VPN</a></li>
-                <li><a href="#client-using-port-forwarding">Cliente usando redirección de puertos</a></li>
-                <li><a href="#client-using-a-vpn">Cliente usando una VPN</a></li>
+                <li><a href="#hostear-usando-redirección-de-puertos">Hostear usando redirección de puertos</a></li>
+                <li><a href="#hostear-usando-una-vpn">Hostear usando una VPN</a></li>
+                <li><a href="#cliente-usando-la-redirección-de-puertos">Cliente usando redirección de puertos</a></li>
+                <li><a href="#cliente-usando-una-vpn">Cliente usando una VPN</a></li>
             </ul>
         </li>
         <li>
-            <a href="#features-and-configuration">Características y configuración</a>
+            <a href="#características-y-configuración">Características y configuración</a>
             <ul>
-                <li><a href="#features--how-to">Características y cómo</a></li>
-                <li><a href="#client-configuration">Configuración del cliente</a></li>
-                <li><a href="#server-configuration">Configuración del servidor</a></li>
+                <li><a href="#características-y-cómo">Características y cómo</a></li>
+                <li><a href="#configuración-del-cliente">Configuración del cliente</a></li>
+                <li><a href="#configuración-del-servidor">Configuración del servidor</a></li>
             </ul>
         </li>
     </ol>
@@ -124,7 +124,7 @@ Antes de comenzar con los siguientes pasos, asegúrate de que tienes todos los p
 9. Ejecuta `Aki.Launcher.exe`
 10. Tus amigos pueden conectarse a tu servidor usando tu IP WAN, la cual puedes verificar en la página [IPv4.ICanHazIP](https://ipv4.icanhazip.com/).
 
-### Hostear un servidor con una VPN
+### Hostear usando una VPN
 
 Necesitaras una VPN como `Hamachi`, `ZeroTier` o `Radmin`. 
 
