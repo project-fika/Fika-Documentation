@@ -36,7 +36,7 @@
 ## 关于 Fika
 
 **Fika** 是一款能让你与好友一起体验合作乐趣的 **SPT-Aki** 模组。该模组使用了一种更新式且高效的 P2P-UDP 连接方式。Fika 的主要目标是：高性能、高准度，以及模组支持。该项目目前由 Fika 团队开发和维护。
-你可以通过 [这里](https://discord.gg/project-fika) 加入我们的 Discord 频道！
+你可以通过 [这里](https://discord.gg/project-fika) 加入我们的 Discord 群组！
 
 ## 授权许可
 
@@ -47,7 +47,7 @@
 - 你仅能够在标明来源，且不更改项目内容的情况下分享 Fika，但不可用于商业用途。
 - 你不能以任何形式利用你所开放的服务器收取费用。
 - 你不能部署大型公共服务器，Fika 的宗旨是与好友合作。
-- 你不能复制粘贴任何 Fika 的代码，或使用由我们开发人员和美工制作的任何资产。
+- 你不能复制粘贴任何 Fika 的代码，或使用我们开发人员和美工制作的任何资产。
 
 ## 准备工作
 
@@ -101,7 +101,7 @@
 
 **基础配置**
 
-1. [下载最新版本的 Fika 文件](https://discord.com/channels/1202292159366037545/1224454502531469373)
+1. [下载最新版本的 Fika 文件](https://discord.com/channels/1202292159366037545/1224454502531469373) (得先加入我们的 [Discord](https://discord.gg/project-fika) 链接才有效)
 2. 把 Fika 的文件解压到你的 SPT 安装路径里
 3. 运行一次 `Aki.Server.exe` 以生成 Fika 的配置文件，然后将其关闭。
 4. 回到 SPT 的主文件夹，在 `Aki_Data\Server\configs` 路径中打开名称为 `http.json` 的文件
@@ -127,7 +127,7 @@
 
 你需要用到 `Hamachi`，`ZeroTier`，或 `Radmin` 之类的软件
 
-1. [下载最新版本的 Fika 文件](https://discord.com/channels/1202292159366037545/1224454502531469373)
+1. [下载最新版本的 Fika 文件](https://discord.com/channels/1202292159366037545/1224454502531469373) (得先加入我们的 [Discord](https://discord.gg/project-fika) 链接才有效)
 2. 把 Fika 的文件解压到你的 SPT 安装路径里
 3. 运行一次 `Aki.Server.exe` 以生成 Fika 的配置文件，然后将其关闭。
 4. 回到 SPT 的主文件夹，在 `Aki_Data\Server\configs` 路径中打开名称为 `http.json` 的文件
@@ -162,7 +162,7 @@
 
 ### 客机：端口映射篇
 
-1. [下载最新版本的 Fika 文件](https://discord.com/channels/1202292159366037545/1224454502531469373)
+1. [下载最新版本的 Fika 文件](https://discord.com/channels/1202292159366037545/1224454502531469373) (得先加入我们的 [Discord](https://discord.gg/project-fika) 链接才有效)
 2. 把 Fika 的文件解压到你的 SPT 安装路径里
 3. 运行 `Aki.Launcher.exe` 然后点开右上角的 '设置'
 4. 找到 `URL` 一栏，改为主机的公网 IP（同理，只改 IP 部分的数字即可）
@@ -170,7 +170,7 @@
 
 ### 客机：VPN 篇
 
-1. [下载最新版本的 Fika 文件](https://discord.com/channels/1202292159366037545/1224454502531469373)
+1. [下载最新版本的 Fika 文件](https://discord.com/channels/1202292159366037545/1224454502531469373) (得先加入我们的 [Discord](https://discord.gg/project-fika) 链接才有效)
 2. 把 Fika 的文件解压到你的 SPT 安装路径里
 3. 运行 `Aki.Launcher.exe` 然后点开右上角的 '设置'
 4. 找到 `URL` 一栏，改为 VPN 软件中显示的主机 IP（同理，只改 IP 部分的数字即可）
