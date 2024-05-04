@@ -62,7 +62,7 @@ Fika requires general knowledge of computers, networking and Aki. If you are not
 - Access to your Windows Firewall
 - Internet speed of at least 20 Mbit/s up and down is recommended. Each client averages around 400 kbit/s.
 
-If you can not port forward, you can use a VPN like `Hamachi`, `ZeroTier` or `Radmin`.
+If you can not port forward, you can use a VPN like `ZeroTier` or `Radmin`.
 
 ### Client
 
@@ -102,8 +102,7 @@ Before starting these steps, make sure you have port forwarded all required port
 
 **General Setup**
 
-1. [Download the latest Fika build](https://discord.com/channels/1202292159366037545/1224454502531469373) (you have to join our [Discord](https://discord.gg/project-fika) first)
-2. Navigate to your SPT installation and extract the contents of the archive into the folder
+1. [Download the latest Fika plugin](https://github.com/project-fika/Fika-Plugin/releases/latest) and [download the latest Fika server mod](https://github.com/project-fika/Fika-Server/releases/latest)
 3. Start up the `Aki.Server.exe` once to let it generate the configuration files for Fika, then close it again
 4. Go back to the main folder and navigate to `Aki_Data\Server\configs` and open `http.json`
 5. Change `ip` to `0.0.0.0`, then save the file and close it
@@ -128,7 +127,7 @@ Before starting these steps, make sure you have port forwarded all required port
 
 You need a VPN like `Hamachi`, `ZeroTier` or `Radmin`. 
 
-1. [Download the latest Fika build](https://discord.com/channels/1202292159366037545/1224454502531469373) (you have to join our [Discord](https://discord.gg/project-fika) first)
+1. [Download the latest Fika plugin](https://github.com/project-fika/Fika-Plugin/releases/latest) and [download the latest Fika server mod](https://github.com/project-fika/Fika-Server/releases/latest)
 2. Navigate to your SPT installation and extract the contents of the archive into the folder
 3. Start up the `Aki.Server.exe` once to let it generate the configuration files for Fika, then close it again
 4. Go back to the main folder and navigate to `Aki_Data\Server\configs` and open `http.json`
@@ -163,7 +162,7 @@ Example with a fake address (**20.20.56.73**):
 
 ### Client using port forwarding
 
-1. [Download the latest Fika build](https://discord.com/channels/1202292159366037545/1224454502531469373)
+1. [Download the latest Fika plugin](https://github.com/project-fika/Fika-Plugin/releases/latest)
 2. Navigate to your SPT installation and extract the contents of the archive into the folder
 3. Start `Aki.Launcher.exe` and click 'Settings'
 4. In the `URL` field, change it to reflect the hosts WAN IP. For exampleit would be: `http://20.20.56.73:6969` (remember to remove any trailing forward slashes `/`)
@@ -171,7 +170,7 @@ Example with a fake address (**20.20.56.73**):
 
 ### Client using a VPN
 
-1. [Download the latest Fika build](https://discord.com/channels/1202292159366037545/1224454502531469373)
+1. [Download the latest Fika plugin](https://github.com/project-fika/Fika-Plugin/releases/latest)
 2. Navigate to your SPT installation and extract the contents of the archive into the folder
 3. Start `Aki.Launcher.exe` and click 'Settings'
 4. In the `URL` field, change it to reflect the hosts VPN IP. Using the example in step 5 it would be: `http://20.20.56.73:6969` (remember to remove any trailing forward slashes `/`)
