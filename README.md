@@ -139,7 +139,7 @@ Example with a fake address (**20.20.56.73**):
     "ip": "20.20.56.73",
     "port": 6969,
     "backendIp": "20.20.56.73",
-	"backendPort": 6969,
+    "backendPort": 6969,
     "webSocketPingDelayMs": 90000,
     "logRequests": true,
     "serverImagePathOverride": {}
