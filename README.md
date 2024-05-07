@@ -105,7 +105,7 @@ Before starting these steps, make sure you have port forwarded all required port
 1. [Download the latest Fika plugin](https://github.com/project-fika/Fika-Plugin/releases/latest) and [download the latest Fika server mod](https://github.com/project-fika/Fika-Server/releases/latest)
 3. Start up the `Aki.Server.exe` once to let it generate the configuration files for Fika, then close it again
 4. Go back to the main folder and navigate to `Aki_Data\Server\configs` and open `http.json`
-5. Change `ip` to `0.0.0.0`, then save the file and close it
+5. Change `ip` to `0.0.0.0` and `backendIp` to your [WAN IP](https://ipv4.icanhazip.com/), then save the file and close it
 6. Navigate to `user\mods\fika-server\assets\configs` and open `fika.jsonc`
 7. Change any of the settings according to your likings.
     - **useBtr**: if the BTR should spawn or not when playing Streets
@@ -131,13 +131,15 @@ You need a VPN like `Hamachi`, `ZeroTier` or `Radmin`.
 2. Navigate to your SPT installation and extract the contents of the archive into the folder
 3. Start up the `Aki.Server.exe` once to let it generate the configuration files for Fika, then close it again
 4. Go back to the main folder and navigate to `Aki_Data\Server\configs` and open `http.json`
-5. Change `ip` to your VPN IP, then save the file and close it
+5. Change `ip` and `backendIp` to your VPN IP, then save the file and close it
 
 Example with a fake address (**20.20.56.73**):
 ```json
 {
     "ip": "20.20.56.73",
     "port": 6969,
+    "backendIp": "20.20.56.73",
+	"backendPort": 6969,
     "webSocketPingDelayMs": 90000,
     "logRequests": true,
     "serverImagePathOverride": {}
@@ -159,6 +161,7 @@ Example with a fake address (**20.20.56.73**):
     ```
 9. Start `Aki.Launcher.exe` and click 'Settings'
 10. In the `URL` field, change it to reflect your VPN IP. Using the example in step 5 it would be: `http://20.20.56.73:6969` (remember to remove any trailing forward slashes `/`)
+11. Start the game, and once your account is created set both `Force IP` and `Force Bind IP` to your personal VPN IP.
 
 ### Client using port forwarding
 
