@@ -31,10 +31,9 @@
     </ol>
 </details>
 
-
 ## Fika Nedir
 
-**Fika**, arkadaşlarınızla COOP oynamanıza olanak sağlayan bir **SPT-Aki** modudur. Modern ve performanslı bir deneyim için P2P-UDP bağlantısı kullanır. Fika'nın ana hedefleri: performans, doğruluk ve mod desteği. Fika şu anda Fika ekibi tarafından bakım altında. 
+**Fika**, arkadaşlarınızla COOP oynamanıza olanak sağlayan bir **SPT-Aki** modudur. Modern ve performanslı bir deneyim için P2P-UDP bağlantısı kullanır. Fika'nın ana hedefleri: performans, doğruluk ve mod desteği. Fika şu anda Fika ekibi tarafından bakım altında.
 Discord'umuza [buradan](https://discord.gg/project-fika)! katılabilirsiniz!
 
 ## Lisans
@@ -47,7 +46,7 @@ Bu proje, [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/le
 - Sunucunuzu ödeme veya bağışlar açısından para kazanamazsınız.
 - Büyük ölçekli halka açık sunucuları barındıramazsınız, Fika arkadaşlarınızla COOP için tasarlanmıştır.
 - Fika tarafından yapılan kodı kopyalayıp/veya çoğaltamazsınız, ayrıca geliştiricilerimiz ve sanatçılarımız tarafından el ile yapılan varlıkları kullanamazsınız.
- 
+
 ## Gereksinimler
 
 Fika, bilgisayarlar, ağlar ve Aki hakkında genel bilgi gerektirir. Bu konseptlerle rahat hissetmiyorsanız, bu proje sizin için değildir. Lütfen bunu anlamaya ve saygı göstermeye çalışın.
@@ -73,7 +72,7 @@ Port yönlendirmesi yapamazsanız, `Hamachi`, `ZeroTier` veya `Radmin` gibi bir 
 
 ### Her İki Taraf
 
- - En son Fika dosyaları
+- En son Fika dosyaları
 
 ## Donanım Gereksinimleri
 
@@ -106,20 +105,20 @@ Bu adımlara başlamadan önce, Önkoşullar'da gereken tüm portları yönlendi
 3. `Aki.Server.exe`'yi bir kez başlatın ve Fika için yapılandırma dosyalarını oluşturmasına izin verin, ardından tekrar kapatın
 4. Ana klasöre geri dönün ve `Aki_Data\Server\configs` klasörüne gidin ve `http.json`'ı açın
 5. `ip`'yi `0.0.0.0` olarak değiştirin, ardından dosyayı kaydedip kapatın
-6. `user\mods\fika-server\assets\configs` klasörüne gidin ve `fika.jsonc`'yi açın
+6. `user\mods\mpt-server\assets\configs` klasörüne gidin ve `mpt.jsonc`'yi açın
 7. Ayarları beğeninize göre değiştirin.
-    - **useBtr**: Streets oynarken BTR'ın spawn olup olmayacağı
-    - **friendlyFire**: Dost ateşinin etkin olup olmayacağı
-    - **dynamicVExfils**: Araçla exfil yapılacak maksimum oyuncu sayısının, raid sırasında oyuncu sayısıyla otomatik olarak ölçeklenip ölçeklenmeyeceği
-    - **allowFreeCam**: Oyuncuların raid sırasında serbestçe free cam'ı açıp açamayacağı
-    - **giftedItemsLoseFIR**: Gönderilen öğelerin FiR durumunu kaybedip kaybetmeyeceği
+   - **useBtr**: Streets oynarken BTR'ın spawn olup olmayacağı
+   - **friendlyFire**: Dost ateşinin etkin olup olmayacağı
+   - **dynamicVExfils**: Araçla exfil yapılacak maksimum oyuncu sayısının, raid sırasında oyuncu sayısıyla otomatik olarak ölçeklenip ölçeklenmeyeceği
+   - **allowFreeCam**: Oyuncuların raid sırasında serbestçe free cam'ı açıp açamayacağı
+   - **giftedItemsLoseFIR**: Gönderilen öğelerin FiR durumunu kaybedip kaybetmeyeceği
 8. `Aki.Server.exe`'yi başlatın ve yüklenmesini bekleyin
-    - Eğer sunucu başarıyla başladıysa böyle görünecektir:
-    ```
-    Web sunucusu başlatıldı: http://0.0.0.0:6969
-    WebSocket başlatıldı: ws://0.0.0.0:6969
-    Sunucu çalışıyor, SPT oynarken kapatmayın, İyi oyunlar!!
-    ```
+   - Eğer sunucu başarıyla başladıysa böyle görünecektir:
+   ```
+   Web sunucusu başlatıldı: http://0.0.0.0:6969
+   WebSocket başlatıldı: ws://0.0.0.0:6969
+   Sunucu çalışıyor, SPT oynarken kapatmayın, İyi oyunlar!!
+   ```
 9. `Aki.Launcher.exe`'yi başlatın
 10. Arkadaşlarınız, [IPv4.ICanHazIP](https://ipv4.icanhazip.com/) sitesini kullanarak WAN IP'nizi bulup, sunucunuza bağlanabilir.
 
@@ -132,30 +131,32 @@ Bu adımlara başlamadan önce, Önkoşullar'da gereken tüm portları yönlendi
 3. `Aki.Server.exe`'yi bir kez başlatın ve Fika için yapılandırma dosyalarını oluşturmasına izin verin, ardından tekrar kapatın
 4. Ana klasöre geri dönün ve `Aki_Data\Server\configs` klasörüne gidin ve `http.json`'ı açın
 5. `ip`'yi VPN IP'nize değiştirin, ardından dosyayı kaydedip kapatın
-Sahte bir adresle örnekleme (**20.20.56.73**):
+   Sahte bir adresle örnekleme (**20.20.56.73**):
+
 ```json
 {
-    "ip": "20.20.56.73",
-    "port": 6969,
-    "webSocketPingDelayMs": 90000,
-    "logRequests": true,
-    "serverImagePathOverride": {}
+  "ip": "20.20.56.73",
+  "port": 6969,
+  "webSocketPingDelayMs": 90000,
+  "logRequests": true,
+  "serverImagePathOverride": {}
 }
 ```
-6. `user\mods\fika-server\assets\configs` dizinine gidin ve `fika.jsonc` dosyasını açın.
+
+6. `user\mods\mpt-server\assets\configs` dizinine gidin ve `mpt.jsonc` dosyasını açın.
 7. Ayarları kendi zevkinize göre değiştirin.
-    - **useBtr**: Sokaklarda oynarken BTR'nin spawn edilip edilmeyeceği
-    - **friendlyFire**: Dost ateşinin etkin olup olmayacağı
-    - **dynamicVExfils**: Oyuncu sayısıyla araç exfil maksimum oyuncularını otomatik olarak ölçeklendirme
-    - **allowFreeCam**: Oyuncuların baskın sırasında serbestçe serbest kamera geçişini etkinleştirmek
-    - **giftedItemsLoseFIR**: Gönderilen öğelerin FiR durumunu kaybedip kaybetmeyeceği
+   - **useBtr**: Sokaklarda oynarken BTR'nin spawn edilip edilmeyeceği
+   - **friendlyFire**: Dost ateşinin etkin olup olmayacağı
+   - **dynamicVExfils**: Oyuncu sayısıyla araç exfil maksimum oyuncularını otomatik olarak ölçeklendirme
+   - **allowFreeCam**: Oyuncuların baskın sırasında serbestçe serbest kamera geçişini etkinleştirmek
+   - **giftedItemsLoseFIR**: Gönderilen öğelerin FiR durumunu kaybedip kaybetmeyeceği
 8. `Aki.Server.exe`'yi başlatın ve yüklenmesini bekleyin
-    - Başarılı bir şekilde başlatıldığında görünmesi gereken budur: Örnek IP'yi 5. adımda kullanarak başladıysa:
-    ```
-    Web sunucusu başlatıldı: http://20.20.56.73:6969
-    Websocket başlatıldı: ws://20.20.56.73:6969
-    Sunucu çalışıyor, SPT oynarken kapatmayın, İyi oyunlar!!
-    ```
+   - Başarılı bir şekilde başlatıldığında görünmesi gereken budur: Örnek IP'yi 5. adımda kullanarak başladıysa:
+   ```
+   Web sunucusu başlatıldı: http://20.20.56.73:6969
+   Websocket başlatıldı: ws://20.20.56.73:6969
+   Sunucu çalışıyor, SPT oynarken kapatmayın, İyi oyunlar!!
+   ```
 9. `Aki.Launcher.exe`'yi başlatın ve 'Ayarlar'ı tıklayın
 10. `URL` alanında, VPN IP'nizi yansıtacak şekilde değiştirin. 5. adımdaki örneği kullanarak: `http://20.20.56.73:6969` (sonunda herhangi bir ileri eğik çizgi `/` varsa kaldırmayı unutmayın)
 
@@ -178,20 +179,22 @@ Sahte bir adresle örnekleme (**20.20.56.73**):
 ## Özellikler ve Yapılandırma
 
 ### Özellikler ve Rehber
+
 **Fika**, arkadaşlarınızla COOP oynamak için P2P oturumları barındırmanıza olanak tanır. Sunucu, yapay zeka, mayın tarlaları, keskin nişancı bölgeleri, BTR vb. gibi oyun sırasında çoğu mantığı kontrol eden kişidir. Her istemci kendi zararından sorumludur, hem kendilerine hem de yapay zekaya karşı. Bu, bir yapay zekaya ateş etmenin duyarlı ve hızlı hissettirdiği anlamına gelir.
 
 Bir oyun barındırmak için, bir harita ve zaman seçin, ardından son ekranda `Baskın Barındır`ı tıklayın. Oynayacak olan oyuncuların (kendiniz dahil) miktarını seçin ve yüklenmesini bekleyin. Hazır olduğunda diğer insanlar oturumunuza katılabilir, herkes yüklenmeyi bitirdiğinde otomatik olarak başlayacaktır.
 
 **Fika'nın Diğer Özellikleri**
+
 - Öğe Gönderme
-    - Stash'teki bir öğeyi başka bir hesaba göndermek için sağ tıklayın
-    - [Sunucu](#server-configuration) yapılandırmasında özelleştirilebilir
+  - Stash'teki bir öğeyi başka bir hesaba göndermek için sağ tıklayın
+  - [Sunucu](#server-configuration) yapılandırmasında özelleştirilebilir
 - Serbest kamera (varsayılan `F9` tuşu)
-    - Serbest kamerada, `T` tuşuna basarak kameranın konumuna teleport yapabilirsiniz
-    - `Sol/Sağ` tıklama ile başka bir oyuncuya geçebilirsiniz
-    - Zıplarken `SPACE` tuşunu basılı tutarak başlarına takılabilirsiniz
-    - 3. pozisyon görünümünde arkalarına takılabilirsiniz `CTRL` tuşunu basılı tutarak zıplarken
-    - Geçici olarak serbest kamera kontrollerini açmak için `HOME` tuşuna basabilirsiniz
+  - Serbest kamerada, `T` tuşuna basarak kameranın konumuna teleport yapabilirsiniz
+  - `Sol/Sağ` tıklama ile başka bir oyuncuya geçebilirsiniz
+  - Zıplarken `SPACE` tuşunu basılı tutarak başlarına takılabilirsiniz
+  - 3. pozisyon görünümünde arkalarına takılabilirsiniz `CTRL` tuşunu basılı tutarak zıplarken
+  - Geçici olarak serbest kamera kontrollerini açmak için `HOME` tuşuna basabilirsiniz
 - Kendi üzerinizde kritik bölgeler için hasar çarpanları
 - Sunucular için dinamik yapay zeka, kimse yakınında olmadığında yapay zekayı devre dışı bırakır
 - Haritaya özgü özel yapay zeka sınırları
@@ -256,19 +259,19 @@ Oyundayken istemci yapılandırmanızı açmak için `F12` tuşuna basın. Ayarl
 
 ### Sunucu Yapılandırması
 
-Sunucu yapılandırması, `user\mods\fika-server\assets\configs` klasöründe bulunabilir. Bir metin düzenleyici ile `fika.jsonc` dosyasını açın.
+Sunucu yapılandırması, `user\mods\mpt-server\assets\configs` klasöründe bulunabilir. Bir metin düzenleyici ile `mpt.jsonc` dosyasını açın.
 
 ```json
 {
-    "client": {
-        "useBtr": true, // Sokaklarda BTR'nin spawn edilip edilmeyeceği, varsayılan: true
-        "friendlyFire": true, // Dost ateşinin etkin olup olmayacağı, varsayılan: true
-        "dynamicVExfils": false, // Araç exfilinin oyuncu sayısına ölçeklenip ölçeklenmeyeceği, varsayılan: false
-        "allowFreeCam": false, // Serbest kameranın serbestçe açılıp kapatılıp kapatılmayacağı, varsayılan: false
-        "allowItemSending": true // Öğe göndermenin etkin olup olmayacağı, varsayılan: true
-    },
-    "server": {
-        "giftedItemsLoseFIR": true // Gönderilen öğelerin FiR durumunu kaybedip kaybetmeyeceği, varsayılan: true
-    }
+  "client": {
+    "useBtr": true, // Sokaklarda BTR'nin spawn edilip edilmeyeceği, varsayılan: true
+    "friendlyFire": true, // Dost ateşinin etkin olup olmayacağı, varsayılan: true
+    "dynamicVExfils": false, // Araç exfilinin oyuncu sayısına ölçeklenip ölçeklenmeyeceği, varsayılan: false
+    "allowFreeCam": false, // Serbest kameranın serbestçe açılıp kapatılıp kapatılmayacağı, varsayılan: false
+    "allowItemSending": true // Öğe göndermenin etkin olup olmayacağı, varsayılan: true
+  },
+  "server": {
+    "giftedItemsLoseFIR": true // Gönderilen öğelerin FiR durumunu kaybedip kaybetmeyeceği, varsayılan: true
+  }
 }
 ```

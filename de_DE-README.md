@@ -107,7 +107,7 @@ Bevor diese Schritte abgearbeitet werden sollte sichergestellt werden, dass die 
 3. Starte `Aki.Server.exe` einmalig damit alle Konfigurationsdatein für Fika erstellt werden, dann kann der Server wieder gestoppt werden (nach ca 20 Sekunden je nach System)
 4. Navigiere zurück in den SPT Ordner und navigiere dort in den `Aki_Data\Server\configs` Ordner. Öffne `http.json`
 5. Ändere `ip` zu `0.0.0.0`, dann speichere und schließe die Datei
-6. Navigiere zurück in den SPT Ordner und dann in `user\mods\fika-server\assets\configs` und öffne `fika.jsonc`
+6. Navigiere zurück in den SPT Ordner und dann in `user\mods\mpt-server\assets\configs` und öffne `mpt.jsonc`
 7. Ändere die folgenden Einstellung so wie du sie haben möchtest. Speichere und schließe die Datei danach.
     - **useBtr**: Soll der BTR auf Streets of Tarkov spawnen?
     - **friendlyFire**: Soll Friendly fire erlaubt sein?
@@ -144,7 +144,7 @@ Beispiel mit einer Fake Addresse (**20.20.56.73**):
     "serverImagePathOverride": {}
 }
 ```
-6. Navigiere zurück in den SPT Ordner und dann in `user\mods\fika-server\assets\configs` und öffne `fika.jsonc`
+6. Navigiere zurück in den SPT Ordner und dann in `user\mods\mpt-server\assets\configs` und öffne `mpt.jsonc`
 7. Ändere die folgenden Einstellung so wie du sie haben möchtest. Speichere und schließe die Datei danach.
     - **useBtr**: Soll der BTR auf Streets of Tarkov spawnen?
     - **friendlyFire**: Soll Friendly fire erlaubt sein?
@@ -259,7 +259,7 @@ Um die Client Konfigurationen zu öffen muss im Spiel die `F12` Taste gedrückt 
 
 ### Server Configuration
 
-Die Servereinstellungen können in folgendem Ordner gefunden werden `user\mods\fika-server\assets\configs`. Dazu `fika.jsonc` mit einem Texteditor öffnen.
+Die Servereinstellungen können in folgendem Ordner gefunden werden `user\mods\mpt-server\assets\configs`. Dazu `mpt.jsonc` mit einem Texteditor öffnen.
 
 ```json
 {

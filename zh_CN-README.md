@@ -106,7 +106,7 @@
 3. 运行一次 `Aki.Server.exe` 以生成 Fika 的配置文件，然后将其关闭。
 4. 回到 SPT 的主文件夹，在 `Aki_Data\Server\configs` 路径中打开名称为 `http.json` 的文件
 5. 将 `ip` 改为 `0.0.0.0`，保存文件后将其关闭
-6. 在 `user\mods\fika-server\assets\configs` 路径中打开名称为 `fika.jsonc` 的文件
+6. 在 `user\mods\mpt-server\assets\configs` 路径中打开名称为 `mpt.jsonc` 的文件
 7. 以下根据个人喜好更改：
     - **useBtr**：是否让 BTR 装甲车出现在街区里
     - **friendlyFire**：是否启用队伤
@@ -143,7 +143,7 @@
     "serverImagePathOverride": {}
 }
 ```
-6. 在 `user\mods\fika-server\assets\configs` 路径中打开名称为 `fika.jsonc` 的文件
+6. 在 `user\mods\mpt-server\assets\configs` 路径中打开名称为 `mpt.jsonc` 的文件
 7. 以下根据个人喜好更改：
     - **useBtr**：是否让 BTR 装甲车出现在街区里
     - **friendlyFire**：是否启用队伤
@@ -258,7 +258,7 @@
 
 ### 服务端配置
 
-服务端配置可在此路径的 `user\mods\fika-server\assets\configs` 文件夹中找到。使用文本编辑器可对 `fika.jsonc` 进行编辑。
+服务端配置可在此路径的 `user\mods\mpt-server\assets\configs` 文件夹中找到。使用文本编辑器可对 `mpt.jsonc` 进行编辑。
 
 ```json
 {

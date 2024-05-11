@@ -110,7 +110,7 @@ Zanim rozpoczniesz wykonywanie poniższych kroków, upewnij się, że wszystkie 
 3. Uruchom jednorazowo `Aki.Server.exe` aby pozwolić mu wygenerować pliki konfiguracyjne dla Fika, a następnie go wyłącz,
 4. Wróć do głównego folderu, następnie przejdź do `Aki_Data\Server\configs` i otwórz plik `http.json`,
 5. Zmień wartość `ip` na `0.0.0.0`, a następnie zapisz i zamknij plik,
-6. Przejdź do `user\mods\fika-server\assets\configs` i otwórz plik `fika.json`,
+6. Przejdź do `user\mods\mpt-server\assets\configs` i otwórz plik `mpt.json`,
 7. Zmień dowolne ustawienia według własnych preferencji:
     - **useBtr**: czy BTR powinien pojawiać się podczas gry na mapie Streets of Tarkov,
     - **friendlyFire**: czy sojusznicy powinni otrzymywać obrażenia spowodowane przez ich kolegów,
@@ -145,7 +145,7 @@ Zanim rozpoczniesz wykonywanie poniższych kroków, upewnij się, że wszystkie 
     >    "serverImagePathOverride": {}
     >} 
     >```
-6. Przejdź do `user\mods\fika-server\assets\configs` i otwórz plik `fika.json`,
+6. Przejdź do `user\mods\mpt-server\assets\configs` i otwórz plik `mpt.json`,
 7. Zmień dowolne ustawienia według własnych preferencji:
     - **useBtr**: czy BTR powinien pojawiać się podczas gry na mapie Streets of Tarkov,
     - **friendlyFire**: czy sojusznicy powinni otrzymywać obrażenia spowodowane przez ich kolegów,
@@ -265,9 +265,9 @@ Aby otworzyć konfigurację swojego klienta, naciśnij klawisz `F12` podczas gry
 
 ### Konfiguracja serwera
 
-Konfigurację serwera znajdziesz w folderze `user\mods\fika-server\assets\configs`. Otwórz plik `fika.jsonc` za pomocą dowolnego edytora tekstu.
+Konfigurację serwera znajdziesz w folderze `user\mods\mpt-server\assets\configs`. Otwórz plik `mpt.jsonc` za pomocą dowolnego edytora tekstu.
 
-> 💡 **Przykład pliku `fika.jsonc`**
+> 💡 **Przykład pliku `mpt.jsonc`**
 >```json
 >{
 >    "client": {

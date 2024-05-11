@@ -106,7 +106,7 @@ Before starting these steps, make sure you have port forwarded all required port
 3. Start up the `Aki.Server.exe` once to let it generate the configuration files for Fika, then close it again
 4. Go back to the main folder and navigate to `Aki_Data\Server\configs` and open `http.json`
 5. Change `ip` to `0.0.0.0` and `backendIp` to your [WAN IP](https://ipv4.icanhazip.com/), then save the file and close it
-6. Navigate to `user\mods\fika-server\assets\configs` and open `fika.jsonc`
+6. Navigate to `user\mods\mpt-server\assets\configs` and open `mpt.jsonc`
 7. Change any of the settings according to your likings.
     - **useBtr**: if the BTR should spawn or not when playing Streets
     - **friendlyFire**: if friendly fire should be enabled or not
@@ -145,7 +145,7 @@ Example with a fake address (**20.20.56.73**):
     "serverImagePathOverride": {}
 }
 ```
-6. Navigate to `user\mods\fika-server\assets\configs` and open `fika.jsonc`
+6. Navigate to `user\mods\mpt-server\assets\configs` and open `mpt.jsonc`
 7. Change any of the settings according to your likings.
     - **useBtr**: if the BTR should spawn or not when playing Streets
     - **friendlyFire**: if friendly fire should be enabled or not
@@ -261,7 +261,7 @@ To open up your client configuration, press the `F12` key while in-game. Head to
 
 ### Server Configuration
 
-The server configuration can be found in the `user\mods\fika-server\assets\configs` folder. Open up `fika.jsonc` with a text editor.
+The server configuration can be found in the `user\mods\mpt-server\assets\configs` folder. Open up `mpt.jsonc` with a text editor.
 
 ```json
 {

@@ -107,7 +107,7 @@ Ennen kuin alat seuraamaan ohjeita, varmista että kaikki tarvittavat portit ova
 3. Käynnistä `Aki.Server.exe` kerran antaaksesi sen luoda konfiguraatiotiedostot Fikalle, sitten sammuta se
 4. Mene takaisin pääkansioosi ja siirry kansioon `Aki_Data\Server\configs` ja aukaise `http.json`
 5. Vaihda kohtaan `ip`: `0.0.0.0`. Tallenna tiedosto ja sulje se
-6. Siirry kansioon `user\mods\fika-server\assets\configs` ja aukaise `fika.jsonc`
+6. Siirry kansioon `user\mods\mpt-server\assets\configs` ja aukaise `mpt.jsonc`
 7. Muuta asetuksiasi haluamasi mukaan.
     - **useBtr**: jos haluat, että BTR spawnaa Streetsiä pelatessasi
     - **friendlyFire**: jos haluat, että oma tuli on päällä tai pois 
@@ -144,7 +144,7 @@ Esimerkki tekaistulla IP-osoitteella (**20.20.56.73**):
     "serverImagePathOverride": {}
 }
 ```
-6. Siirry kansioon `user\mods\fika-server\assets\configs` ja aukaise `fika.jsonc`
+6. Siirry kansioon `user\mods\mpt-server\assets\configs` ja aukaise `mpt.jsonc`
 7. Muuta asetuksiasi haluamasi mukaan.
     - **useBtr**: jos haluat, että BTR spawnaa Streetsiä pelatessasi
     - **friendlyFire**: jos haluat, että oma tuli on päällä tai pois 
@@ -259,7 +259,7 @@ Avataksesi asiakkaan konfiguroinnin, paina `F12`-näppäintä pelissä. Aukaise 
 
 ### Palvelimen konfigurointi
 
-Palvelimen konfigurointiasetukset löytyvät kansion `user\mods\fika-server\assets\configs` tiedostosta `fika.jsonc`.
+Palvelimen konfigurointiasetukset löytyvät kansion `user\mods\mpt-server\assets\configs` tiedostosta `mpt.jsonc`.
 
 ```json
 {

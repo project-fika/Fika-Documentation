@@ -107,7 +107,7 @@ Antes de comenzar con los siguientes pasos, asegúrate de que tienes todos los p
 3. Ejecuta `Aki.Server.exe` una vez para que genere los archivos de configuración para Fika, luego ciérralo nuevamente.
 4. Regresa a la carpeta principal y dirígete a `Aki_Data\Server\configs` y abre el archivo `http.json`.
 5. Cambia la `ip` a `0.0.0.0`, guarda los cambios y cierra el archivo.
-6. Dirígete a `user\mods\fika-server\assets\configs` y abre el archivo `fika.jsonc`.
+6. Dirígete a `user\mods\mpt-server\assets\configs` y abre el archivo `mpt.jsonc`.
 7. Cambia cualquiera de las configuraciones a tu gusto.
     - **useBtr**: determina si el BTR debería hacer aparecer o no al jugar en Streets.
     - **friendlyFire**: determina si el fuego amigo debe estar activado o no.
@@ -145,7 +145,7 @@ Ejemplo con una dirección IP falsa: (**20.20.56.73**):
     "serverImagePathOverride": {}
 }
 ```
-6. Dirígete a `user\mods\fika-server\assets\configs` y abre el archivo `fika.jsonc`.
+6. Dirígete a `user\mods\mpt-server\assets\configs` y abre el archivo `mpt.jsonc`.
 7. Cambia cualquiera de las configuraciones a tu gusto.
     - **useBtr**: determina si el BTR debería hacer aparecer o no al jugar en Streets.
     - **friendlyFire**: determina si el fuego amigo debe estar activado o no.
@@ -260,7 +260,7 @@ Para abrir tu configuración de cliente, presiona la `F12` dentro del juego. Dir
 
 ### Configuración del servidor
 
-La configuración del servidor puede encontrarse en la carpeta `user\mods\fika-server\assets\configs`. Abre el archivo `fika.jsonc` con un editor de texto.
+La configuración del servidor puede encontrarse en la carpeta `user\mods\mpt-server\assets\configs`. Abre el archivo `mpt.jsonc` con un editor de texto.
 
 ```json
 {
