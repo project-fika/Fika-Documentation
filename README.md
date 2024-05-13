@@ -114,10 +114,10 @@ Before starting these steps, make sure you have port forwarded all required port
     - **allowFreeCam**: allow players to freely toggle free cam during raids
     - **giftedItemsLoseFIR**: if sent items should lose their FiR status
 8. Start the `Aki.Server.exe` and wait for it to finish loading
-    - This is what it should look like if it succeeded to start:
+    - This is what it should look like if it succeeded to start with an example WAN IP of `70.60.150.90`:
     ```
-    Started webserver at http://0.0.0.0:6969
-    Started websocket at ws://0.0.0.0:6969
+    Started webserver at http://70.60.150.90:6969
+    Started websocket at ws://70.60.150.90:6969
     Server is running, do not close while playing SPT, Happy playing!!
     ```
 9. Start `Aki.Launcher.exe`
