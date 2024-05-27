@@ -62,7 +62,7 @@ Fika requires general knowledge of computers, networking and Aki. If you are not
 - Access to your Windows Firewall
 - Internet speed of at least 20 Mbit/s up and down is recommended. Each client averages around 400 kbit/s.
 
-If you can not port forward, you can use a VPN like `Hamachi`, `ZeroTier` or `Radmin`.
+If you can not port forward, you can use a VPN like `ZeroTier` or `Radmin`.
 
 ### Client
 
@@ -102,11 +102,10 @@ Before starting these steps, make sure you have port forwarded all required port
 
 **General Setup**
 
-1. [Download the latest Fika build](https://discord.com/channels/1202292159366037545/1224454502531469373) (you have to join our [Discord](https://discord.gg/project-fika) first)
-2. Navigate to your SPT installation and extract the contents of the archive into the folder
+1. [Download the latest Fika plugin](https://github.com/project-fika/Fika-Plugin/releases/latest) and [download the latest Fika server mod](https://github.com/project-fika/Fika-Server/releases/latest)
 3. Start up the `Aki.Server.exe` once to let it generate the configuration files for Fika, then close it again
 4. Go back to the main folder and navigate to `Aki_Data\Server\configs` and open `http.json`
-5. Change `ip` to `0.0.0.0`, then save the file and close it
+5. Change `ip` to `0.0.0.0` and `backendIp` to your [WAN IP](https://ipv4.icanhazip.com/), then save the file and close it
 6. Navigate to `user\mods\fika-server\assets\configs` and open `fika.jsonc`
 7. Change any of the settings according to your likings.
     - **useBtr**: if the BTR should spawn or not when playing Streets
@@ -115,10 +114,10 @@ Before starting these steps, make sure you have port forwarded all required port
     - **allowFreeCam**: allow players to freely toggle free cam during raids
     - **giftedItemsLoseFIR**: if sent items should lose their FiR status
 8. Start the `Aki.Server.exe` and wait for it to finish loading
-    - This is what it should look like if it succeeded to start:
+    - This is what it should look like if it succeeded to start with an example WAN IP of `70.60.150.90`:
     ```
-    Started webserver at http://0.0.0.0:6969
-    Started websocket at ws://0.0.0.0:6969
+    Started webserver at http://70.60.150.90:6969
+    Started websocket at ws://70.60.150.90:6969
     Server is running, do not close while playing SPT, Happy playing!!
     ```
 9. Start `Aki.Launcher.exe`
@@ -128,17 +127,19 @@ Before starting these steps, make sure you have port forwarded all required port
 
 You need a VPN like `Hamachi`, `ZeroTier` or `Radmin`. 
 
-1. [Download the latest Fika build](https://discord.com/channels/1202292159366037545/1224454502531469373) (you have to join our [Discord](https://discord.gg/project-fika) first)
+1. [Download the latest Fika plugin](https://github.com/project-fika/Fika-Plugin/releases/latest) and [download the latest Fika server mod](https://github.com/project-fika/Fika-Server/releases/latest)
 2. Navigate to your SPT installation and extract the contents of the archive into the folder
 3. Start up the `Aki.Server.exe` once to let it generate the configuration files for Fika, then close it again
 4. Go back to the main folder and navigate to `Aki_Data\Server\configs` and open `http.json`
-5. Change `ip` to your VPN IP, then save the file and close it
+5. Change `ip` and `backendIp` to your VPN IP, then save the file and close it
 
 Example with a fake address (**20.20.56.73**):
 ```json
 {
     "ip": "20.20.56.73",
     "port": 6969,
+    "backendIp": "20.20.56.73",
+    "backendPort": 6969,
     "webSocketPingDelayMs": 90000,
     "logRequests": true,
     "serverImagePathOverride": {}
@@ -160,10 +161,11 @@ Example with a fake address (**20.20.56.73**):
     ```
 9. Start `Aki.Launcher.exe` and click 'Settings'
 10. In the `URL` field, change it to reflect your VPN IP. Using the example in step 5 it would be: `http://20.20.56.73:6969` (remember to remove any trailing forward slashes `/`)
+11. Start the game, and once your account is created set both `Force IP` and `Force Bind IP` to your personal VPN IP.
 
 ### Client using port forwarding
 
-1. [Download the latest Fika build](https://discord.com/channels/1202292159366037545/1224454502531469373)
+1. [Download the latest Fika plugin](https://github.com/project-fika/Fika-Plugin/releases/latest)
 2. Navigate to your SPT installation and extract the contents of the archive into the folder
 3. Start `Aki.Launcher.exe` and click 'Settings'
 4. In the `URL` field, change it to reflect the hosts WAN IP. For exampleit would be: `http://20.20.56.73:6969` (remember to remove any trailing forward slashes `/`)
@@ -171,7 +173,7 @@ Example with a fake address (**20.20.56.73**):
 
 ### Client using a VPN
 
-1. [Download the latest Fika build](https://discord.com/channels/1202292159366037545/1224454502531469373)
+1. [Download the latest Fika plugin](https://github.com/project-fika/Fika-Plugin/releases/latest)
 2. Navigate to your SPT installation and extract the contents of the archive into the folder
 3. Start `Aki.Launcher.exe` and click 'Settings'
 4. In the `URL` field, change it to reflect the hosts VPN IP. Using the example in step 5 it would be: `http://20.20.56.73:6969` (remember to remove any trailing forward slashes `/`)
