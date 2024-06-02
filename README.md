@@ -125,7 +125,7 @@ Before starting these steps, make sure you have port forwarded all required port
 
 ### Host using a VPN
 
-You need a VPN like `Hamachi`, `ZeroTier` or `Radmin`. 
+You need a VPN like `ZeroTier` or `Radmin`. 
 
 1. [Download the latest Fika plugin](https://github.com/project-fika/Fika-Plugin/releases/latest) and [download the latest Fika server mod](https://github.com/project-fika/Fika-Server/releases/latest)
 2. Navigate to your SPT installation and extract the contents of the archive into the folder
@@ -161,7 +161,7 @@ Example with a fake address (**20.20.56.73**):
     ```
 9. Start `Aki.Launcher.exe` and click 'Settings'
 10. In the `URL` field, change it to reflect your VPN IP. Using the example in step 5 it would be: `http://20.20.56.73:6969` (remember to remove any trailing forward slashes `/`)
-11. Start the game, and once your account is created set both `Force IP` and `Force Bind IP` to your personal VPN IP.
+11. Start the game, and once your account is created set both `Force IP` and `Force Bind IP` to your *own*, *personal* VPN IP. You can find these by clicking `F12` in the main menu.
 
 ### Client using port forwarding
 
