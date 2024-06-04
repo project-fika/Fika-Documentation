@@ -112,7 +112,7 @@
     - **friendlyFire**：是否启用队伤
     - **dynamicVExfils**：自动将载具撤离点的上限调整为战局内玩家的总数
     - **allowFreeCam**：战局内启用自由视角
-    - **giftedItemsLoseFIR**：玩家间使用“给予物品”功能所获取的物品是否带勾（显示为战局内找到）
+    - **giftedItemsLoseFIR**：玩家间使用“给予物品”功能所获取的物品是否失去带勾状态（不显示为战局内找到）
 8. 运行 `Aki.Server.exe` 并待其加载完
     - 若成功运行，程序则如下所示：
     ```
@@ -149,7 +149,7 @@
     - **friendlyFire**：是否启用队伤
     - **dynamicVExfils**：自动将载具撤离点的上限调整为战局内玩家的总数
     - **allowFreeCam**：战局内启用自由视角
-    - **giftedItemsLoseFIR**：玩家间使用 “给予物品” 功能所获取的物品是否带勾（显示为战局内找到）
+    - **giftedItemsLoseFIR**：玩家间使用 “给予物品” 功能所获取的物品是否失去带勾状态（不显示为战局内找到）
 8. 运行 `Aki.Server.exe` 并待其加载完
     - 若成功运行，（使用的 IP 为上述第 5 步里所提到的），程序则如下所示：
     ```
@@ -270,7 +270,7 @@
         "allowItemSending": true // 用于启用 “给予物品” 功能，默认值为 true
     },
     "server": {
-        "giftedItemsLoseFIR": true // 用于启用/禁用 “给予物品” 功能所获得的物品状态（是否带勾），默认值为 true
+        "giftedItemsLoseFIR": true // 用于启用/禁用 “给予物品” 功能所获得的物品状态（是否不带勾），默认值为 true
     }
 }
 ```
