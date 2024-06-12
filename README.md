@@ -44,7 +44,7 @@ You can join our Discord [here](https://discord.gg/project-fika)!
 
 This project is licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.en).
 
-- You may only share Fika as long as proper credits are given and it is not used for commercial purposes.
+- You may only share/create derivatives of Fika as long as proper credits are given and it is not used for commercial purposes.
 - You may not monetize your server in terms of payments or donations.
 - You may not host massive public servers, Fika is meant for COOP with your friends.
 - You may not use Fika's **art assets** that are handcrafted by our developers and artists without permission from the creator.
