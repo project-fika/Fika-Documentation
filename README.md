@@ -63,7 +63,7 @@ Fika requires general knowledge of computers, networking and Aki. If you are not
 - Access to your Windows Firewall
 - Internet speed of at least 20 Mbit/s up and down is recommended. Each client averages around 400 kbit/s.
 
-If you can not port forward, you can use a VPN like `ZeroTier` or `Radmin` or a proxy like ``Playit.gg``
+If you can not port forward, you can use a VPN like `ZeroTier` or `Radmin` or a proxy like ``Playit.gg``.
 
 ### Client
 
