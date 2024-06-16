@@ -17,6 +17,7 @@
             <a href="#installation">Installation</a>
             <ul>
                 <li><a href="#host-using-port-forwarding">Host using port forwarding</a></li>
+                <li><a href="#host-using-playit">Host using Playit.gg</a></li>
                 <li><a href="#host-using-a-vpn">Host using a VPN</a></li>
                 <li><a href="#client-using-port-forwarding">Client using port forwarding</a></li>
                 <li><a href="#client-using-a-vpn">Client using a VPN</a></li>
@@ -62,7 +63,7 @@ Fika requires general knowledge of computers, networking and Aki. If you are not
 - Access to your Windows Firewall
 - Internet speed of at least 20 Mbit/s up and down is recommended. Each client averages around 400 kbit/s.
 
-If you can not port forward, you can use a VPN like `ZeroTier` or `Radmin`.
+If you can not port forward, you can use a VPN like `ZeroTier` or `Radmin` or a proxy like ``Playit.gg``.
 
 ### Client
 
@@ -122,6 +123,14 @@ Before starting these steps, make sure you have port forwarded all required port
     ```
 9. Start `Aki.Launcher.exe`
 10. Your friends can connect to your server using your WAN IP, which can be found using the [IPv4.ICanHazIP](https://ipv4.icanhazip.com/) site
+
+### Host using Playit
+
+[Playit.gg](https://playit.gg/) is a proxy that makes it possible to host servers without having to port forward,
+by relaying the game traffic over one of their datacenters.
+[This guide](https://discuss.playit.gg/t/setup-an-escape-from-tarkov-multiplayer-server-with-spt-fika/3352) will teach you how to use Playit.gg
+to host a SPT/Fika Server.
+Editing your ``http.json`` is not required. 
 
 ### Host using a VPN
 
