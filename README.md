@@ -17,8 +17,9 @@
             <a href="#installation">Installation</a>
             <ul>
                 <li><a href="#host-using-port-forwarding">Host using port forwarding</a></li>
-                <li><a href="#host-using-playit">Host using Playit.gg</a></li>
                 <li><a href="#host-using-a-vpn">Host using a VPN</a></li>
+                <li><a href="#host-using-playit">Host using Playit.gg</a></li>
+                <li><a href="#dedicated-client">Dedicated client</a></li>
                 <li><a href="#client-using-port-forwarding">Client using port forwarding</a></li>
                 <li><a href="#client-using-a-vpn">Client using a VPN</a></li>
             </ul>
@@ -86,6 +87,12 @@ These are recommendations for a smooth experience:
 - **Memory** 16 GB minimum, 32 GB highly recommended
 - **Storage**: SSD is mandatory, do not expect support when running Fika on a HDD
 
+These are recommendations for a dedicated client:
+
+- **CPU**: >4 GHz per core
+- **Memory**: >16 GB, 32 GB highly recommended
+- **Storage**: SSD is mandatory
+
 The biggest gain in Fika (and in SPT in general) will be getting a stronger CPU and RAM.
 
 ## Installation
@@ -123,14 +130,6 @@ Before starting these steps, make sure you have port forwarded all required port
     ```
 9. Start `SPT.Launcher.exe`
 10. Your friends can connect to your server using your WAN IP, which can be found using the [IPv4.ICanHazIP](https://ipv4.icanhazip.com/) site
-
-### Host using Playit
-
-[Playit.gg](https://playit.gg/) is a proxy that makes it possible to host servers without having to port forward,
-by relaying the game traffic over one of their datacenters.
-[This guide](https://discuss.playit.gg/t/setup-an-escape-from-tarkov-multiplayer-server-with-spt-fika/3352) will teach you how to use Playit.gg
-to host a SPT/Fika Server.
-Editing your ``http.json`` is not required. 
 
 ### Host using a VPN
 
@@ -171,6 +170,35 @@ Example with a fake address (**20.20.56.73**):
 9. Start `SPT.Launcher.exe` and click 'Settings'
 10. In the `URL` field, change it to reflect your VPN IP. Using the example in step 5 it would be: `http://20.20.56.73:6969` (remember to remove any trailing forward slashes `/`)
 11. Start the game, and once your account is created set both `Force IP` and `Force Bind IP` to your *own*, *personal* VPN IP. You can find these by clicking `F12` in the main menu.
+
+### Host using Playit
+
+[Playit.gg](https://playit.gg/) is a proxy that makes it possible to host servers without having to port forward,
+by relaying the game traffic over one of their datacenters.
+[This guide](https://discuss.playit.gg/t/setup-an-escape-from-tarkov-multiplayer-server-with-spt-fika/3352) will teach you how to use Playit.gg
+to host a SPT/Fika Server.
+Editing your ``http.json`` is not required.
+
+### Dedicated Client
+
+**This section is only recommended for advanced users**
+1. Make sure that you have a working server and client installed.
+2. Copy the client to a new folder and install the latest [dedicated plugin](https://github.com/project-fika/Fika-Dedicated/releases).
+3. On your `SPT.Server`, open the `fika.jsonc` configuration file and at the bottom change your dedicated settings.
+```json
+"dedicated": {
+        "profiles": {
+            "amount": 1 // the amount of dedicated profiles to generate automatically
+        },
+        "scripts": {
+            "generate": true, // if a startup script should be automatically generated (required unless you know what you are doing)
+            "forceIp": "127.0.0.1" // the ip to connect to, leave at default if local
+        }
+    }
+```
+4. Start up your `SPT.Server` once to let it generate the profile and startup script, then go to `\user\mods\fika-server\assets\scripts` and find the generated script. Move this to your client installation created in step 2.
+5. Either port forward or set up your VPN as normal, and then manually change your fika.core configuration in `\BepInEx\config\com.fika.core.cfg`. Set the port to your forwarded port, or set bind and force IP to the dedicated client's IP.
+6. Launch the dedicated client by running the batch script, then in-game when hosting on your own client, tick the "Use Dedicated" to use the dedicated client for hosting. It can only host one raid per client. It is generally recommended to put all your AI mods on the dedicated client and remove them locally on your own since the dedicated will now handle the AI instead.
 
 ### Client using port forwarding
 
