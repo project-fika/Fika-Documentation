@@ -19,7 +19,7 @@
                 <li><a href="#host-using-port-forwarding">Host using port forwarding</a></li>
                 <li><a href="#host-using-a-vpn">Host using a VPN</a></li>
                 <li><a href="#host-using-playit">Host using Playit.gg</a></li>
-                <li><a href="#dedicated-client">Dedicated client</a></li>
+                <li><a href="#dedicated-client">Host using a VPN</a></li>
                 <li><a href="#client-using-port-forwarding">Client using port forwarding</a></li>
                 <li><a href="#client-using-a-vpn">Client using a VPN</a></li>
             </ul>
@@ -181,23 +181,23 @@ Editing your ``http.json`` is not required.
 
 ### Dedicated Client
 
-**This section is only recommended for advanced users**
-1. Make sure that you have a working server and client installed.
-2. Copy the client to a new folder and install the latest [dedicated plugin](https://github.com/project-fika/Fika-Dedicated/releases).
-3. On your `SPT.Server`, open the `fika.jsonc` configuration file and at the bottom change your dedicated settings.
+**This section is only for advanced users**
+1. Make sure that you have a working server and client installed
+2. Copy the client to a new folder and install the latest [dedicated plugin](https://github.com/project-fika/Fika-Dedicated/releases)
+3. On your `SPT.Server`, open the `fika.jsonc` configuration file and at the bottom change your dedicated settings
 ```json
 "dedicated": {
         "profiles": {
-            "amount": 1 // the amount of dedicated profiles to generate automatically
+            "amount": 1 // the amount of dedicated profiles to generate automatically, one per dedicated client
         },
         "scripts": {
             "generate": true, // if a startup script should be automatically generated (required unless you know what you are doing)
-            "forceIp": "127.0.0.1" // the ip to connect to, leave at default if local
+            "forceIp": "127.0.0.1" // the ip the dedicated client should connect to, leave at default if local
         }
     }
 ```
-4. Start up your `SPT.Server` once to let it generate the profile and startup script, then go to `\user\mods\fika-server\assets\scripts` and find the generated script. Move this to your client installation created in step 2.
-5. Either port forward or set up your VPN as normal, and then manually change your fika.core configuration in `\BepInEx\config\com.fika.core.cfg`. Set the port to your forwarded port, or set bind and force IP to the dedicated client's IP.
+4. Start up your `SPT.Server` once to let it generate the profile and startup script, then go to `\user\mods\fika-server\assets\scripts` and find the generated script. Move this to your client installation root folder created in step 2 (if you which to re-regenerate these scripts, you need to delete the *old dedicated profiles*)
+5. Either port forward or set up your VPN as normal, and then manually change your `fika.core` configuration in `\BepInEx\config\com.fika.core.cfg`. Set the port to your forwarded port, or set bind and force IP to the dedicated client's IP.
 6. Launch the dedicated client by running the batch script, then in-game when hosting on your own client, tick the "Use Dedicated" to use the dedicated client for hosting. It can only host one raid per client. It is generally recommended to put all your AI mods on the dedicated client and remove them locally on your own since the dedicated will now handle the AI instead.
 
 ### Client using port forwarding
@@ -240,6 +240,8 @@ To host a game, choose a map and time, and then on the final screen click `Host 
 - Custom notifications (teammate died, boss got killed by a player, etc.)
 - Pinging system to ping an area in the game for your teammates
 - Player health bars for your teammates
+- Quest progress sharing in raids
+- Dedicated clients
 
 Most of these features are configured in the [client configuration](#client-configuration).
 
