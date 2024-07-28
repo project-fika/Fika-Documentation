@@ -19,7 +19,7 @@
                 <li><a href="#host-using-port-forwarding">Host using port forwarding</a></li>
                 <li><a href="#host-using-a-vpn">Host using a VPN</a></li>
                 <li><a href="#host-using-playit">Host using Playit.gg</a></li>
-                <li><a href="#dedicated-client">Host using a VPN</a></li>
+                <li><a href="#dedicated-client">Dedicated client</a></li>
                 <li><a href="#client-using-port-forwarding">Client using port forwarding</a></li>
                 <li><a href="#client-using-a-vpn">Client using a VPN</a></li>
             </ul>
