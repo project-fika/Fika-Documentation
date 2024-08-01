@@ -346,7 +346,7 @@ The server configuration can be found in the `user\mods\fika-server\assets\confi
     },
     "natPunchServer": {
         "enable": false, // if nat punching should be enabled, default: false
-        "port": 6790, // nat punching port, default: 6970
+        "port": 6970, // nat punching port, default: 6970
         "natIntroduceAmount": 1
     }
 }
