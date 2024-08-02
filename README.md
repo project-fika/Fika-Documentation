@@ -181,7 +181,7 @@ Editing your ``http.json`` is not required.
 
 ### Dedicated Client
 
-**This section is only for advanced users**
+⛔ **This section is only for advanced users** ⛔
 1. Make sure that you have a working server and client installed
 2. Copy the client to a new folder and install the latest [dedicated plugin](https://github.com/project-fika/Fika-Dedicated/releases)
 3. On your `SPT.Server`, open the `fika.jsonc` configuration file and at the bottom change your dedicated settings
@@ -199,6 +199,14 @@ Editing your ``http.json`` is not required.
 4. Start up your `SPT.Server` once to let it generate the profile and startup script, then go to `\user\mods\fika-server\assets\scripts` and find the generated script. Move this to your client installation root folder created in step 2 (if you wish to re-regenerate these scripts, you need to delete the *old dedicated profiles*)
 5. Either port forward or set up your VPN as normal, and then manually change your `fika.core` configuration in `\BepInEx\config\com.fika.core.cfg`. Set the port to your forwarded port, or set bind and force IP to the dedicated client's IP.
 6. Launch the dedicated client by running the batch script, then in-game when hosting on your own client, tick the "Use Dedicated" to use the dedicated client for hosting. It can only host one raid per client. It is generally recommended to put all your AI mods on the dedicated client and remove them locally on your own since the dedicated will now handle the AI instead.
+
+The dedicated client runs at a standard capped update rate of 60 FPS. If you want to increase it to a higher number, append `-updateRate=X` where X is your desired update rate (max 120) to the launch script. An example would be:
+```bat
+-batchmode -nographics --enable-console true -updateRate=120 & exit
+```
+Keep in mind that stronger hardware is required to maintain a higher update rate and the gain is neglible.
+
+⚠️ **NOTE**: There are currently inconsistencies with the AI aim when running the dedicated client without graphics. If you have a GPU on the machine you are running it from, you could try removing `-nographics` and even `-batchmode` to alleviate the problem. We are still investigating if there are workarounds. ⚠️
 
 ### Client using port forwarding
 
