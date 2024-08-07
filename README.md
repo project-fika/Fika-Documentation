@@ -334,7 +334,6 @@ The server configuration can be found in the `user\mods\fika-server\assets\confi
         "dynamicVExfils": false, // if vehicle exfils should scale to the amount of players in raid rather than default to 4, default: false
         "allowFreeCam": false, // if the free cam can be toggled freely, default: false
         "allowItemSending": true, // if item sending should be enabled, default: true
-        "allowFreeCam": false, // if free cam should be alived while alive, default: false
         "allowItemSending": true, // if item sending is enabled, default: true
         "blacklistedItems": [], // item template ids that cannot be sent, e.g. ["5c94bbff86f7747ee735c08f", "5c1d0f4986f7744bb01837fa"] would not allow players to send access cards and black keycards
         "forceSaveOnDeath": false, // if saving is forced upon death, preventing ALT+F4 cheese, default: false
