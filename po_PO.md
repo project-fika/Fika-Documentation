@@ -8,26 +8,26 @@
         <li>
             <a href="#pré-requisitos">Pré Requisitos</a>
             <ul>
-                <li><a href="#hospeando">Hospeando</a></li>
+                <li><a href="#hospedando">Hospeando</a></li>
                 <li><a href="#cliente">Cliente</a></li>
             </ul>
         </li>
-        <li><a href="#requerimento-de-hardware">Requiremento de Hardware</a></li>
+        <li><a href="#requerimento-de-hardware">Requerimento de Hardware</a></li>
         <li>
             <a href="#instalação">Instalação</a>
             <ul>
                 <li><a href="#hospedar-usando-redirecionamento-de-porta">Hospedar usando Redirecionamento de Porta</a></li>
                 <li><a href="#hospedar-usando-vpn">Hospedar usando VPN</a></li>
-                <li><a href="#hospedar-usando-playit">Hospedar usando Playit.gg</a></li>
+                <li><a href="#hospedar-usando-playit">Hospedar usando Playit</a></li>
                 <li><a href="#cliente-dedicado">Cliente Dedicado</a></li>
-                <li><a href="#client-usando-redirecionamento-de-porta">Cliente usando Redirecionamento de Porta</a></li>
-                <li><a href="#client-usando-vpn">Cliente usando VPN</a></li>
+                <li><a href="#cliente-usando-redirecionamento-de-porta">Cliente usando Redirecionamento de Porta</a></li>
+                <li><a href="#cliente-usando-vpn">Cliente usando VPN</a></li>
             </ul>
         </li>
         <li>
             <a href="#características-e-configurações">Características e Configurações</a>
             <ul>
-                <li><a href="#características-e-como-fazer">Características & Como fazer</a></li>
+                <li><a href="#características--como-fazer">Características & Como fazer</a></li>
                 <li><a href="#configuração-do-cliente">Configuração do Cliente</a></li>
                 <li><a href="#configuração-do-server">Configuração do Server</a></li>
             </ul>
@@ -55,7 +55,7 @@ Este projeto está licenciado sob [CC BY-NC-SA 4.0](https://creativecommons.org/
 
 Fika requer conhecimento geral de computadores, redes e SPT. Se você não se sentir à vontade com esses conceitos, este projeto não é para você. Por favor, tente entender e respeitar isso.
 
-### Hosteando
+### Hospedando
 
 - Roteador e Provedora de Serviço que suporte **Redirecionamento de Porta** ou **UPnP**.
 - Porta TCP 6969 aberta para o servidor SPT.
@@ -171,7 +171,7 @@ Exemplo com um endereço fictício (**20.20.56.73**):
 10. No campo `URL`, altere para refletir o IP da sua VPN. Usando o exemplo na etapa 5, seria: `http://20.20.56.73:6969` (lembre-se de remover qualquer barra `/` no final)
 11. Inicie o jogo e, após criar sua conta, defina tanto `Force IP` quanto `Force Bind IP` para o seu próprio IP pessoal da VPN. Você pode encontrar esses valores clicando em `F12` no menu principal.
 
-### Hospedagem usando Playit
+### Hospedar usando Playit
 
 [Playit.gg](https://playit.gg/) é um proxy que torna possível hospedar servidores sem precisar redirecionar portas, 
 encaminhando o tráfego do jogo por meio de um dos seus datacenters.
@@ -213,7 +213,7 @@ Mantenha em mente que um hardware forte é necessario para manter maiores taxas 
 2. Navegue para sua instalação do SPT e extraia os conteúdos dos arquivos na pasta.
 3. Inicie o `SPT.Launcher.exe` e selecione 'Configurações'
 4. No campo `URL`, mude para refletir o WAN IP do host. Por exemplo, seria: `http://20.20.56.73:6969` (lembre-se de remover qualquer barra `/` no final)
-5. Se hospedar no jogo, permita todas as conexõess (publicas and privadas) quando solicitado pelo Windows Firewall
+5. Se hospedar no jogo, permita todas as conexõess (públicas and privadas) quando solicitado pelo Windows Firewall
 
 ### Client using a VPN
 
@@ -221,7 +221,7 @@ Mantenha em mente que um hardware forte é necessario para manter maiores taxas 
 2. Navegue para sua instalação do SPT e extraia os conteúdos dos arquivos na pasta.
 3. Inicie o `SPT.Launcher.exe` e selecione 'Configurações'
 4. No campo `URL`, mude para refletir o VPN IP do host. Por exemplo, seria: `http://20.20.56.73:6969` (lembre-se de remover qualquer barra `/` no final)
-5. Se hospedar no jogo, permita todas as conexõess (publicas and privadas) quando solicitado pelo Windows Firewall
+5. Se hospedar no jogo, permita todas as conexõess (públicas and privadas) quando solicitado pelo Windows Firewall
 
 ## Características e Configurações
 
