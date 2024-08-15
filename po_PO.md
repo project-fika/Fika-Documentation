@@ -1,14 +1,14 @@
 # Fika - A multiplayer mod for SPT
 
 <details open>
-    <summary>Table of Contents</summary>
+    <summary>Tabela de Conteúdo</summary>
     <ol>
         <li><a href="#o-que-é-fika">O que é Fika</a></li>
         <li><a href="#licença">Licença</a></li>
         <li>
             <a href="#pré-requisitos">Pré Requisitos</a>
             <ul>
-                <li><a href="#hospedando">Hospeando</a></li>
+                <li><a href="#hospedando">Hospedando</a></li>
                 <li><a href="#cliente">Cliente</a></li>
             </ul>
         </li>
@@ -37,14 +37,14 @@
 
 ## O que é FIKA
 
-**Fika** é um mod para **SPT**  que permite você jogar COOP com seus amigos. Utiliza uma conexão P2P-UDP para uma experiencia moderna e eficaz. Os objetivos principais do Fika são: desempenho, precisão e suporte a mods. Fika atualmente é mantida pela Equipe Fika.
+**Fika** é um mod para **SPT** que permite você jogar COOP com seus amigos. Utiliza uma conexão P2P-UDP para uma experiência moderna e eficaz. Os objetivos principais do Fika são: desempenho, precisão e suporte a mods. Fika atualmente é mantida pela Equipe Fika.
 Junte-se ao nosso Discord [aqui](https://discord.gg/project-fika)!
 
 ## Licença
 
 <img src="https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-nc-sa.png" alt="cc by-nc-sa" width="196" height="62" style="float:right">
 
-Este projeto está licenciado sob [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.en).
+Este projeto está licenciado sob a [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.en).
 
 - Você só pode compartilhar/criar derivativos de Fika desde que sejam dados os devidos créditos e que não seja usado para fins comerciais.
 - Você não pode monetizar seu servidor em termos de pagamentos ou doações.
@@ -53,7 +53,7 @@ Este projeto está licenciado sob [CC BY-NC-SA 4.0](https://creativecommons.org/
 
 ## Pré Requisitos
 
-Fika requer conhecimento geral de computadores, redes e SPT. Se você não se sentir à vontade com esses conceitos, este projeto não é para você. Por favor, tente entender e respeitar isso.
+Fika requer conhecimento geral de computadores, redes e do SPT. Se você não se sentir à vontade com esses conceitos, este projeto não é para você. Por favor, tente entender e respeitar isso.
 
 ### Hospedando
 
@@ -241,7 +241,7 @@ Para hospedar um jogo, selecione um mapa e horário, e então na tela final sele
     - Você pode se fixar nas costas de alguém, camera em terceira pessoa, segurando `CTRL` quando pulando
     - Você pode apertar `HOME` para ativar/desativar os controles da Camera Livre
 - Multiplicadores de dano para areas cruciais em si mesmo
-- Ia Dinamica para Host, no qual desabilita a IA quando ningúem está perto
+- IA Dinamica para Host, no qual desabilita a IA quando ningúem está perto
 - Limites customizados de IA por mapa
 - Sistema de Triagem para aumentar desempenho
 - Notificações personalizadas (colega morreu, chefe morreu para player, etc.)
