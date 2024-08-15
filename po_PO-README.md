@@ -99,7 +99,7 @@ O maior ganho no Fika (e no SPT em geral) vai ser ter um CPU forte e mais RAM.
 
 ### Hospedar usando Redirecionamento de Porta
 
-Antes de iniciar estas etapas, certifique-se de que você redirecionou todas as portas necessárias nas Pré-requisitos. Não iremos ajudá-lo a abrir suas portas. Se você não tiver acesso ao seu roteador ou não puder redirecionar portas, use uma VPN.
+Antes de iniciar estas etapas, certifique-se de que você redirecionou todas as portas necessárias em Pré-requisitos. Não iremos ajudá-lo a abrir suas portas. Se você não tiver acesso ao seu roteador ou não puder redirecionar portas, use uma VPN.
 
 **Configuração do Firewall**
 
@@ -126,7 +126,7 @@ Antes de iniciar estas etapas, certifique-se de que você redirecionou todas as 
     ```
     Iniciado webserver em http://70.60.150.90:6969
     Iniciado websocket em ws://70.60.150.90:6969
-    Servidor está rodando, não feche enquanto estiver jogando SPT, Bom jogo!!
+    Servidor iniciado, não feche enquanto estiver jogando SPT, Bom jogo!!
     ```
 8. Inicie `SPT.Launcher.exe`
 9. Seus amigos podem se conectar utilizando seu WAN IP, que pode ser encontrado usando o site [IPv4.ICanHazIP](https://ipv4.icanhazip.com/)
@@ -165,7 +165,7 @@ Exemplo com um endereço fictício (**20.20.56.73**):
     ```
     Iniciado webserver em http://70.60.150.90:6969
     Iniciado websocket em ws://70.60.150.90:6969
-    Servidor está rodando, não feche enquanto estiver jogando SPT, Bom jogo!!
+    Servidor iniciado, não feche enquanto estiver jogando SPT, Bom jogo!!
     ```
 9. Inicie o `SPT.Launcher.exe` e clique em 'Configurações'
 10. No campo `URL`, altere para refletir o IP da sua VPN. Usando o exemplo na etapa 5, seria: `http://20.20.56.73:6969` (lembre-se de remover qualquer barra `/` no final)
@@ -236,9 +236,9 @@ Para hospedar um jogo, selecione um mapa e horário, e então na tela final sele
     - Pode ser customizado no [server](#configuração-do-server)
 - Camera Livre (padrão tecla `F9`)
     - Na camera livre você pode teletortar para a posição da camera pressionando `T`
-    - Você pode pular para outro jogador pressionando o clique `Esquerdo/Direito`
-    - Você pode se fixar na cabeça de alguém segurando `ESPAÇO` quando pulando
-    - Você pode se fixar nas costas de alguém, camera em terceira pessoa, segurando `CTRL` quando pulando
+    - Você pode **pular** para outro jogador pressionando o clique `Esquerdo/Direito` do Mouse
+    - Você pode se fixar na cabeça de alguém segurando `ESPAÇO` quando **pulando**
+    - Você pode se fixar nas costas de alguém, camera em terceira pessoa, segurando `CTRL` quando **pulando**
     - Você pode apertar `HOME` para ativar/desativar os controles da Camera Livre
 - Multiplicadores de dano para areas cruciais em si mesmo
 - IA Dinamica para Host, no qual desabilita a IA quando ningúem está perto
