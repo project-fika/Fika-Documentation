@@ -3,145 +3,145 @@
 <details open>
     <summary>Table of Contents</summary>
     <ol>
-        <li><a href="#what-is-fika">What is Fika</a></li>
-        <li><a href="#license">License</a></li>
+        <li><a href="#o-que-é-fika">O que é Fika</a></li>
+        <li><a href="#licença">Licença</a></li>
         <li>
-            <a href="#prerequisites">Prerequisites</a>
+            <a href="#pré-requisitos">Pré Requisitos</a>
             <ul>
-                <li><a href="#hosting">Hosting</a></li>
-                <li><a href="#client">Client</a></li>
+                <li><a href="#hospeando">Hospeando</a></li>
+                <li><a href="#cliente">Cliente</a></li>
             </ul>
         </li>
-        <li><a href="#hardware-requirements">Hardware Requirements</a></li>
+        <li><a href="#requerimento-de-hardware">Requiremento de Hardware</a></li>
         <li>
-            <a href="#installation">Installation</a>
+            <a href="#instalação">Instalação</a>
             <ul>
-                <li><a href="#host-using-port-forwarding">Host using port forwarding</a></li>
-                <li><a href="#host-using-a-vpn">Host using a VPN</a></li>
-                <li><a href="#host-using-playit">Host using Playit.gg</a></li>
-                <li><a href="#dedicated-client">Dedicated client</a></li>
-                <li><a href="#client-using-port-forwarding">Client using port forwarding</a></li>
-                <li><a href="#client-using-a-vpn">Client using a VPN</a></li>
+                <li><a href="#hospedar-usando-redirecionamento-de-porta">Hospedar usando Redirecionamento de Porta</a></li>
+                <li><a href="#hospedar-usando-vpn">Hospedar usando VPN</a></li>
+                <li><a href="#hospedar-usando-playit">Hospedar usando Playit.gg</a></li>
+                <li><a href="#cliente-dedicado">Cliente Dedicado</a></li>
+                <li><a href="#client-usando-redirecionamento-de-porta">Cliente usando Redirecionamento de Porta</a></li>
+                <li><a href="#client-usando-vpn">Cliente usando VPN</a></li>
             </ul>
         </li>
         <li>
-            <a href="#features-and-configuration">Features and Configuration</a>
+            <a href="#características-e-configurações">Características e Configurações</a>
             <ul>
-                <li><a href="#features--how-to">Features & How-To</a></li>
-                <li><a href="#client-configuration">Client Configuration</a></li>
-                <li><a href="#server-configuration">Server Configuration</a></li>
+                <li><a href="#características-e-como-fazer">Características & Como fazer</a></li>
+                <li><a href="#configuração-do-cliente">Configuração do Cliente</a></li>
+                <li><a href="#configuração-do-server">Configuração do Server</a></li>
             </ul>
         </li>
     </ol>
 </details>
 
-## What is Fika
+## O que é FIKA
 
-**Fika** is a mod for **SPT** that allows you to play COOP with your friends. It utilizes a P2P-UDP connection for a modern and performant experience. The main goals of Fika are: performance, accuracy and mod-support. Fika is currently maintained by the Fika team.
-You can join our Discord [here](https://discord.gg/project-fika)!
+**Fika** é um mod para **SPT**  que permite você jogar COOP com seus amigos. Utiliza uma conexão P2P-UDP para uma experiencia moderna e eficaz. Os objetivos principais do Fika são: desempenho, precisão e suporte a mods. Fika atualmente é mantida pela Equipe Fika.
+Junte-se ao nosso Discord [aqui](https://discord.gg/project-fika)!
 
-## License
+## Licença
 
 <img src="https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-nc-sa.png" alt="cc by-nc-sa" width="196" height="62" style="float:right">
 
-This project is licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.en).
+Este projeto está licenciado sob [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.en).
 
-- You may only share/create derivatives of Fika as long as proper credits are given and it is not used for commercial purposes.
-- You may not monetize your server in terms of payments or donations.
-- You may not host massive public servers, Fika is meant for COOP with your friends.
-- You may not use Fika's **art assets** that are handcrafted by our developers and artists without permission from the creator.
+- Você só pode compartilhar/criar derivativos de Fika desde que sejam dados os devidos créditos e que não seja usado para fins comerciais.
+- Você não pode monetizar seu servidor em termos de pagamentos ou doações.
+- Você não pode hospedar servidores públicos em larga escala, Fika é destinado para COOP com seus amigos.
+- Você não pode usar os **recursos artísticos** de Fika que são feitos à mão por nossos desenvolvedores e artistas sem a permissão do criador.
 
-## Prerequisites
+## Pré Requisitos
 
-Fika requires general knowledge of computers, networking and SPT. If you are not comfortable with these concepts, this project is not for you. Please try to understand and respect this.
+Fika requer conhecimento geral de computadores, redes e SPT. Se você não se sentir à vontade com esses conceitos, este projeto não é para você. Por favor, tente entender e respeitar isso.
 
-### Hosting
+### Hosteando
 
-- Router and ISP that supports either **Port Forwarding** or **UPnP**
-- TCP port 6969 open for the SPT Server
-- UDP Port open for P2P traffic, default 25565 (if using UPnP this is not required)
-- SPT installed and working, matching the version of Fika you are going to use
-- Access to your Windows Firewall
-- Internet speed of at least 20 Mbit/s up and down is recommended. Each client averages around 400 kbit/s.
+- Roteador e Provedora de Serviço que suporte **Redirecionamento de Porta** ou **UPnP**.
+- Porta TCP 6969 aberta para o servidor SPT.
+- Porta UDP aberta para tráfego P2P, padrão 25565. (se estiver usando UPnP, não é necessário)
+- SPT instalado e funcionando, compatível com a versão do Fika que você vai usar.
+- Acesso ao Firewall do Windows.
+- Recomenda-se uma velocidade de internet de pelo menos 20 Mbit/s de upload e download. Cada cliente consome em média cerca de 400 kbit/s.
 
-If you can not port forward, you can use a VPN like `ZeroTier` or `Radmin` or a proxy like ``Playit.gg``.
+Se não conseguir redirecionar portas, você pode usar VPN como `ZeroTier` ou `Radmin` ou um proxy como ``Playit.gg``.
 
-### Client
+### Cliente
 
-- Router and ISP that supports either **Port Forwarding** or **UPnP** | **NOTE**: This is only required if you will be hosting in-game
-- UDP Port open for P2P traffic, default 25565 (if using UPnP this is not required) | **NOTE**: Same as above
-- SPT installed and working, matching the version of Fika you are going to use
-- Access to your Windows Firewall
-- Internet speed of at least 20 Mbit/s up and down is recommended
+- Roteador e Provedora de Serviço que suporte **Redirecionamento de Porta** ou **UPnP**. | **NOTA**: Apenas necessario se irá hospedar dentro do jogo.
+- Porta UDP aberta para tráfego P2P, padrão 25565. (se estiver usando UPnP, não é necessário) | **NOTA**: Mesma coisa que acima.
+- SPT instalado e funcionando, compatível com a versão do Fika que você vai usar.
+- Acesso ao Firewall do Windows.
+- Recomenda-se uma velocidade de internet de pelo menos 20 Mbit/s de upload e download.
 
-### Both
+### Ambos
 
-- The latest Fika files
+- A ultima versão dos arquivos Fika
 
-## Hardware Requirements
+## Requerimento de Hardware
 
-These are recommendations for a smooth experience:
+Essas são as recomendações para uma experiência suave:
 
 - **CPU**: i7 8700k / Ryzen 7 2700x
 - **GPU**: GTX 1060 / RX 580
-- **Memory** 16 GB minimum, 32 GB highly recommended
-- **Storage**: SSD is mandatory, do not expect support when running Fika on a HDD
+- **Memória** 16 GB mínimo, 32 GB altamente recomendado
+- **Armazenamento**: SSD é obrigatório, não espere suporte se estiver rodando Fika em um HDD
 
-These are recommendations for a dedicated client:
+Essas são as recomendações para um cliente dedicado:
 
-- **CPU**: >4 GHz per core
-- **Memory**: >16 GB, 32 GB highly recommended
-- **Storage**: SSD is mandatory
+- **CPU**: >4 GHz por núcleo
+- **Memória**: >16 GB, 32 GB altamente recomendado
+- **Armazenamento**: SSD é obrigatório
 
-The biggest gain in Fika (and in SPT in general) will be getting a stronger CPU and RAM.
+O maior ganho no Fika (e no SPT em geral) vai ser ter um CPU forte e mais RAM.
 
-## Installation
+## Instalação
 
-### Host using port forwarding
+### Hospedar usando Redirecionamento de Porta
 
-Before starting these steps, make sure you have port forwarded all required ports in the Prerequisites. We will not assist you with opening your ports. If do not have access to your router or can not port forward, use a VPN.
+Antes de iniciar estas etapas, certifique-se de que você redirecionou todas as portas necessárias nas Pré-requisitos. Não iremos ajudá-lo a abrir suas portas. Se você não tiver acesso ao seu roteador ou não puder redirecionar portas, use uma VPN.
 
-**Firewall Configuration**
+**Configuração do Firewall**
 
-1. Port forward the port 6969 **TCP** in your router (both in and out)
-2. Port forward the **UDP** port that you will use in your router, default 25565 (both in and out)
-3. When prompted by Windows, allow ***all*** connections in your Firewall
-4. If you are still having problems, we suggest you allow `EscapeFromTarkov.exe` (everyone) and `SPT.Server.exe` (server host) for inbound and outbound connections in your Windows Advanced Firewall.
+1. Redirecione a porta **TCP** 6969 no seu roteador (ambos entrada e saída)
+2. Redirecione a porta **UDP** que você vai usar no seu roteador, padrão 25565 (ambos entrada e saída)
+3. Quando solicitado pelo Windows, permita **todas** as conexões no seu Firewall
+4. Se você ainda estiver tendo problemas, sugerimos que permita `EscapeFromTarkov.exe` (para todos) e `SPT.Server.exe` (host do servidor) para conexões de entrada e saída no Firewall Avançado do Windows.
 
-**General Setup**
+**Configuração Geral**
 
-1. [Download the latest Fika plugin](https://github.com/project-fika/Fika-Plugin/releases/latest) and [download the latest Fika server mod](https://github.com/project-fika/Fika-Server/releases/latest)
-3. Start up the `SPT.Server.exe` once to let it generate the configuration files for Fika, then close it again
-4. Go back to the main folder and navigate to `SPT_Data\Server\configs` and open `http.json`
-5. Change `ip` to `0.0.0.0` and `backendIp` to your [WAN IP](https://ipv4.icanhazip.com/), then save the file and close it
-6. Navigate to `user\mods\fika-server\assets\configs` and open `fika.jsonc`
-7. Change any of the settings according to your likings.
-    - **useBtr**: if the BTR should spawn or not when playing Streets
-    - **friendlyFire**: if friendly fire should be enabled or not
-    - **dynamicVExfils**: automatically scale vehicle exfils max players with the amount of players in the raid
-    - **allowFreeCam**: allow players to freely toggle free cam during raids
-    - **giftedItemsLoseFIR**: if sent items should lose their FiR status
-8. Start the `SPT.Server.exe` and wait for it to finish loading
-    - This is what it should look like if it succeeded to start with an example WAN IP of `70.60.150.90`:
+1. [Baixe o plugin Fika mais recente](https://github.com/project-fika/Fika-Plugin/releases/latest) e [baixe o mod de servidor Fika mais recente](https://github.com/project-fika/Fika-Server/releases/latest)
+2. Inicie o `SPT.Server.exe` uma vez para permitir que ele gere os arquivos de configuração para o Fika, depois feche-o novamente
+3. Volte para a pasta principal e navegue até `SPT_Data\Server\configs` e abra `http.json`
+4. Altere **ip** para `0.0.0.0` e **backendIp** para seu [IP WAN](https://ipv4.icanhazip.com/), depois salve o arquivo e feche-o
+5. Navegue até `user\mods\fika-server\assets\configs` e abra `fika.jsonc`
+6. Altere qualquer uma das configurações de acordo com suas preferências:
+    - **useBtr**: se o BTR deve aparecer ou não ao jogar Streets
+    - **friendlyFire**: se o fogo amigo deve ser ativado ou não
+    - **dynamicVExfils**: ajusta automaticamente o número máximo de jogadores em veículos de exfiltração de acordo com a quantidade de jogadores na incursão
+    - **allowFreeCam**: permite que os jogadores ativem a câmera livre durante as incursões
+    - **giftedItemsLoseFIR**: se os itens enviados devem perder seu status FiR
+7. Inicie o `SPT.Server.exe` e espere ele terminar de carregar
+    - Isso é o que deve aparecer se ele tiver iniciado com sucesso, usando como exemplo o IP WAN `70.60.150.90`:
     ```
-    Started webserver at http://70.60.150.90:6969
-    Started websocket at ws://70.60.150.90:6969
-    Server is running, do not close while playing SPT, Happy playing!!
+    Iniciado webserver em http://70.60.150.90:6969
+    Iniciado websocket em ws://70.60.150.90:6969
+    Servidor está rodando, não feche enquanto estiver jogando SPT, Bom jogo!!
     ```
-9. Start `SPT.Launcher.exe`
-10. Your friends can connect to your server using your WAN IP, which can be found using the [IPv4.ICanHazIP](https://ipv4.icanhazip.com/) site
+8. Inicie `SPT.Launcher.exe`
+9. Seus amigos podem se conectar utilizando seu WAN IP, que pode ser encontrado usando o site [IPv4.ICanHazIP](https://ipv4.icanhazip.com/)
 
-### Host using a VPN
+### Hospedar usando VPN
 
-You need a VPN like `ZeroTier` or `Radmin`. 
+Você precisa de uma VPN como `ZeroTier` ou `Radmin`. 
 
-1. [Download the latest Fika plugin](https://github.com/project-fika/Fika-Plugin/releases/latest) and [download the latest Fika server mod](https://github.com/project-fika/Fika-Server/releases/latest)
-2. Navigate to your SPT installation and extract the contents of the archive into the folder
-3. Start up the `SPT.Server.exe` once to let it generate the configuration files for Fika, then close it again
-4. Go back to the main folder and navigate to `SPT_Data\Server\configs` and open `http.json`
-5. Change `ip` and `backendIp` to your VPN IP, then save the file and close it
+1. [Baixe o plugin Fika mais recente](https://github.com/project-fika/Fika-Plugin/releases/latest) e [baixe o mod de servidor Fika mais recente](https://github.com/project-fika/Fika-Server/releases/latest)
+2. Navegue até a instalação do SPT e extraia o conteúdo do arquivo na pasta
+3. Inicie o `SPT.Server.exe` uma vez para permitir que ele gere os arquivos de configuração para o Fika, depois feche-o novamente
+4. Volte para a pasta principal e navegue até `SPT_Data\Server\configs` e abra `http.json`
+5. Altere `ip` e `backendIp` para o IP da sua VPN, depois salve o arquivo e feche-o
 
-Example with a fake address (**20.20.56.73**):
+Exemplo com um endereço fictício (**20.20.56.73**):
 ```json
 {
     "ip": "20.20.56.73",
@@ -153,206 +153,204 @@ Example with a fake address (**20.20.56.73**):
     "serverImagePathOverride": {}
 }
 ```
-6. Navigate to `user\mods\fika-server\assets\configs` and open `fika.jsonc`
-7. Change any of the settings according to your likings.
-    - **useBtr**: if the BTR should spawn or not when playing Streets
-    - **friendlyFire**: if friendly fire should be enabled or not
-    - **dynamicVExfils**: automatically scale vehicle exfils max players with the amount of players in the raid
-    - **allowFreeCam**: allow players to freely toggle free cam during raids
-    - **giftedItemsLoseFIR**: if sent items should lose their FiR status
-8. Start the `SPT.Server.exe` and wait for it to finish loading
-    - This is what it should look like if it succeeded to start using the example IP in step 5:
+6. Navegue até `user\mods\fika-server\assets\configs` e abra `fika.jsonc`
+7. Altere qualquer uma das configurações de acordo com suas preferências.
+    - **useBtr**: se o BTR deve aparecer ou não ao jogar Streets
+    - **friendlyFire**: se o fogo amigo deve ser ativado ou não
+    - **dynamicVExfils**: ajusta automaticamente o número máximo de jogadores em veículos de exfiltração de acordo com a quantidade de jogadores na incursão
+    - **allowFreeCam**: permite que os jogadores ativem a câmera livre durante as incursões
+    - **giftedItemsLoseFIR**: se os itens enviados devem perder seu status FiR
+8. Inicie o `SPT.Server.exe` e espere ele terminar de carregar
+    - Isso é o que deve aparecer se ele tiver iniciado com sucesso, usando o IP de exemplo na etapa 5:
     ```
-    Started webserver at http://20.20.56.73:6969
-    Started websocket at ws://20.20.56.73:6969
-    Server is running, do not close while playing SPT, Happy playing!!
+    Iniciado webserver em http://70.60.150.90:6969
+    Iniciado websocket em ws://70.60.150.90:6969
+    Servidor está rodando, não feche enquanto estiver jogando SPT, Bom jogo!!
     ```
-9. Start `SPT.Launcher.exe` and click 'Settings'
-10. In the `URL` field, change it to reflect your VPN IP. Using the example in step 5 it would be: `http://20.20.56.73:6969` (remember to remove any trailing forward slashes `/`)
-11. Start the game, and once your account is created set both `Force IP` and `Force Bind IP` to your *own*, *personal* VPN IP. You can find these by clicking `F12` in the main menu.
+9. Inicie o `SPT.Launcher.exe` e clique em 'Configurações'
+10. No campo `URL`, altere para refletir o IP da sua VPN. Usando o exemplo na etapa 5, seria: `http://20.20.56.73:6969` (lembre-se de remover qualquer barra `/` no final)
+11. Inicie o jogo e, após criar sua conta, defina tanto `Force IP` quanto `Force Bind IP` para o seu próprio IP pessoal da VPN. Você pode encontrar esses valores clicando em `F12` no menu principal.
 
-### Host using Playit
+### Hospedagem usando Playit
 
-[Playit.gg](https://playit.gg/) is a proxy that makes it possible to host servers without having to port forward,
-by relaying the game traffic over one of their datacenters.
-[This guide](https://discuss.playit.gg/t/setup-an-escape-from-tarkov-multiplayer-server-with-spt-fika/3352) will teach you how to use Playit.gg
-to host a SPT/Fika Server.
-Editing your ``http.json`` is not required.
+[Playit.gg](https://playit.gg/) é um proxy que torna possível hospedar servidores sem precisar redirecionar portas, 
+encaminhando o tráfego do jogo por meio de um dos seus datacenters.
+[Este guia](https://discuss.playit.gg/t/setup-an-escape-from-tarkov-multiplayer-server-with-spt-fika/3352) vai te ensinar como usar o Playit.gg
+para hospedar um servidor SPT/Fika.
+Editar seu ``http.json`` não é necessário.
 
-### Dedicated Client
+### Cliente Dedicado
 
-⛔ **This section is only for advanced users** ⛔
-1. Make sure that you have a working server and client installed
-2. Copy the client to a new folder and install the latest [dedicated plugin](https://github.com/project-fika/Fika-Dedicated/releases)
-3. On your `SPT.Server`, open the `fika.jsonc` configuration file and at the bottom change your dedicated settings
+⛔ **Essa seção é apenas para usuários avançados** ⛔
+1. Tenha certeza que você tem um servidor e cliente funcional instalado
+2. Copie o cliente para uma nova pasta e instale a ultima versão do [plugin dedicado](https://github.com/project-fika/Fika-Dedicated/releases)
+3. No seu `SPT.Server`, abra o arquivo de configuração `fika.jsonc` e no fim altere suas configurações do dedicado
 ```json
 "dedicated": {
         "profiles": {
-            "amount": 1 // the amount of dedicated profiles to generate automatically, one per dedicated client
+            "amount": 1 // a quantidade de perfis dedicados para ser gerado automaticamente, um por cliente dedicado
         },
         "scripts": {
-            "generate": true, // if a startup script should be automatically generated (required unless you know what you are doing)
-            "forceIp": "127.0.0.1" // the ip the dedicated client should connect to, leave at default if local
+            "generate": true, // se o script de startup deveria ser automaticamente gerado (necessario a menos que você saiba o que está fazendo)
+            "forceIp": "127.0.0.1" // o ip que o cliente dedicado deveria se conectar, deixe padrão se for local
         }
     }
 ```
-4. Start up your `SPT.Server` once to let it generate the profile and startup script, then go to `\user\mods\fika-server\assets\scripts` and find the generated script. Move this to your client installation root folder created in step 2 (if you wish to re-regenerate these scripts, you need to delete the *old dedicated profiles*)
-5. Either port forward or set up your VPN as normal, and then manually change your `fika.core` configuration in `\BepInEx\config\com.fika.core.cfg`. Set the port to your forwarded port, or set bind and force IP to the dedicated client's IP.
-6. Launch the dedicated client by running the batch script, then in-game when hosting on your own client, tick the "Use Dedicated" to use the dedicated client for hosting. It can only host one raid per client. It is generally recommended to put all your AI mods on the dedicated client and remove them locally on your own since the dedicated will now handle the AI instead.
-
-The dedicated client runs at a standard capped update rate of 60 FPS. If you want to increase it to a higher number, append `-updateRate=X` where X is your desired update rate (max 120) to the launch script. An example would be:
+4. Inicie seu `SPT.Server` uma vez e deixe gerar o perfil e script de inicialização, então vá para `\user\mods\fika-server\assets\scripts` e encontre o script gerado. Mova isso para sua pasta raiz de instalação do Cliente criada na etapa 2 (se deseja re-gerar esses scripts, você precisa deletar o *antigo perfil dedicado*)
+5. Redirecione a porta ou configure sua VPN normalmente, então mude manualmente a configuração do seu `fika.core` no `\BepInEx\config\com.fika.core.cfg`. Defina sua porta para a porta redirecionada, ou defina `set bind` e `force IP` para o IP do cliente dedicado.
+6. Abra o cliente dedicado executando o script em lote (.bat), então no jogo quando estiver hospedando no seu próprio cliente, marque a opção "Usar Dedicado" para usar o cliente dedicado para hospedar. Só pode ser hospedado uma incursão por cliente. Geralmente é recomendado colocar todos os seus mods de IA no cliente dedicado e remover eles localmente, já que o cliente dedicado agora irá lidar com a IA.
+O cliente dedicado roda em uma taxa de atualização de 60 FPS. Se quiser aumentar para um numero maior, insira `-updateRate=X` onde X é o a taxa de atualização desejada (max 120) no script de inicialização. Um exemplo seria:
 ```bat
 -batchmode -nographics --enable-console true -updateRate=120 & exit
 ```
-Keep in mind that stronger hardware is required to maintain a higher update rate and the gain is neglible.
+Mantenha em mente que um hardware forte é necessario para manter maiores taxas de atualização e o ganho é quase nulo.
 
-⚠️ **NOTE**: There are currently inconsistencies with the AI aim when running the dedicated client without graphics. If you have a GPU on the machine you are running it from, you could try removing `-nographics` and even `-batchmode` to alleviate the problem. We are still investigating if there are workarounds. ⚠️
+⚠️ **NOTA**: Atualmente há inconsistencias com a mira da IA ao utilizar o cliente dedicado sem gráficos. Se possui uma maquina que está rodando, poderá tentar remover `-nographics` e até mesmo `-batchmode` para aliviar o problemam. Ainda estamos investigando soluçoes alternativas. ⚠️
 
-### Client using port forwarding
+### Cliente usando Redirecionamento de Porta
 
-1. [Download the latest Fika plugin](https://github.com/project-fika/Fika-Plugin/releases/latest)
-2. Navigate to your SPT installation and extract the contents of the archive into the folder
-3. Start `SPT.Launcher.exe` and click 'Settings'
-4. In the `URL` field, change it to reflect the hosts WAN IP. For exampleit would be: `http://20.20.56.73:6969` (remember to remove any trailing forward slashes `/`)
-5. If hosting in-game, allow all connections (public and private) when prompted by the Windows Firewall
+1. [Baixe a ultima versão do plugin Fika](https://github.com/project-fika/Fika-Plugin/releases/latest)
+2. Navegue para sua instalação do SPT e extraia os conteúdos dos arquivos na pasta.
+3. Inicie o `SPT.Launcher.exe` e selecione 'Configurações'
+4. No campo `URL`, mude para refletir o WAN IP do host. Por exemplo, seria: `http://20.20.56.73:6969` (lembre-se de remover qualquer barra `/` no final)
+5. Se hospedar no jogo, permita todas as conexõess (publicas and privadas) quando solicitado pelo Windows Firewall
 
 ### Client using a VPN
 
-1. [Download the latest Fika plugin](https://github.com/project-fika/Fika-Plugin/releases/latest)
-2. Navigate to your SPT installation and extract the contents of the archive into the folder
-3. Start `SPT.Launcher.exe` and click 'Settings'
-4. In the `URL` field, change it to reflect the hosts VPN IP. Using the example in step 5 it would be: `http://20.20.56.73:6969` (remember to remove any trailing forward slashes `/`)
-5. If hosting in-game, allow all connections (public and private) when prompted by the Windows Firewall
+1. [Baixe a ultima versão do plugin Fika](https://github.com/project-fika/Fika-Plugin/releases/latest)
+2. Navegue para sua instalação do SPT e extraia os conteúdos dos arquivos na pasta.
+3. Inicie o `SPT.Launcher.exe` e selecione 'Configurações'
+4. No campo `URL`, mude para refletir o VPN IP do host. Por exemplo, seria: `http://20.20.56.73:6969` (lembre-se de remover qualquer barra `/` no final)
+5. Se hospedar no jogo, permita todas as conexõess (publicas and privadas) quando solicitado pelo Windows Firewall
 
-## Features and Configuration
+## Características e Configurações
 
-### Features & How-To
-**Fika** lets you to host P2P sessions with your friends to play COOP. The host is the one that controls most of the logic while playing, such as controlling AI, minefields, sniper zones, the BTR, etc. Each client is responsible for their own damage, both on themselves and on AI. This means that shooting an AI feels responsive and quick.
+### Características & Como fazer
+**Fika** permite que você hospede sessões P2P com seus amigos para jogar COOP. O host é quem controla a maioria da logica enquanto joga, tal como controle de IA, campos minados, zonas de sniper, o BTR, etc. Cada cliente é responsavel pelo seu próprio dano, ambos deles e da IA. Isso significa que atirar na IA é responsivo e rápido.
 
-To host a game, choose a map and time, and then on the final screen click `Host Raid`. Select the amount of players that will be playing (including yourself) and wait for it to finish loading. Once it's ready other people can join your session, and when everyone has finished loading it will automatically start.
+Para hospedar um jogo, selecione um mapa e horário, e então na tela final selecione `Hospedar Incursão`. Selecione a quantidade de jogadores que irão jogar (incluindo você mesmo) e espere carregar. Assim que estiver pronto, outras pessoas poderão se juntar a sua sessão, e quando todo mundo terminar de carregar, começará automaticamente.
 
-**Other Features of Fika**
-- Item Sending
-    - Right-click an item in your stash to send it to another account
-    - Can be customized in the [server](#server-configuration) config
-- Free cam (default to `F9` key)
-    - In free cam you can teleport to the cam position by pressing `T`
-    - You can jump to another player by `Left/Right` clicking
-    - You can snap to their head by holding `SPACE` when jumping
-    - You can snap to their back in a 3rd position view by holding `CTRL` when jumping
-    - You can press the `HOME` key to temporarily toggle free cam controls
-- Damage multipliers for crucial areas on yourself
-- Dynamic AI for hosts, which disables AI when no one is near
-- Custom AI limits per map
-- Culling system to increase performance
-- Custom notifications (teammate died, boss got killed by a player, etc.)
-- Pinging system to ping an area in the game for your teammates
-- Player health bars for your teammates
-- Quest progress sharing in raids
-- Dedicated clients
+**Outras caracteristicas de Fika**
+- Enviar Itens
+    - Com o botão direito do Mouse, clique em um item em seu inventário para mandar para outra conta
+    - Pode ser customizado no [server](#configuração-do-server)
+- Camera Livre (padrão tecla `F9`)
+    - Na camera livre você pode teletortar para a posição da camera pressionando `T`
+    - Você pode pular para outro jogador pressionando o clique `Esquerdo/Direito`
+    - Você pode se fixar na cabeça de alguém segurando `ESPAÇO` quando pulando
+    - Você pode se fixar nas costas de alguém, camera em terceira pessoa, segurando `CTRL` quando pulando
+    - Você pode apertar `HOME` para ativar/desativar os controles da Camera Livre
+- Multiplicadores de dano para areas cruciais em si mesmo
+- Ia Dinamica para Host, no qual desabilita a IA quando ningúem está perto
+- Limites customizados de IA por mapa
+- Sistema de Triagem para aumentar desempenho
+- Notificações personalizadas (colega morreu, chefe morreu para player, etc.)
+- Sistema de Ping para marcar uma área no jogo para seus colegas
+- Barras de vida para seus colegas
+- Progresso de Missões compartilhadas na Incursão
+- Cliente Dedicado
 
-Most of these features are configured in the [client configuration](#client-configuration).
+A maioria dessas caracteristicas podem ser configuradas na [configuração do cliente](#configuração-do-cliente).
 
-### Client Configuration
+### Configuração do Cliente
 
-To open up your client configuration, press the `F12` key while in-game. Head to the `Fika Core` section to configure the settings.
+Para abrir a configuração do seu cliente, pressione a tecla `F12` no jogo. Vá para a seção `Fika Core` para configurar.
 
 **Coop**
 
-- **Show Notifications**: Enable custom notifications when a player dies, extracts, kills a boss, etc.
-- **Auto Extract**: Automatically extracts when playing as a client instead of entering free camera.
-- **Show Extract Message**: Whether to show the extract message after dying/extracting.
-- **Extract Key**: The key used to extract from the raid.
-- **Chat Key**: The key used to open the chat window.
+- **Mostrar Notificaçoes**: Habilita notificações personalizadas quando um jogador morre, extrai, mata um chefe, etc.
+- **Auto Extrair**: Automaticamente extrai quando jogando como cliente, em vez de entrar na camera livre.
+- **Mostrar Mensagem de Extração**: Se mostra a mensagem de extração após morrer/extrair.
+- **Tecla de Extração**: A tecla usada para extrair da incursão.
+- **Tecla do Chat**: A tecla usada para abrir a janela de chat.
 
-**Coop | Custom**
+**Coop | Personalizado**
 
-- **Show Player Name Plates**: Toggle Health-Bars & Names.
-- **Hide Health Bar**: Completely hides the health bar.
-- **Show HP% instead of bar**: Shows health in % amount instead of using the bar.
-- **Show Player Faction Icon**: Shows the player faction icon next to the HP bar.
-- **Hide Name Plate in Optic**: Hides the name plate when viewing through PiP scopes.
-- **Name Plates Use Optic Zoom**:  name plate location should be displayed using the PiP optic camera.
-- **Decrease Opacity In Peripheral**: Decreases the opacity of the name plates when not looking at a player.
-- **Name Plate Scale**: Size of the name plates.
-- **Opacity in ADS**: The opacity of the name plates when aiming down sights.
-- **Ping System**: Toggle Ping System. If enabled you can receive and send pings by pressing the ping key.
-- **Ping Button**: Button used to send pings.
-- **Ping Color**: The color of your pings when displayed for other players.
-- **Ping Size**: The multiplier of the ping size.
-- **Play Ping Animation**: Plays the pointing animation automatically when pinging. Can interfere with gameplay.
+- **Mostrar Placas de Nome dos Jogadores**: Alterna entre barras de vida e nomes.
+- **Ocultar Barra de Vida**: Oculta completamente a barra de vida.
+- **Mostrar HP% em vez da barra**: Mostra a vida em % em vez de usar a barra.
+- **Mostrar Ícone de Facção do Jogador**: Exibe o ícone da facção do jogador ao lado da barra de vida.
+- **Ocultar Placa de Nome ao Mirar**: Oculta a placa de nome ao visualizar através de miras PiP.
+- **Placas de Nome Usam Zoom Óptico**:  A localização da placa de nome deve ser exibida usando a câmera óptica PiP.
+- **Diminuir Opacidade na Periférica**: Diminui a opacidade das placas de nome quando não estiver olhando diretamente para um jogador.
+- **Escala da Placa de Nome**: Tamanho das placas de nome.
+- **Opacidade ao Mirar**: A opacidade das placas de nome ao mirar.
+- **Sistema de Ping**: Alterna o Sistema de Ping. Se ativado, você pode receber e enviar pings pressionando a tecla de ping.
+- **Botão de Ping**: Botão usado para enviar pings.
+- **Cor do Ping**: A cor dos seus pings quando exibidos para outros jogadores.
+- **Tamanho do Ping**: O multiplicador do tamanho do ping.
+- **Reproduzir Animação de Ping**: Reproduz a animação de apontar automaticamente ao enviar um ping. Pode interferir na jogabilidade.
 
-**Coop | Quest Sharing**
-- **Quest Types**: Which quest types to receive and send.
+**Coop | Compartilhamento de Missões**
+- **Tipos de Missão**: Quais tipos de missão receber e enviar.
 
-**Coop | Debug**
+**Coop | Depuração**
 
-- **Free Camera Button**: Button used to toggle free camera.
-- **AZERTY Mode**: If free camera should use AZERTY keys for input.
-- **Keybind Overlay**:  an overlay with all free cam keybinds should show.
+- **Botão de Câmera Livre**: Botão usado para alternar a câmera livre.
+- **Modo AZERTY**: Se a câmera livre deve usar teclas AZERTY para entrada.
+- **Sobreposição de Teclas**: Uma sobreposição com todas as teclas de atalho da câmera livre deve ser exibida.
 
-**Performance**
+**Desempenho**
 
-- **Dynamic AI**: Use the dynamic AI system, disabling AI when they are outside of any player's range.
-- **Dynamic AI Range**: The range at which AI will be disabled dynamically.
-- **Dynamic AI Rate**: How often DynamicAI should scan for the range from all players.
+- **IA Dinâmica**: Usa o sistema de IA dinâmica, desativando a IA quando estão fora do alcance de qualquer jogador.
+- **Alcance da IA Dinâmica**: A distância em que a IA será desativada dinamicamente.
+- **Taxa de IA Dinâmica**: Com que frequência a IA dinâmica deve escanear o alcance de todos os jogadores.
 
-**Performance | Max Bots**
+**Desempenho | Máximo de Bots**
 
-- **Enforced Spawn Limits**: Enforces spawn limits when spawning bots, making sure to not go over the vanilla limits. This mainly takes affect when using spawn mods or anything that modifies the bot limits.
-- **Despawn Furthest**: When enforcing spawn limits, should the furthest bot be de-spawned instead of blocking the spawn. This will make for a much more active raid on a lower Max Bots count. Helpful for weaker PCs. Will only despawn pmcs and scavs. If you don't run a dynamic spawn mod, this will however quickly exhaust the spawns on the map, making the raid very dead instead.
-- **Despawn Minimum Distance**: Don't despawn bots within this distance.
-- **Max Bots** `MAP`: Max amount of bots that can be active at the same time on `MAP`. Useful if you have a weaker PC. Set to 0 to disable.
+- **Limites de Geração Impostos**: Impõe limites de geração ao gerar bots, garantindo que não ultrapassem os limites padrão. Isso afeta principalmente quando se usa mods de geração ou algo que modifique os limites de bots.
+- **Despawn Furthest**: Ao impor limites de geração, o bot mais distante deve ser removido em vez de bloquear a geração. Isso tornará o ataque muito mais ativo em uma contagem menor de Máximo de Bots. Útil para PCs mais fracos. Só removerá pmcs e scavs. Se você não usar um mod de geração dinâmica, isso, no entanto, esgotará rapidamente as gerações no mapa, tornando o ataque muito morto em vez disso.
+- **Despawn Minimum Distance**: Não remova bots dentro desta distância.
+- **Máximo de Bots** `MAP`: Quantidade máxima de bots que podem estar ativos ao mesmo tempo no MAP. Útil se você tiver um PC mais fraco. Defina para 0 para desativar.
 
-**Network**
+**Rede**
 
-- **Native Sockets**:  NativeSockets for gameplay traffic. This uses direct socket calls for send/receive to drastically increase speed and reduce GC pressure. Only for Windows/Linux and might not always work.
-- **Force IP**: Forces the server when hosting to use this IP when broadcasting to the backend instead of automatically trying to fetch it. Leave empty to disable. This is required when using a VPN, use your personal VPN IP.
-- **Force Bind IP**: Forces the server when hosting to use this local IP when starting the server. Leave empty to disable. This is required when using a VPN, use your personal VPN IP.
-- **Auto Server Refresh Rate**: Every X seconds the client will ask the server for the list of matches while at the lobby screen.
-- **UDP Port**: Port to use for UDP gameplay packets.
-- **Use UPnP**: Attempt to open ports using UPnP. Useful if you cannot open ports yourself but the router supports UPnP.
-- **Use NAT Punching**: Use NAT punching when hosting a raid. Only works with fullcone NAT type routers and requires NatPunchServer to be running on the SPT server. UPnP, Force IP and Force Bind IP are disabled with this mode.
-- **Connection Timeout**: How long it takes for a connection to be considered dropped if no packets are received.
+- **Soquete Nativo**:  Soquete Nativo para trafego de gameplay. Isso utiliza chamadas diretas no soquete para enviar/receber, aumentando drasticamente a velocidade e reduzindo a pressão do GC. Apenas para Windows/Linux e talvez nem sempre funcione.
+- **Forçar IP**: Força o servidor quando hospedando a usar este IP ao transmitir para o backend em vez de automaticamente tentar pegar ele. Deixe vazio para desativar. Isso é obrigatorio quando usando uma VPN, utilize seu VPN IP pessoal.
+- **Forçar Bind IP**: Força o servidor quando hospedando a utilizar este IP local quando iniciado o servidor. Deixe vazio para desativar. Isso é obrigatorio quando usando uma VPN, utilize seu VPN IP pessoal.
+- **Porta UDP**: Porta a usar para pacotes UDP de gameplay.
+- **Usar UPnP**: Tenta abrir portas utilizando UPnP. Util se você não conseguir abrir portar mas seu roteador suporta UPnP.
+- **Usar NAT Punching**: Use NAT punching quando hospedar uma incursão. Apenas funciona com roteadores com NAT tipo Cone Completo (fullcone) e requer NatPunchServer habilitado no server SPT. UPnP, Forçar IP e Forçar Bind IP estão desabilitados neste modo.
+- **Tempo para Esgotar a Conexão**: Quanto tempo leva para a conexão ser considereada descartada se nenhum pacote ser recebido.
 
 **Gameplay**
 
-- **Head Damage Multiplier**: X multiplier to damage taken on the head collider. 0.2 = 20%
-- **Armpit Damage Multiplier**: X multiplier to damage taken on the armpits collider. 0.2 = 20%
-- **Stomach Damage Multiplier**: X multiplier to damage taken on the stomach collider. 0.2 = 20%
-- **Disable Bot Metabolism**: Disables metabolism on bots, preventing them from dying from loss of energy/hydration during long raids.
+- **Multiplicador de Dano a Cabeça**: Multiplicador X ao dano recebido na cabeça. 0.2 = 20%
+- **Multiplicador de Dano a Axila**: Multiplicador X ao dano recebido na axila. 0.2 = 20%
+- **Multiplicador de Dano a Estômago**: Multiplicador X ao dano recebido no estômago. 0.2 = 20%
+- **Desabilitar Metabolisto em Bot**: Desabilita metabolismo em bots, prevenindo de morrerem de perda de energia/hidratação durante incursões longas.
 
-### Server Configuration
+### Configuração do Server
 
-The server configuration can be found in the `user\mods\fika-server\assets\configs` folder. Open up `fika.jsonc` with a text editor.
+A configuração de servidor pode ser encontrado na pasta `user\mods\fika-server\assets\configs` . Abra `fika.jsonc` com um editor de texto.
 
 ```json
 {
     "client": {
-        "useBtr": true, // if the BTR should spawn on streets, default: true
-        "friendlyFire": true, // if friendly fire is enabled, default: true
-        "dynamicVExfils": false, // if vehicle exfils should scale to the amount of players in raid rather than default to 4, default: false
-        "allowFreeCam": false, // if the free cam can be toggled freely, default: false
-        "allowItemSending": true, // if item sending should be enabled, default: true
-        "blacklistedItems": [], // item template ids that cannot be sent, e.g. ["5c94bbff86f7747ee735c08f", "5c1d0f4986f7744bb01837fa"] would not allow players to send access cards and black keycards
-        "forceSaveOnDeath": false, // if saving is forced upon death, preventing ALT+F4 cheese, default: false
+        "useBtr": true, // se o BTR deve aparecer ou não ao jogar Streets, padrão: true
+        "friendlyFire": true, // se o fogo amigo deve ser ativado ou não, padrão: true
+        "dynamicVExfils": false, // se o veículo de extração devera escalar com a quantidade de jogadores em incursão, diferente do padrão de 4, padrão: false
+        "allowFreeCam": false, // se a camera livre pode ser ativada livremente, padrão: false
+        "allowItemSending": true, // se enviar itens deveria estar ativo, padrão: true
+        "blacklistedItems": [], // IDs de items que não podem ser enviados, e.g. ["5c94bbff86f7747ee735c08f", "5c1d0f4986f7744bb01837fa"] não permitiria jogadores de enviar cartões de acesso e o cartão o cartão preto
+        "forceSaveOnDeath": false, // se o salvamento de perfil é forçado na morte, prevenindo o esquema de dar ALT+F4 para manter os itens ao morrer, padrão: false
         "mods": {
-            "required": [], // required mods on the server, if enabled you should always include standard SPT mods: ["com.SPT.custom", "com.SPT.singleplayer", "com.SPT.core", "com.SPT.debugging", "com.fika.core", "com.bepis.bepinex.configurationmanager"]
-            "optional": [] // mods that are allowed outside of required
+            "required": [], // mods necessarios no servidor, se habilitado sempre deve incluir os mods padrões do SPT: ["com.SPT.custom", "com.SPT.singleplayer", "com.SPT.core", "com.SPT.debugging", "com.fika.core", "com.bepis.bepinex.configurationmanager"]
+            "optional": [] // mods que são permitidos fora dos necessarios
         },
-        "useInertia": true, // if inertia should be enabled, default: true
-        "sharedQuestProgression": false // if quest progression in raid should be shared, default: false
+        "useInertia": true, // se inércia deveria estar habilitada, padrão: true
+        "sharedQuestProgression": false // se a progressão de missões em incursão devem ser compartilhadas, padrão: false
     },
     "server": {
-        "giftedItemsLoseFIR": true, // if sent items should lose their FiR status, default: true
-        "launcherListAllProfiles": false, // if launcher should show all profiles, default: false
-        "sessionTimeout": 5, // how long the server waits for a keepalive ping from a client until the session is considered crashed, default: 5
-        "showDevProfile": false, // if dev profiles can be created, default: false
-        "showNonStandardProfile": false // if non-standard EFT profiles can be created, default: false
+        "giftedItemsLoseFIR": true, // se itens enviados dever perder seu status de FiR, padrão: true
+        "launcherListAllProfiles": false, // se o launcher deve permitir mostrar todos os perfis, padrão: false
+        "sessionTimeout": 5, // quanto tempo o servidor espera por um ping do cliente até a sessão ser considerada quebrada, padrão: 5
+        "showDevProfile": false, // se perfis DEV podem ser criados, padrão: false
+        "showNonStandardProfile": false // se perfis que não são padrão do EFT podem ser criados, padrão: false
     },
     "natPunchServer": {
-        "enable": false, // if nat punching should be enabled, default: false
-        "port": 6970, // nat punching port, default: 6970
+        "enable": false, // se nat punching deveria estar habilitado: false
+        "port": 6970, // porta para nat punching, padrão: 6970
         "natIntroduceAmount": 1
     }
 }
