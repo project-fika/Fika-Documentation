@@ -5,6 +5,7 @@
     <ol>
         <li><a href="#o-que-é-fika">O que é Fika</a></li>
         <li><a href="#licença">Licença</a></li>
+        <li><a href="#traduzindo">Traduzindo</a></li>
         <li>
             <a href="#pré-requisitos">Pré Requisitos</a>
             <ul>
@@ -50,6 +51,12 @@ Este projeto está licenciado sob a [CC BY-NC-SA 4.0](https://creativecommons.or
 - Você não pode monetizar seu servidor em termos de pagamentos ou doações.
 - Você não pode hospedar servidores públicos em larga escala, Fika é destinado para COOP com seus amigos.
 - Você não pode usar os **recursos artísticos** de Fika que são feitos à mão por nossos desenvolvedores e artistas sem a permissão do criador.
+
+## Translating
+
+Fika é localizado pela comunidade no [Crowdin](https://crowdin.com/project/project-fika). Fique a vontade para nos ajudar a traduzir para todos os idiomas disponíveis!
+
+⚠️ Todas as traduções são de membros da comunidade, se encontrar qualquer tradução incorreta/ofensiva/vulgar, nos avise! ⚠️
 
 ## Pré Requisitos
 
@@ -331,6 +338,7 @@ A configuração de servidor pode ser encontrado na pasta `user\mods\fika-server
         "friendlyFire": true, // se o fogo amigo deve ser ativado ou não, padrão: true
         "dynamicVExfils": false, // se o veículo de extração devera escalar com a quantidade de jogadores em incursão, diferente do padrão de 4, padrão: false
         "allowFreeCam": false, // se a camera livre pode ser ativada livremente, padrão: false
+        "allowSpectateFreeCam": false, // se é permitido camera livre quando observando jogadores após morrer ou extrair. Camera livre ainda vai estar habilitada se todos os jogadores morrerem ou extrairem, padrão: falso
         "allowItemSending": true, // se enviar itens deveria estar ativo, padrão: true
         "blacklistedItems": [], // IDs de items que não podem ser enviados, e.g. ["5c94bbff86f7747ee735c08f", "5c1d0f4986f7744bb01837fa"] não permitiria jogadores de enviar cartões de acesso e o cartão o cartão preto
         "forceSaveOnDeath": false, // se o salvamento de perfil é forçado na morte, prevenindo o esquema de dar ALT+F4 para manter os itens ao morrer, padrão: false
