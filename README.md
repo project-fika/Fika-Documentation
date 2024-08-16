@@ -5,6 +5,7 @@
     <ol>
         <li><a href="#what-is-fika">What is Fika</a></li>
         <li><a href="#license">License</a></li>
+        <li><a href="#translating">Translating</a></li>
         <li>
             <a href="#prerequisites">Prerequisites</a>
             <ul>
@@ -50,6 +51,12 @@ This project is licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/lic
 - You may not monetize your server in terms of payments or donations.
 - You may not host massive public servers, Fika is meant for COOP with your friends.
 - You may not use Fika's **art assets** that are handcrafted by our developers and artists without permission from the creator.
+
+## Translating
+
+Fika is localized by the community at [Crowdin](https://crowdin.com/project/project-fika). Feel free to help us translate it into any available languages!
+
+⚠️ All translations are from community members, if you find any incorrect/offensive/vulgar translations, let us know ⚠️
 
 ## Prerequisites
 
