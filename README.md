@@ -221,7 +221,7 @@ Keep in mind that stronger hardware is required to maintain a higher update rate
 2. Navigate to your SPT installation and extract the contents of the archive into the folder
 3. Start `SPT.Launcher.exe` and click 'Settings'
 4. In the `URL` field, change it to reflect the hosts WAN IP. For exampleit would be: `http://20.20.56.73:6969` (remember to remove any trailing forward slashes `/`)
-5. If hosting in-game, allow all connections (public and private) when prompted by the Windows Firewall
+5. If you want to host sessions in-game, allow all connections (public and private) when prompted by the Windows Firewall and port forward 25565 UDP or use UPnP
 
 ### Client using a VPN
 
@@ -229,7 +229,7 @@ Keep in mind that stronger hardware is required to maintain a higher update rate
 2. Navigate to your SPT installation and extract the contents of the archive into the folder
 3. Start `SPT.Launcher.exe` and click 'Settings'
 4. In the `URL` field, change it to reflect the hosts VPN IP. Using the example in step 5 it would be: `http://20.20.56.73:6969` (remember to remove any trailing forward slashes `/`)
-5. If hosting in-game, allow all connections (public and private) when prompted by the Windows Firewall
+5. If you want to host sessions in-game, allow all connections (public and private) when prompted by the Windows Firewall and set your own, personal VPN IP in both `Force IP` and `Force Bind IP` in the `F12` settings menu
 
 ## Features and Configuration
 
