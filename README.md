@@ -220,7 +220,7 @@ Keep in mind that stronger hardware is required to maintain a higher update rate
 1. [Download the latest Fika plugin](https://github.com/project-fika/Fika-Plugin/releases/latest)
 2. Navigate to your SPT installation and extract the contents of the archive into the folder
 3. Start `SPT.Launcher.exe` and click 'Settings'
-4. In the `URL` field, change it to reflect the hosts WAN IP. For exampleit would be: `http://20.20.56.73:6969` (remember to remove any trailing forward slashes `/`)
+4. In the `URL` field, change it to reflect the hosts WAN IP. As an example it could be: `http://70.60.150.90:6969` (remember to remove any trailing forward slashes `/`)
 5. If you want to host sessions in-game, allow all connections (public and private) when prompted by the Windows Firewall and port forward 25565 UDP or use UPnP
 
 ### Client using a VPN
