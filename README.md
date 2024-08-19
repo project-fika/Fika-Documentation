@@ -71,7 +71,7 @@ Fika requires general knowledge of computers, networking and SPT. If you are not
 - Access to your Windows Firewall
 - Internet speed of at least 20 Mbit/s up and down is recommended. Each client averages around 400 kbit/s.
 
-If you can not port forward, you can use a VPN like `ZeroTier` or `Radmin` or a proxy like ``Playit.gg``.
+If you can not port forward, you can use a VPN like `ZeroTier` or `Radmin` or a proxy like ``Playit.gg`` (not supported officially).
 
 ### Client
 
@@ -179,6 +179,8 @@ Example with a fake address (**20.20.56.73**):
 11. Start the game, and once your account is created set both `Force IP` and `Force Bind IP` to your *own*, *personal* VPN IP. You can find these by clicking `F12` in the main menu.
 
 ### Host using Playit
+
+⚠️ **This is not officially supported by the Fika staff, you are on your own if it doesn't work** ⚠️
 
 [Playit.gg](https://playit.gg/) is a proxy that makes it possible to host servers without having to port forward,
 by relaying the game traffic over one of their datacenters.
