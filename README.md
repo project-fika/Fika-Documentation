@@ -215,8 +215,6 @@ The dedicated client runs at a standard capped update rate of 60 FPS. If you wan
 ```
 Keep in mind that stronger hardware is required to maintain a higher update rate and the gain is neglible.
 
-⚠️ **NOTE**: There are currently inconsistencies with the AI aim when running the dedicated client without graphics. If you have a GPU on the machine you are running it from, you could try removing `-nographics` and even `-batchmode` to alleviate the problem. We are still investigating if there are workarounds. ⚠️
-
 ### Client using port forwarding
 
 1. [Download the latest Fika plugin](https://github.com/project-fika/Fika-Plugin/releases/latest)
