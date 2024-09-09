@@ -191,7 +191,7 @@ Editing your ``http.json`` is not required.
 ### Dedicated Client
 
 ⛔ **This section is only for advanced users** ⛔
-1. Make sure that you have a working server and client installed
+1. Make sure that you have a working server and client installed (working means that you have ***ran it at least once***)
 2. Copy the client to a new folder and install the latest [dedicated plugin](https://github.com/project-fika/Fika-Dedicated/releases)
 3. On your `SPT.Server`, open the `fika.jsonc` configuration file and at the bottom change your dedicated settings
 ```json
