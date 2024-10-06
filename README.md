@@ -174,7 +174,7 @@ Example with a fake address (**20.20.56.73**):
     Started websocket at ws://20.20.56.73:6969
     Server is running, do not close while playing SPT, Happy playing!!
     ```
-9. Start `SPT.Launcher.exe` and click 'Settings'
+9. Start `SPT.Launcher.exe` and click 'Settings' and enable `Developer Mode`
 10. In the `URL` field, change it to reflect your VPN IP. Using the example in step 5 it would be: `http://20.20.56.73:6969` (remember to remove any trailing forward slashes `/`)
 11. Start the game, and once your account is created set both `Force IP` and `Force Bind IP` to your *own*, *personal* VPN IP. You can find these by clicking `F12` in the main menu.
 
@@ -219,7 +219,7 @@ Keep in mind that stronger hardware is required to maintain a higher update rate
 
 1. [Download the latest Fika plugin](https://github.com/project-fika/Fika-Plugin/releases/latest)
 2. Navigate to your SPT installation and extract the contents of the archive into the folder
-3. Start `SPT.Launcher.exe` and click 'Settings'
+3. Start `SPT.Launcher.exe` and click 'Settings' and enable `Developer Mode`
 4. In the `URL` field, change it to reflect the hosts WAN IP. As an example it could be: `http://70.60.150.90:6969` (remember to remove any trailing forward slashes `/`)
 5. If you want to host sessions in-game, allow all connections (public and private) when prompted by the Windows Firewall and port forward 25565 UDP or use UPnP
 
@@ -227,7 +227,7 @@ Keep in mind that stronger hardware is required to maintain a higher update rate
 
 1. [Download the latest Fika plugin](https://github.com/project-fika/Fika-Plugin/releases/latest)
 2. Navigate to your SPT installation and extract the contents of the archive into the folder
-3. Start `SPT.Launcher.exe` and click 'Settings'
+3. Start `SPT.Launcher.exe` and click 'Settings' and enable `Developer Mode`
 4. In the `URL` field, change it to reflect the hosts VPN IP. Using the example in step 5 it would be: `http://20.20.56.73:6969` (remember to remove any trailing forward slashes `/`)
 5. If you want to host sessions in-game, allow all connections (public and private) when prompted by the Windows Firewall and set your own, personal VPN IP in both `Force IP` and `Force Bind IP` in the `F12` settings menu
 
