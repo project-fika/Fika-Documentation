@@ -23,6 +23,8 @@
                 <li><a href="#dedicated-client">Dedicated client</a></li>
                 <li><a href="#client-using-port-forwarding">Client using port forwarding</a></li>
                 <li><a href="#client-using-a-vpn">Client using a VPN</a></li>
+                <li><a href="#host-raids-as-a-client-using-port-forwarding">Host raids as a client using port forwarding</a></li>
+                <li><a href="#host-raids-as-a-client-using-a-vpn">Host raids as a client using a VPN</a></li>
             </ul>
         </li>
         <li>
@@ -56,7 +58,7 @@ This project is licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/lic
 
 Fika is localized by the community at [Crowdin](https://crowdin.com/project/project-fika). Feel free to help us translate it into any available languages!
 
-⚠️ All translations are from community members, if you find any incorrect/offensive/vulgar translations, let us know ⚠️
+⚠️ All translations are from community members, if you find any incorrect/offensive/vulgar translations, let us know
 
 ## Prerequisites
 
@@ -180,7 +182,7 @@ Example with a fake address (**20.20.56.73**):
 
 ### Host using Playit
 
-⚠️ **This is not officially supported by the Fika staff, you are on your own if it doesn't work** ⚠️
+⚠️ **This is not officially supported by the Fika staff, you are on your own if it doesn't work**
 
 [Playit.gg](https://playit.gg/) is a proxy that makes it possible to host servers without having to port forward,
 by relaying the game traffic over one of their datacenters.
@@ -190,7 +192,7 @@ Editing your ``http.json`` is not required.
 
 ### Dedicated Client
 
-⛔ **This section is only for advanced users** ⛔
+⛔ **This section is only for advanced users**
 1. Make sure that you have a working server and client installed (working means that you have ***ran it at least once***)
 2. Copy the client to a new folder and install the latest [dedicated plugin](https://github.com/project-fika/Fika-Dedicated/releases)
 3. On your `SPT.Server`, open the `fika.jsonc` configuration file and at the bottom change your dedicated settings
@@ -221,7 +223,6 @@ Keep in mind that stronger hardware is required to maintain a higher update rate
 2. Navigate to your SPT installation and extract the contents of the archive into the folder
 3. Start `SPT.Launcher.exe` and click 'Settings' and enable `Developer Mode`
 4. In the `URL` field, change it to reflect the hosts WAN IP. As an example it could be: `http://70.60.150.90:6969` (remember to remove any trailing forward slashes `/`)
-5. If you want to host sessions in-game, allow all connections (public and private) when prompted by the Windows Firewall and port forward 25565 UDP or use UPnP
 
 ### Client using a VPN
 
@@ -229,7 +230,19 @@ Keep in mind that stronger hardware is required to maintain a higher update rate
 2. Navigate to your SPT installation and extract the contents of the archive into the folder
 3. Start `SPT.Launcher.exe` and click 'Settings' and enable `Developer Mode`
 4. In the `URL` field, change it to reflect the hosts VPN IP. Using the example in step 5 it would be: `http://20.20.56.73:6969` (remember to remove any trailing forward slashes `/`)
-5. If you want to host sessions in-game, allow all connections (public and private) when prompted by the Windows Firewall and set your own, personal VPN IP in both `Force IP` and `Force Bind IP` in the `F12` settings menu
+
+### Host raids as a client using port forwarding
+
+1. Port forward  `25565 UDP` in your router (or any other port you wish to use, but make sure to change the port in the `F12` menu accordingly!)
+2. Make sure to allow `EscapeFromTarkov.exe` in your Windows Firewall (you can use [FikaUtils](https://github.com/Lacyway/FikaUtils/releases/download/v1.0/FikaUtils.zip) to do all this easily, extract to your installation folder)
+3. You can now host in-game
+
+### Host raids as a client using a VPN
+
+1. Make sure to allow `EscapeFromTarkov.exe` in your Windows Firewall (you can use [FikaUtils](https://github.com/Lacyway/FikaUtils/releases/download/v1.0/FikaUtils.zip) to do all this easily, extract to your installation folder)
+2. Open the game and open the configuration menu with `F12`
+3. Set your own, personal VPN IP in both `Force IP` and `Force Bind IP`
+4. You can now host in-game
 
 ## Features and Configuration
 
