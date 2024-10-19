@@ -58,7 +58,8 @@ This project is licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/lic
 
 Fika is localized by the community at [Crowdin](https://crowdin.com/project/project-fika). Feel free to help us translate it into any available languages!
 
-⚠️ All translations are from community members, if you find any incorrect/offensive/vulgar translations, let us know
+> [!NOTE]
+> All translations are from community members, if you find any incorrect/offensive/vulgar translations, let us know
 
 ## Prerequisites
 
@@ -105,6 +106,9 @@ These are recommendations for a dedicated client:
 The biggest gain in Fika (and in SPT in general) will be getting a stronger CPU and RAM.
 
 ## Installation
+
+> [!IMPORTANT]
+> It's crucial that you read and follow every step precisely. Skimming through or skipping any of the steps will result in the server and/or client not working. Please ensure that you know how your router works before attempting to port forward. Do not ignore the firewall steps, they are required and it's where most people fail to do it properly.
 
 ### Host using port forwarding
 
@@ -182,7 +186,8 @@ Example with a fake address (**20.20.56.73**):
 
 ### Host using Playit
 
-⚠️ **This is not officially supported by the Fika staff, you are on your own if it doesn't work**
+> [!WARNING]
+> This is not officially supported by the Fika staff, you are on your own if it doesn't work
 
 [Playit.gg](https://playit.gg/) is a proxy that makes it possible to host servers without having to port forward,
 by relaying the game traffic over one of their datacenters.
@@ -192,7 +197,9 @@ Editing your ``http.json`` is not required.
 
 ### Dedicated Client
 
-⛔ **This section is only for advanced users**
+> [!CAUTION]
+> This section is only for advanced users
+
 1. Make sure that you have a working server and client installed (working means that you have ***ran it at least once***)
 2. Copy the client to a new folder and install the latest [dedicated plugin](https://github.com/project-fika/Fika-Dedicated/releases)
 3. On your `SPT.Server`, open the `fika.jsonc` configuration file and at the bottom change your dedicated settings
