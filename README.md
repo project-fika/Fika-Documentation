@@ -118,7 +118,7 @@ Before starting these steps, make sure you have port forwarded all required port
 
 1. Port forward the port 6969 **TCP** in your router (both in and out)
 2. Port forward the **UDP** port that you will use in your router, default 25565 (both in and out)
-3. When prompted by Windows, allow ***all*** connections in your Firewall
+3. When prompted by Windows, allow ***all*** connections in your Firewall (you can use [FikaUtils](https://github.com/Lacyway/FikaUtils/releases/download/v1.0/FikaUtils.zip) to do all this easily, extract to your installation folder)
 4. If you are still having problems, we suggest you allow `EscapeFromTarkov.exe` (everyone) and `SPT.Server.exe` (server host) for inbound and outbound connections in your Windows Advanced Firewall.
 
 **General Setup**
@@ -146,7 +146,7 @@ Before starting these steps, make sure you have port forwarded all required port
 
 ### Host using a VPN
 
-You need a VPN like `ZeroTier` or `Radmin`. 
+You need a VPN like `ZeroTier` or `Radmin`. You need to allow the executables in your local Firewall (you can use [FikaUtils](https://github.com/Lacyway/FikaUtils/releases/download/v1.0/FikaUtils.zip) to do all this easily, extract to your installation folder)
 
 1. [Download the latest Fika plugin](https://github.com/project-fika/Fika-Plugin/releases/latest) and [download the latest Fika server mod](https://github.com/project-fika/Fika-Server/releases/latest)
 2. Navigate to your SPT installation and extract the contents of the archive into the folder
