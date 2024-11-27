@@ -1,4 +1,4 @@
-# Fika - A multiplayer mod for SPT
+# Fika - 一个SPT的多人游戏模组
 
 <details open>
     <summary>内容列表</summary>
