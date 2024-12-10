@@ -218,11 +218,7 @@ Editing your ``http.json`` is not required.
 5. Either port forward or set up your VPN as normal, and then manually change your `fika.core` configuration in `\BepInEx\config\com.fika.core.cfg`. Set the port to your forwarded port, or set bind and force IP to the dedicated client's IP.
 6. Launch the dedicated client by running the batch script, then in-game when hosting on your own client, tick the "Use Dedicated" to use the dedicated client for hosting. It can only host one raid per client. It is generally recommended to put all your AI mods on the dedicated client and remove them locally on your own since the dedicated will now handle the AI instead.
 
-The dedicated client runs at a standard capped update rate of 60 FPS. If you want to increase it to a higher number, append `-updateRate=X` where X is your desired update rate (max 120) to the launch script. An example would be:
-```bat
--batchmode -nographics --enable-console true -updateRate=120 & exit
-```
-Keep in mind that stronger hardware is required to maintain a higher update rate and the gain is neglible.
+After launching the dedicated once you can configure the settings in `\BepInEx\config\com.fika.dedicated.cfg` and then restart for them to apply.
 
 ### Client using port forwarding
 
